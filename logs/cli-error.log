@@ -1,0 +1,104 @@
+2025-06-13 17:17:31 error: [Cake\Database\Exception\DatabaseException] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'depts.users' doesn't exist in C:\Users\HP\Downloads\dcmc-cake5\dcmc-cake5\vendor\cakephp\cakephp\src\Database\Schema\Collection.php on line 158
+Stack Trace:
+- CORE\src\Database\Schema\Collection.php:116
+- CORE\src\ORM\Table.php:546
+- ROOT\vendor\cakephp\bake\src\Command\ModelCommand.php:116
+- ROOT\vendor\cakephp\bake\src\Command\ModelCommand.php:99
+- ROOT\vendor\cakephp\bake\src\Command\AllCommand.php:116
+- CORE\src\Console\BaseCommand.php:192
+- CORE\src\Console\CommandRunner.php:330
+- CORE\src\Console\CommandRunner.php:168
+- ROOT\bin\cake.php:10
+- [main]:
+
+Caused by: [Cake\Database\Exception\QueryException] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'depts.users' doesn't exist in C:\Users\HP\Downloads\dcmc-cake5\dcmc-cake5\vendor\cakephp\cakephp\src\Database\Driver.php on line 375
+Stack Trace:
+- CORE\src\Database\Driver.php:322
+- CORE\src\Database\Driver.php:288
+- CORE\src\Database\Connection.php:255
+- CORE\src\Core\Retry\CommandRetry.php:71
+- CORE\src\Database\Connection.php:255
+- CORE\src\Database\Schema\Collection.php:156
+- CORE\src\Database\Schema\Collection.php:116
+- CORE\src\ORM\Table.php:546
+- ROOT\vendor\cakephp\bake\src\Command\ModelCommand.php:116
+- ROOT\vendor\cakephp\bake\src\Command\ModelCommand.php:99
+- ROOT\vendor\cakephp\bake\src\Command\AllCommand.php:116
+- CORE\src\Console\BaseCommand.php:192
+- CORE\src\Console\CommandRunner.php:330
+- CORE\src\Console\CommandRunner.php:168
+- ROOT\bin\cake.php:10
+- [main]:
+
+Caused by: [PDOException] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'depts.users' doesn't exist in C:\Users\HP\Downloads\dcmc-cake5\dcmc-cake5\vendor\cakephp\cakephp\src\Database\Statement\Statement.php on line 146
+Stack Trace:
+- CORE\src\Database\Statement\Statement.php:146
+- CORE\src\Database\Driver.php:320
+- CORE\src\Database\Driver.php:288
+- CORE\src\Database\Connection.php:255
+- CORE\src\Core\Retry\CommandRetry.php:71
+- CORE\src\Database\Connection.php:255
+- CORE\src\Database\Schema\Collection.php:156
+- CORE\src\Database\Schema\Collection.php:116
+- CORE\src\ORM\Table.php:546
+- ROOT\vendor\cakephp\bake\src\Command\ModelCommand.php:116
+- ROOT\vendor\cakephp\bake\src\Command\ModelCommand.php:99
+- ROOT\vendor\cakephp\bake\src\Command\AllCommand.php:116
+- CORE\src\Console\BaseCommand.php:192
+- CORE\src\Console\CommandRunner.php:330
+- CORE\src\Console\CommandRunner.php:168
+- ROOT\bin\cake.php:10
+- [main]:
+
+2025-06-13 17:18:11 error: [Cake\Database\Exception\DatabaseException] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'depts.doctors' doesn't exist in C:\Users\HP\Downloads\dcmc-cake5\dcmc-cake5\vendor\cakephp\cakephp\src\Database\Schema\Collection.php on line 158
+Stack Trace:
+- CORE\src\Database\Schema\Collection.php:116
+- CORE\src\ORM\Table.php:546
+- ROOT\vendor\cakephp\bake\src\Command\ModelCommand.php:116
+- ROOT\vendor\cakephp\bake\src\Command\ModelCommand.php:99
+- ROOT\vendor\cakephp\bake\src\Command\AllCommand.php:116
+- CORE\src\Console\BaseCommand.php:192
+- CORE\src\Console\CommandRunner.php:330
+- CORE\src\Console\CommandRunner.php:168
+- ROOT\bin\cake.php:10
+- [main]:
+
+Caused by: [Cake\Database\Exception\QueryException] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'depts.doctors' doesn't exist in C:\Users\HP\Downloads\dcmc-cake5\dcmc-cake5\vendor\cakephp\cakephp\src\Database\Driver.php on line 375
+Stack Trace:
+- CORE\src\Database\Driver.php:322
+- CORE\src\Database\Driver.php:288
+- CORE\src\Database\Connection.php:255
+- CORE\src\Core\Retry\CommandRetry.php:71
+- CORE\src\Database\Connection.php:255
+- CORE\src\Database\Schema\Collection.php:156
+- CORE\src\Database\Schema\Collection.php:116
+- CORE\src\ORM\Table.php:546
+- ROOT\vendor\cakephp\bake\src\Command\ModelCommand.php:116
+- ROOT\vendor\cakephp\bake\src\Command\ModelCommand.php:99
+- ROOT\vendor\cakephp\bake\src\Command\AllCommand.php:116
+- CORE\src\Console\BaseCommand.php:192
+- CORE\src\Console\CommandRunner.php:330
+- CORE\src\Console\CommandRunner.php:168
+- ROOT\bin\cake.php:10
+- [main]:
+
+Caused by: [PDOException] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'depts.doctors' doesn't exist in C:\Users\HP\Downloads\dcmc-cake5\dcmc-cake5\vendor\cakephp\cakephp\src\Database\Statement\Statement.php on line 146
+Stack Trace:
+- CORE\src\Database\Statement\Statement.php:146
+- CORE\src\Database\Driver.php:320
+- CORE\src\Database\Driver.php:288
+- CORE\src\Database\Connection.php:255
+- CORE\src\Core\Retry\CommandRetry.php:71
+- CORE\src\Database\Connection.php:255
+- CORE\src\Database\Schema\Collection.php:156
+- CORE\src\Database\Schema\Collection.php:116
+- CORE\src\ORM\Table.php:546
+- ROOT\vendor\cakephp\bake\src\Command\ModelCommand.php:116
+- ROOT\vendor\cakephp\bake\src\Command\ModelCommand.php:99
+- ROOT\vendor\cakephp\bake\src\Command\AllCommand.php:116
+- CORE\src\Console\BaseCommand.php:192
+- CORE\src\Console\CommandRunner.php:330
+- CORE\src\Console\CommandRunner.php:168
+- ROOT\bin\cake.php:10
+- [main]:
+
