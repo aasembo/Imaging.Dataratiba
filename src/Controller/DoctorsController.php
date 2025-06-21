@@ -235,8 +235,9 @@ public function onschedule()
         ->contain(['Doctors'])
         ->all()
         ->toArray();
+        
     $this->set(compact('departments'));
-
+    
     // Load Announcements with associated Doctor and Procedures
     $announcementsTable = TableRegistry::getTableLocator()->get('Announcements');
     $announcements = $announcementsTable->find()

@@ -151,6 +151,10 @@
    box-shadow:none;
    outline:none;
 }
+.card-body{
+    max-height: 615px;
+    overflow-y: auto;
+}
 </style>
 
 
@@ -203,241 +207,47 @@
                     </div>
                 </div>
             </div>
-            <div class="carousel-item">
-                <div class="card  mx-2">
-                    <h4 class="">Peds 8-5 pm</h4>
-                    <div class="card-body">
-                        <?php foreach ($departments as $key => $ul): ?>
-                        <?php foreach ($ul->doctors as $OnSchedule): ?>
-                        <?php if ($OnSchedule->OnSchedule == 1 && $OnSchedule->dept_id == 1): ?>
-                        <div class="doctor-info mb-4">
-                            <a href="#">
-                                <i class="fa fa-user-md" style="font-size:24px"></i>
-                                <?= $this->Html->image($OnSchedule->photo, [
-                                            'width' => '94px',
-                                            'class' => 'img-thumbnail mr-0 img-fluid rounded-circle'
-                                        ]) ?>
-                            </a>
-                            <div class="doctor-det">
-                                <p><strong><?= h($OnSchedule->firstname) ?>
-                                        <?= h($OnSchedule->lastname) ?></strong></p>
-                                <p><strong>Cell:</strong> <?= h($OnSchedule->Cell) ?></p>
-                                <p><strong>Pager:</strong> <?= h($OnSchedule->pager) ?></p>
-                                <p><strong>Extension:</strong> <?= h($OnSchedule->Office_extension) ?></p>
+             <?php foreach ($departments as $key => $ul): ?>
+                <div class="carousel-item">
+                    <div class="card  mx-2">
+                        <h4 class=""><?= h($ul->dname) ?></h4>
+                        <div class="card-body">
+                            
+                            <?php foreach ($ul->doctors as $OnSchedule): ?>
+                            <?php if ($OnSchedule->OnSchedule == 1 && $OnSchedule->dept_id == $ul->id): ?>
+                            <div class="doctor-info mb-4">
+                                <a href="#">
+                                    <i class="fa fa-user-md" style="font-size:24px"></i>
+                                    <?= $this->Html->image($OnSchedule->photo, [
+                                                'width' => '94px',
+                                                'class' => 'img-thumbnail mr-0 img-fluid rounded-circle'
+                                            ]) ?>
+                                </a>
+                                <div class="doctor-det">
+                                    <p><strong><?= h($OnSchedule->firstname) ?>
+                                            <?= h($OnSchedule->lastname) ?></strong></p>
+                                    <p><strong>Cell:</strong> <?= h($OnSchedule->Cell) ?></p>
+                                    <p><strong>Pager:</strong> <?= h($OnSchedule->pager) ?></p>
+                                    <p><strong>Extension:</strong> <?= h($OnSchedule->Office_extension) ?></p>
 
-                            </div>
-                        </div>
-
-                        <ul class="list-group mb-4">
-                            <li class="list-group-item">Consultation</li>
-                            <li class="list-group-item">Fluoroscopy</li>
-                            <li class="list-group-item">Hospital & ED</li>
-                            <li class="list-group-item">Sedation</li>
-                        </ul>
-                        <?php endif; ?>
-                        <?php endforeach; ?>
-                        <?php endforeach; ?>
-                    </div>
-                </div>
-            </div>
-            <div class="carousel-item">
-                <div class="card  mx-2">
-                    <h4 class="">PA 8-4 pm</h4>
-                    <div class="card-body">
-                        <?php foreach ($departments as $key => $ul): ?>
-                        <?php foreach ($ul->doctors as $OnSchedule): ?>
-                        <?php if ($OnSchedule->OnSchedule == 1 && $OnSchedule->dept_id == 8): ?>
-                        <div class="doctor-info mb-4">
-                            <a href="#">
-                                <i class="fa fa-user-md" style="font-size:24px"></i>
-                                <?= $this->Html->image($OnSchedule->photo, [
-                                            'width' => '94px',
-                                            'class' => 'img-thumbnail img-fluid rounded-circle mr-0'
-                                        ]) ?>
-                            </a>
-                            <div class="doctor-det">
-                                <p><strong><?= h($OnSchedule->firstname) ?>
-                                        <?= h($OnSchedule->lastname) ?></strong></p>
-                                <p><strong>Cell:</strong> <?= h($OnSchedule->Cell) ?></p>
-                                <p><strong>Pager:</strong> <?= h($OnSchedule->pager) ?></p>
-                                <p><strong>Extension:</strong> <?= h($OnSchedule->Office_extension) ?></p>
+                                </div>
                             </div>
 
+                            <ul class="list-group mb-4">
+                                <li class="list-group-item">Consultation</li>
+                                <li class="list-group-item">Fluoroscopy</li>
+                                <li class="list-group-item">Hospital & ED</li>
+                                <li class="list-group-item">Sedation</li>
+                            </ul>
+                            <?php endif; ?>
+                            <?php endforeach; ?>
+                        
                         </div>
-                        <ul class="list-group mb-4">
-                            <li class="list-group-item">Consultation</li>
-                            <li class="list-group-item">Fluoroscopy</li>
-                            <li class="list-group-item">Hospital & ED</li>
-                            <li class="list-group-item">Sedation</li>
-                        </ul>
-                        <?php endif; ?>
-                        <?php endforeach; ?>
-                        <?php endforeach; ?>
                     </div>
                 </div>
-            </div>
-            <div class="carousel-item">
-                <div class="card  mx-2">
-                    <h4 class="">NEURO RAD</h4>
-                    <div class="card-body">
-                        <?php foreach ($departments as $key => $ul): ?>
-                        <?php foreach ($ul->doctors as $OnSchedule): ?>
-                        <?php if ($OnSchedule->OnSchedule == 1 && $OnSchedule->dept_id == 2): ?>
-                        <div class="doctor-info mb-4">
-                            <a href="#">
-                                <i class="fa fa-user-md" style="font-size:24px"></i>
-                                <?= $this->Html->image($OnSchedule->photo, [
-                                            'width' => '94px',
-                                            'class' => 'img-thumbnail img-fluid rounded-circle mr-0'
-                                        ]) ?>
-                            </a>
-                            <div class="doctor-det">
-                                <p> <strong><?= h($OnSchedule->firstname) ?>
-                                        <?= h($OnSchedule->lastname) ?></strong></p>
-                                <p><strong>Cell:</strong> <?= h($OnSchedule->Cell) ?></p>
-                                <p><strong>Pager:</strong> <?= h($OnSchedule->pager) ?></p>
-                                <p><strong>Extension:</strong> <?= h($OnSchedule->Office_extension) ?></p>
-                            </div>
+             <?php endforeach; ?>
 
-                        </div>
-                        <ul class="list-group mb-4">
-                            <li class="list-group-item">Consultation</li>
-                            <li class="list-group-item">Fluoroscopy</li>
-                            <li class="list-group-item">Hospital & ED</li>
-                            <li class="list-group-item">Sedation</li>
-                        </ul>
-                        <?php endif; ?>
-                        <?php endforeach; ?>
-                        <?php endforeach; ?>
-                    </div>
-                </div>
-            </div>
-            <div class="carousel-item">
-                <div class="card  mx-2">
-                    <h4 class="">PEDS 1-5PM </h4>
-                    <div class="card-body">
-                        <?php foreach ($departments as $key => $ul): ?>
-                        <?php foreach ($ul->doctors as $OnSchedule): ?>
-                        <?php if ($OnSchedule->OnSchedule == 1 && $OnSchedule->dept_id == 6): ?>
-                        <div class="doctor-info mb-4">
-                            <a href="#">
-                                <i class="fa fa-user-md" style="font-size:24px"></i>
-                                <?= $this->Html->image($OnSchedule->photo, [
-                                            'width' => '94px',
-                                            'class' => 'img-thumbnail img-fluid rounded-circle mr-0'
-                                        ]) ?>
-                            </a>
-                            <div class="doctor-det">
-                                <p> <strong><?= h($OnSchedule->firstname) ?>
-                                        <?= h($OnSchedule->lastname) ?></strong></p>
-                                <p><strong>Cell:</strong> <?= h($OnSchedule->Cell) ?></p>
-                                <p><strong>Pager:</strong> <?= h($OnSchedule->pager) ?></p>
-                                <p><strong>Extension:</strong> <?= h($OnSchedule->Office_extension) ?></p>
-                            </div>
-                        </div>
-                        <?php endif; ?>
-                        <?php endforeach; ?>
-                        <?php endforeach; ?>
-                    </div>
-                </div>
-            </div>
-            <div class="carousel-item">
-                <div class="card  mx-2">
-                    <h4 class="">Interventional Radiology</h4>
-                    <div class="card-body">
-                        <?php foreach ($departments as $key => $ul): ?>
-                        <?php foreach ($ul->doctors as $OnSchedule): ?>
-                        <?php if ($OnSchedule->OnSchedule == 1 && $OnSchedule->dept_id == 3): ?>
-                        <div class="doctor-info mb-4">
-                            <a href="#">
-                                <i class="fa fa-user-md" style="font-size:24px"></i>
-                                <?= $this->Html->image($OnSchedule->photo, [
-                                            'width' => '94px',
-                                            'class' => 'img-thumbnail img-fluid rounded-circle mr-0'
-                                        ]) ?>
-                            </a>
-                            <div class="doctor-det">
-                                <p><strong><?= h($OnSchedule->firstname) ?>
-                                        <?= h($OnSchedule->lastname) ?></strong></p>
-                                <p><strong>Cell:</strong> <?= h($OnSchedule->Cell) ?></p>
-                                <p><strong>Pager:</strong> <?= h($OnSchedule->pager) ?></p>
-                                <p><strong>Extension:</strong> <?= h($OnSchedule->Office_extension) ?></p>
-                            </div>
-                        </div>
-                        <?php endif; ?>
-                        <?php endforeach; ?>
-                        <?php endforeach; ?>
-                    </div>
-                </div>
-            </div>
-
-            <div class="carousel-item">
-                <div class="card  mx-2">
-                    <h4 class="">REMOTE PD</h4>
-                    <div class="card-body">
-                        <?php foreach ($departments as $key => $ul): ?>
-                        <?php foreach ($ul->doctors as $OnSchedule): ?>
-                        <?php if ($OnSchedule->OnSchedule == 1 && $OnSchedule->dept_id == 7): ?>
-                        <div class="doctor-info mb-4">
-                            <a href="#">
-                                <i class="fa fa-user-md" style="font-size:24px"></i>
-                                <?= $this->Html->image($OnSchedule->photo, [
-                                            'width' => '94px',
-                                            'class' => 'img-thumbnail img-fluid rounded-circle mr-0'
-                                        ]) ?>
-                            </a>
-                            <div class="doctor-det">
-                                <p> <strong><?= h($OnSchedule->firstname) ?>
-                                        <?= h($OnSchedule->lastname) ?></strong></p>
-                                <p><strong>Cell:</strong> <?= h($OnSchedule->Cell) ?></p>
-                                <p><strong>Pager:</strong> <?= h($OnSchedule->pager) ?></p>
-                                <p><strong>Extension:</strong> <?= h($OnSchedule->Office_extension) ?>
-                                </p>
-                            </div>
-                        </div>
-                        <?php endif; ?>
-                        <?php endforeach; ?>
-                        <?php endforeach; ?>
-                    </div>
-                </div>
-            </div>
-            <div class="carousel-item">
-                <div class="card  mx-2">
-                    <h4 class="">Announcements</h4>
-                    <div class="card-body">
-                        <button class="btn mb-4 announcement_btn">
-                            Today - <?= date("Y/m/d") ?><br><?= date("h:i:sa") ?>
-                        </button>
-                        <!-- Announcements Section gett procedure -->
-                        <?php foreach ($announcements as $key => $ul): ?>
-                        <?php //debug($ul); ?>
-                        <div class="doctor-info text-center mb-3">
-                            <a href="">
-                                <?= $this->Html->image($ul->doctor->photo, ['width' => '94px', 'class' => "rounded-circle img-fluid"]); ?>
-
-                            </a>
-                            <div class="doctor-det">
-                                <p class="font-weight-bold"><?= h($ul->doctor->firstname) ?>
-                                    <?= h($ul->doctor->lastname) ?></p>
-                                <p><strong>Cell:</strong> <?= h($ul->doctor->Cell) ?></p>
-                                <p><strong>Pager:</strong> <?= h($ul->doctor->Pager) ?></p>
-                                <p><strong>Extension:</strong> <?= h($ul->doctor->Office_extension) ?>
-                                </p>
-                                <p><strong>Procedure:</strong> <?= h($ul->IR_PROCEDURES) ?></p>
-                                <p><strong>Perfoming doctor:</strong> <?= h($ul->doctor_id) ?></p>
-
-                                <p><strong>Procedure:</strong>
-                                </p>
-                            </div>
-
-                        </div>
-                                    <?= h($ul->procedure ? $ul->procedure->procedure_name : 'Procedure not found') ?>
-
-                        <?php endforeach; ?>
-                    </div>
-                </div>
-            </div>
-           
+            
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>

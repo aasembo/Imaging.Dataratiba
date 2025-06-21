@@ -36,7 +36,7 @@ class AnnouncementsController extends AppController {
                 'Announcements.Holiday_name' => 'asc',
             ]
         ];
-        $announcements = $this->paginate($this->Announcements->find()->contain(['Procedures'])); 
+        $announcements = $this->paginate($this->Announcements->find()); 
         //debug($announcements) or die();
         $this->set(compact('announcements'));
 
