@@ -246,6 +246,42 @@
                     </div>
                 </div>
              <?php endforeach; ?>
+            <div class="carousel-item">
+                <div class="card  mx-2">
+                    <h4 class="">Announcements</h4>
+                    <div class="card-body">
+                        <button class="btn mb-4 announcement_btn">
+                            Today - <?= date("Y/m/d") ?><br><?= date("h:i:sa") ?>
+                        </button>
+                        <!-- Announcements Section gett procedure -->
+                        <?php foreach ($announcements as $key => $ul): ?>
+                        <?php //debug($ul); ?>
+                        <div class="doctor-info text-center mb-3">
+                            <a href="">
+                                <?= $this->Html->image($ul->doctor->photo, ['width' => '94px', 'class' => "rounded-circle img-fluid"]); ?>
+
+                            </a>
+                            <div class="doctor-det">
+                                <p class="font-weight-bold"><?= h($ul->doctor->firstname) ?>
+                                    <?= h($ul->doctor->lastname) ?></p>
+                                <p><strong>Cell:</strong> <?= h($ul->doctor->Cell) ?></p>
+                                <p><strong>Pager:</strong> <?= h($ul->doctor->Pager) ?></p>
+                                <p><strong>Extension:</strong> <?= h($ul->doctor->Office_extension) ?>
+                                </p>
+                                <p><strong>Procedure:</strong> <?= h($ul->IR_PROCEDURES) ?></p>
+                                <p><strong>Perfoming doctor:</strong> <?= h($ul->doctor_id) ?></p>
+
+                                <p><strong>Procedure:</strong>
+                                </p>
+                            </div>
+
+                        </div>
+                                    <?= h($ul->procedure ? $ul->procedure->procedure_name : 'Procedure not found') ?>
+
+                        <?php endforeach; ?>
+                    </div>
+                </div>
+            </div>
 
             
         </div>
