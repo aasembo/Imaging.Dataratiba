@@ -263,9 +263,8 @@
                         </div>
                     <?php endforeach; ?>
                 </div>
-</div>
-
-</div>
+            </div>
+        </div>
     <!-- Carousel Controls -->
     <a class="carousel-control-prev" href="#departmentCarousel" role="button" data-slide="prev">
         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
