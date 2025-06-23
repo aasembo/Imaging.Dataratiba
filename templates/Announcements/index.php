@@ -37,7 +37,11 @@
                     <td><?php echo $announcement->Holiday_name; ?></td>
                     <td><?php echo $announcement->Message; ?></td>
                     <td>
-                        <?php //echo $this->Html->image($announcement->Image, array('height' => 40))?>
+                        <?php if($announcement->Image){ ?>
+                            <?php echo $this->Html->image($announcement->Image, array('height' => 20))?>
+                        <?php } else{ ?>
+                                <?= $this->Html->image('placeholder.png', array('height' => 20)); ?>
+                        <?php } ?>
                     </td>
                     <td>
                         <div class="table_Select">

@@ -227,23 +227,23 @@ class DoctorsController extends AppController {
 public function onschedule()
 {
     $this->set('title', 'Schedules');
-    
-    // Load Departments and set up association with Doctors
+
+    // Load Departments with associated Doctors
     $departmentsTable = TableRegistry::getTableLocator()->get('Departments');
-    $departmentsTable->hasMany('Doctors');
-    $departments = $departmentsTable->find('all')
+    $departmentsTable->hasMany('Doctors'); // Optional if already defined in DepartmentsTable
+    $departments = $departmentsTable->find()
         ->contain(['Doctors'])
         ->all()
         ->toArray();
-        
     $this->set(compact('departments'));
-    
-    // Load Announcements with associated Doctor and Procedures
+
+    // Load Announcements with associated Doctors and Procedures
     $announcementsTable = TableRegistry::getTableLocator()->get('Announcements');
     $announcements = $announcementsTable->find()
-        ->contain(['Doctors.Procedures']) // Use Doctors.Procedures after defining association
+        ->contain(['Doctors', 'Procedures']) // ✅ Proper use of contain
         ->all();
     $this->set(compact('announcements'));
 }
+
 
 }
