@@ -233,8 +233,8 @@ class ComposerStaticInita070f9fb8758c54ded06acaf351224f6
         ),
         'Psr\\Http\\Server\\' => 
         array (
-            0 => __DIR__ . '/..' . '/psr/http-server-handler/src',
-            1 => __DIR__ . '/..' . '/psr/http-server-middleware/src',
+            0 => __DIR__ . '/..' . '/psr/http-server-middleware/src',
+            1 => __DIR__ . '/..' . '/psr/http-server-handler/src',
         ),
         'Psr\\Http\\Message\\' => 
         array (

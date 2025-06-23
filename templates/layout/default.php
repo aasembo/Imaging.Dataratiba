@@ -69,7 +69,7 @@ $(document).ready(function () {
   });
 
   // 🔁 Autoplay every 3 seconds
-  const autoplayInterval = setInterval(nextSlide, 3000);
+  //const autoplayInterval = setInterval(nextSlide, 3000);
 });
 
   // Optional: pause autoplay on hover

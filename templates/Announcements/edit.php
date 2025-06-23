@@ -14,6 +14,11 @@
             <?php echo $this->Form->control('Holiday_name')?>
             <?php echo $this->Form->control('Message')?>
             <?php echo $this->Form->control('announcement_photo', array('type' => 'file', 'class' => 'form-control-file'))?>
+            <?php if($announcement->Image){ ?>
+            <?php echo $this->Html->image($announcement->Image, array('height' => 60))?>
+            <?php } else{ ?>
+                <?php echo $this->Html->image('placeholder.png', array('height' => 60)) ?>
+            <?php } ?>
             <?php echo $this->Form->control('doctor_id', array('label' => 'Doctor', 'empty' => 'Select Doctor', 'type' => 'select', 'class' => 'form-control'))?>
             <?php echo $this->Form->control('reg_date')?>
             <?php echo $this->Form->button('Update', array('class' => 'themebtn'))?>

@@ -250,34 +250,31 @@
                 <div class="card  mx-2">
                     <h4 class="">Announcements</h4>
                     <div class="card-body">
-                        <button class="btn mb-4 announcement_btn">
-                            Today - <?= date("Y/m/d") ?><br><?= date("h:i:sa") ?>
-                        </button>
+                        <!-- <button class="btn mb-4 announcement_btn">
+                            Today - <?//= date("Y/m/d") ?><br><?//= date("h:i:sa") ?>
+                        </button> -->
                         <!-- Announcements Section gett procedure -->
                         <?php foreach ($announcements as $key => $ul): ?>
                         <?php //debug($ul); ?>
                         <div class="doctor-info text-center mb-3">
-                            <a href="">
-                                <?= $this->Html->image($ul->doctor->photo, ['width' => '94px', 'class' => "rounded-circle img-fluid"]); ?>
-
+                            <a href="#">
+                                <?php  if($ul->Image){ ?>
+                                <?= $this->Html->image($ul->Image, ['width' => '94px', 'class' => "rounded-circle img-fluid"]); ?>
+                                <?php }else{ ?>
+                                <?= $this->Html->image('placeholder.png', ['width' => '94px', 'class' => "rounded-circle img-fluid"]); ?>
+                                <?php } ?>
                             </a>
                             <div class="doctor-det">
-                                <p class="font-weight-bold"><?= h($ul->doctor->firstname) ?>
-                                    <?= h($ul->doctor->lastname) ?></p>
-                                <p><strong>Cell:</strong> <?= h($ul->doctor->Cell) ?></p>
-                                <p><strong>Pager:</strong> <?= h($ul->doctor->Pager) ?></p>
-                                <p><strong>Extension:</strong> <?= h($ul->doctor->Office_extension) ?>
-                                </p>
-                                <p><strong>Procedure:</strong> <?= h($ul->IR_PROCEDURES) ?></p>
-                                <p><strong>Perfoming doctor:</strong> <?= h($ul->doctor_id) ?></p>
-
-                                <p><strong>Procedure:</strong>
-                                </p>
+                                <p><strong>Name:</strong><?= h($ul->Holiday_name) ?></p>
+                                <p><strong>Message:</strong> <?= h($ul->Message) ?></p>
+                                <p><strong>IR Procedures:</strong> <?= h( $ul->procedure ? $ul->procedure->procedure_name : "N/A") ?></p>
+                                <p style="text-transform:"><strong>Doctors:</strong><span><?= $ul->doctor ? $ul->doctor->firstname . ' ' . $ul->doctor->lastname : "N/A"; ?></span></p>
+                                <!-- <p><strong>Current Procedures:</strong> <?//= h($ul->Message) ?></p>
+                                <p><strong>Performing Doctor:</strong> <?//= h($ul->Message) ?></p> -->
+                                <p><strong>Reg Date:</strong> <?= $ul->reg_date ? $ul->reg_date : "N/A"; ?></p>
+                                <p><strong>Procedure:</strong> <?= h($ul->doctor ? $ul->doctor->procedure_name : 'N/A') ?></p>
                             </div>
-
                         </div>
-                                    <?= h($ul->procedure ? $ul->procedure->procedure_name : 'Procedure not found') ?>
-
                         <?php endforeach; ?>
                     </div>
                 </div>

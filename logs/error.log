@@ -63248,3 +63248,133 @@ Stack Trace:
 
 Request URL: /debug_kit/js/inject-iframe.js?1726548596
 Referer URL: http://localhost:8000/doctors/onschedule
+2025-06-23 03:39:23 error: [Cake\Http\Exception\MissingControllerException] Controller class `Debug_kit` could not be found. in D:\Arpit\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 335
+Exception Attributes: array (
+  'controller' => 'Debug_kit',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- CORE\src\Controller\ControllerFactory.php:77
+- CORE\src\Http\BaseApplication.php:360
+- CORE\src\Http\Runner.php:86
+- ROOT\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:107
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Middleware\BodyParserMiddleware.php:157
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\RoutingMiddleware.php:118
+- CORE\src\Http\Runner.php:82
+- ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Runner.php:60
+- CORE\src\Http\Server.php:104
+- ROOT\webroot\index.php:37
+- [main]:
+
+Request URL: /debug_kit/js/inject-iframe.js?1750649835
+Referer URL: http://localhost:8000/users/login?redirect=%2F
+2025-06-23 03:39:35 error: [Cake\Http\Exception\MissingControllerException] Controller class `Debug_kit` could not be found. in D:\Arpit\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 335
+Exception Attributes: array (
+  'controller' => 'Debug_kit',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- CORE\src\Controller\ControllerFactory.php:77
+- CORE\src\Http\BaseApplication.php:360
+- CORE\src\Http\Runner.php:86
+- ROOT\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:107
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Middleware\BodyParserMiddleware.php:157
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\RoutingMiddleware.php:118
+- CORE\src\Http\Runner.php:82
+- ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Runner.php:60
+- CORE\src\Http\Server.php:104
+- ROOT\webroot\index.php:37
+- [main]:
+
+Request URL: /debug_kit/js/inject-iframe.js?1750649835
+Referer URL: http://localhost:8000/
+2025-06-23 03:41:27 error: [Cake\Http\Exception\MissingControllerException] Controller class `Debug_kit` could not be found. in D:\Arpit\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 335
+Exception Attributes: array (
+  'controller' => 'Debug_kit',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- CORE\src\Controller\ControllerFactory.php:77
+- CORE\src\Http\BaseApplication.php:360
+- CORE\src\Http\Runner.php:86
+- ROOT\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:107
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Middleware\BodyParserMiddleware.php:157
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\RoutingMiddleware.php:118
+- CORE\src\Http\Runner.php:82
+- ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Runner.php:60
+- CORE\src\Http\Server.php:104
+- ROOT\webroot\index.php:37
+- [main]:
+
+Request URL: /debug_kit/js/inject-iframe.js?1750649835
+Referer URL: http://localhost:8000/
+2025-06-23 03:41:30 error: [Cake\Http\Exception\MissingControllerException] Controller class `Debug_kit` could not be found. in D:\Arpit\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 335
+Exception Attributes: array (
+  'controller' => 'Debug_kit',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- CORE\src\Controller\ControllerFactory.php:77
+- CORE\src\Http\BaseApplication.php:360
+- CORE\src\Http\Runner.php:86
+- ROOT\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:107
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Middleware\BodyParserMiddleware.php:157
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\RoutingMiddleware.php:118
+- CORE\src\Http\Runner.php:82
+- ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Runner.php:60
+- CORE\src\Http\Server.php:104
+- ROOT\webroot\index.php:37
+- [main]:
+
+Request URL: /debug_kit/js/inject-iframe.js?1750649835
+Referer URL: http://localhost:8000/doctors/onschedule
+2025-06-23 03:41:44 error: [Cake\Http\Exception\MissingControllerException] Controller class `Debug_kit` could not be found. in D:\Arpit\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 335
+Exception Attributes: array (
+  'controller' => 'Debug_kit',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- CORE\src\Controller\ControllerFactory.php:77
+- CORE\src\Http\BaseApplication.php:360
+- CORE\src\Http\Runner.php:86
+- ROOT\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:107
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Middleware\BodyParserMiddleware.php:157
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\RoutingMiddleware.php:118
+- CORE\src\Http\Runner.php:82
+- ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Runner.php:60
+- CORE\src\Http\Server.php:104
+- ROOT\webroot\index.php:37
+- [main]:
+
+Request URL: /debug_kit/js/inject-iframe.js?1750649835
+Referer URL: http://localhost:8000/
