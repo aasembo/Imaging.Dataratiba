@@ -92,10 +92,13 @@ class DoctorsController extends AppController {
 
     // Fetch departments and procedures for dropdowns
     $departmentsTable = TableRegistry::getTableLocator()->get('Departments');
-    $departments = $departmentsTable->find('list', ['keyField' => 'id', 'valueField' => 'dname'])->toArray();
+    //$departments = $departmentsTable->find('list', ['keyField' => 'id', 'valueField' => 'dname'])->toArray();
+    $departments = $departmentsTable->find('list', keyField: 'id', valueField: 'dname')->toArray();
+
 
     $proceduresTable = TableRegistry::getTableLocator()->get('Procedures');
-    $procedures = $proceduresTable->find('list', ['keyField' => 'id', 'valueField' => 'procedure_name'])->toArray();
+    //$procedures = $proceduresTable->find('list', ['keyField' => 'id', 'valueField' => 'procedure_name'])->toArray();
+    $procedures = $proceduresTable->find('list', keyField: 'id', valueField: 'procedure_name')->toArray();
 
     // Set departments and procedures for the view
     $this->set(compact('departments', 'procedures'));
@@ -140,7 +143,8 @@ class DoctorsController extends AppController {
                 }
             }
         }
-        $procedures = $this->Doctors->Procedures->find('list', ['keyField' => 'id', 'valueField' => 'procedure_name'])->toArray();
+        //$procedures = $this->Doctors->Procedures->find('list', ['keyField' => 'id', 'valueField' => 'procedure_name'])->toArray();
+        $procedures = $this->Doctors->Procedures->find('list',keyField: 'id', valueField: 'procedure_name')->toArray();
         $this->set(compact('doctor', 'procedures'));
     }
 
