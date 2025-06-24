@@ -141,7 +141,7 @@ return [
     // ],
 
     'Error' => [
-        'errorLevel' => E_ALL & ~E_USER_DEPRECATED,
+        'errorLevel' =>  `E_ALL & ~E_USER_DEPRECATED`,
         'exceptionRenderer' => 'Cake\Error\ExceptionRenderer',
         'skipLog' => [],
         'log' => true,
