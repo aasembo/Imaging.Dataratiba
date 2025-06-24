@@ -45,7 +45,7 @@
                     </td>
                     <td>
                         <div class="table_Select">
-                            <?php echo $this->Form->select('fields['.$announcement->id.'][IR_PROCEDURES]', $procedures, array('lable' => false, 'empty' => true, 'value' => $announcement->IR_PROCEDURES));?>
+                            <?php echo $this->Form->select('fields['.$announcement->id.'][IR_PROCEDURES]', $procedures, array('label' => false, 'empty' => 'Select Procedure', 'value' => $announcement->IR_PROCEDURES));?>
                             <?php //debug($announcement); ?>
                         </div>
                     </td>

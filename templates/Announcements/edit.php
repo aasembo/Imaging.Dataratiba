@@ -11,7 +11,7 @@
                 'error' => '<div class="text-danger">{{content}}</div>'
             )
         ));?>
-            <?php echo $this->Form->control('Holiday_name')?>
+            <?php echo $this->Form->control('Holiday_name',array('label' => 'Name'))?>
             <?php echo $this->Form->control('Message')?>
             <?php echo $this->Form->control('announcement_photo', array('type' => 'file', 'class' => 'form-control-file'))?>
             <?php if($announcement->Image){ ?>

@@ -178,7 +178,7 @@
                             <div class="">
                                 <div class="">
                                     <div class="radiology_list">
-                                        <p class=""><?= h($OnSchedule->firstname) ?></p>
+                                        <p class=""><?= h($OnSchedule->lastname) ?></p>
                                         <button class="btn themebtn" data-toggle="collapse"
                                             data-target="#doctorInfo<?= $key . $index ?>" aria-expanded="false">
                                             View Details
@@ -195,7 +195,7 @@
                                                     ); ?>   
                                                 <?php }else{ ?>
                                                     <?= $this->Html->image(
-                                                        'placeholder.png',
+                                                        'doctor-2.jpeg',
                                                         ['width' => '94px', 'class' => "rounded-circle mr-0 img-fluid"]
                                                     ); ?>
                                                 <?php } ?>
@@ -229,7 +229,7 @@
                             <?php if ($OnSchedule->OnSchedule == 1 && $OnSchedule->dept_id == $ul->id): ?>
                             <div class="doctor-info mb-4">
                                 <a href="#">
-                                    <i class="fa fa-user-md" style="font-size:24px"></i>
+                                    <!-- <i class="fa fa-user-md" style="font-size:24px"></i> -->
                                     <?php if ($OnSchedule->photo){ ?>
                                         <?= $this->Html->image(
                                             $OnSchedule->photo,
@@ -237,7 +237,7 @@
                                         ); ?>   
                                     <?php }else{ ?>
                                         <?= $this->Html->image(
-                                            'placeholder.png',
+                                            'doctor-2.jpeg',
                                             ['width' => '94px', 'class' => "img-thumbnail mr-0 img-fluid rounded-circle"]
                                         ); ?>
                                     <?php } ?>
