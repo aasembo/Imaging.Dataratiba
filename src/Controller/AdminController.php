@@ -14,9 +14,6 @@ public function clearCache()
     // Clear all cache configs
     Cache::clearAll();
 
-    // Optional: Also clear routing cache if used
-    Cache::clear('_cake_model_');
-
     $this->Flash->success('Application cache has been cleared.');
     return $this->redirect($this->referer('/'));
 }
