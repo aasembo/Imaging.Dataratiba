@@ -7,6 +7,8 @@ error_reporting(E_ALL & ~E_NOTICE & ~E_WARNING & ~E_DEPRECATED & ~E_USER_DEPRECA
 ini_set('display_errors', '0');
 ini_set('display_startup_errors', '0');
 
+error_reporting(E_ALL & ~E_USER_DEPRECATED);
+
 
 /**
  * CakePHP(tm) : Rapid Development Framework (https://cakephp.org)

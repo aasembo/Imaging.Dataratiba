@@ -142,12 +142,9 @@ return [
 
     'Error' => [
         'errorLevel' => E_ALL & ~E_USER_DEPRECATED,
-        'ignoredDeprecationPaths' => [
-            'vendor/cakephp/cakephp/src/ORM/Table.php',
-            'vendor/cakephp/cakephp/src/Core/functions.php',
-            'vendor/cakephp/cakephp/src/Http/ResponseEmitter.php',
-            'vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php'
-        ],
+        'exceptionRenderer' => 'Cake\Error\ExceptionRenderer',
+        'skipLog' => [],
+        'log' => true,
     ],
 
     /*
