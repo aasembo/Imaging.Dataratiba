@@ -174,6 +174,7 @@
                         ?>
                         <div class="">
                             <?php foreach ($doctorPair as $index => $OnSchedule): ?>
+                                <?php debug($OnSchedule); ?>
                             <div class="">
                                 <div class="">
                                     <div class="radiology_list">
@@ -184,9 +185,15 @@
                                         </button>
                                     </div>
                                     <div id="doctorInfo<?= $key . $index ?>" class="collapse mt-2">
+                                        
                                         <div class="doctor-info">
                                             <a href="#">
-                                                <?= $this->Html->image($OnSchedule->photo, ['width' => '94px', 'class' => "rounded-circle mr-0 img-fluid"]); ?>
+                                               <?php if (!empty($OnSchedule->photo)): ?>
+                                                    <?= $this->Html->image(
+                                                        $OnSchedule->photo,
+                                                        ['width' => '94px', 'class' => "rounded-circle mr-0 img-fluid"]
+                                                    ); ?>   
+                                                <?php endif; ?>
                                             </a>
                                             <div class="doctor-det">
                                                 <p class="font-weight-bold mt-2"><?= h($OnSchedule->firstname) ?>
