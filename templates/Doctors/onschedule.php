@@ -174,7 +174,7 @@
                         ?>
                         <div class="">
                             <?php foreach ($doctorPair as $index => $OnSchedule): ?>
-                                <?php debug($OnSchedule); ?>
+                                <?php //debug($OnSchedule); ?>
                             <div class="">
                                 <div class="">
                                     <div class="radiology_list">
