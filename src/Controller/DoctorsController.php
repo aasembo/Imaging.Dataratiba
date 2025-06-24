@@ -1,12 +1,24 @@
 <?php
 namespace App\Controller;
 use Cake\ORM\TableRegistry;
+use Cake\Cache\Cache;
+
+
+
 class DoctorsController extends AppController {
 
     public function initialize(): void {
 		parent::initialize();
         
 	}
+
+    public function clearCache()
+    {
+
+        Cache::clearAll();
+        $this->Flash->success('Cache cleared.');
+        return $this->redirect('/');
+    }
 
     public function index()
 {

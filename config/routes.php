@@ -57,6 +57,8 @@ return function (RouteBuilder $routes): void {
          */
         $builder->connect('/', ['controller' => 'Doctors', 'action' => 'index']);
 
+        $builder->connect('/admin/clear-cache', ['controller' => 'Doctors', 'action' => 'clearCache']);
+
         /*
          * ...and connect the rest of 'Pages' controller's URLs.
          */
