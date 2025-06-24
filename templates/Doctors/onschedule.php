@@ -230,10 +230,17 @@
                             <div class="doctor-info mb-4">
                                 <a href="#">
                                     <i class="fa fa-user-md" style="font-size:24px"></i>
-                                    <?= $this->Html->image($OnSchedule->photo, [
-                                                'width' => '94px',
-                                                'class' => 'img-thumbnail mr-0 img-fluid rounded-circle'
-                                            ]) ?>
+                                    <?php if ($OnSchedule->photo){ ?>
+                                        <?= $this->Html->image(
+                                            $OnSchedule->photo,
+                                            ['width' => '94px', 'class' => "img-thumbnail mr-0 img-fluid rounded-circle"]
+                                        ); ?>   
+                                    <?php }else{ ?>
+                                        <?= $this->Html->image(
+                                            'placeholder.png',
+                                            ['width' => '94px', 'class' => "img-thumbnail mr-0 img-fluid rounded-circle"]
+                                        ); ?>
+                                    <?php } ?>
                                 </a>
                                 <div class="doctor-det">
                                     <p><strong><?= h($OnSchedule->firstname) ?>
