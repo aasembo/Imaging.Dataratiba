@@ -182,6 +182,8 @@ return [
         // OR selectively mute deprecations from specific files:
         'ignoredDeprecationPaths' => [
             'vendor/cakephp/cakephp/src/ORM/Table.php',
+            'vendor/cakephp/cakephp/src/Core/functions.php',
+            'vendor/cakephp/cakephp/src/Http/ResponseEmitter.php'
         ],
     ],
 
