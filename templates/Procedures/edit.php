@@ -1,7 +1,7 @@
 <div class="table_form">
     <div class="mt-5">
     <?php echo $this->Flash->render() ?>
-    <h1 class="">Update Procedure</h1>
+    <h1 class="">Edit Procedure</h1>
         <?php echo $this->Form->create($procedure, array(
             'type' => 'file',
             'templates' => array(
