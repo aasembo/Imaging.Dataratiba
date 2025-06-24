@@ -195,7 +195,7 @@
                                                     ); ?>   
                                                 <?php }else{ ?>
                                                     <?= $this->Html->image(
-                                                        'doctor-2.jpeg',
+                                                        'doctor-1.png',
                                                         ['width' => '94px', 'class' => "rounded-circle mr-0 img-fluid"]
                                                     ); ?>
                                                 <?php } ?>
@@ -237,7 +237,7 @@
                                         ); ?>   
                                     <?php }else{ ?>
                                         <?= $this->Html->image(
-                                            'doctor-2.jpeg',
+                                            'doctor-1.png',
                                             ['width' => '94px', 'class' => "img-thumbnail mr-0 img-fluid rounded-circle"]
                                         ); ?>
                                     <?php } ?>
