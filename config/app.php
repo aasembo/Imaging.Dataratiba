@@ -141,12 +141,12 @@ return [
     // ],
 
     'Error' => [
-        'errorLevel' =>  `E_ALL & ~E_USER_DEPRECATED`,
+        'errorLevel' => `E_ALL & ~E_USER_DEPRECATED & ~E_DEPRECATED`,
         'exceptionRenderer' => 'Cake\Error\ExceptionRenderer',
         'skipLog' => [],
         'log' => true,
         'ignoredDeprecationPaths' => [
-            'vendor/cakephp/cakephp/src/ORM/Table.php'
+            realpath('vendor/cakephp/cakephp/src/ORM/Table.php')
         ]
     ],
 
