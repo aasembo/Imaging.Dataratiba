@@ -33,35 +33,21 @@ class DoctorsTable extends Table {
             ->requirePresence('lastname', true)
             ->notEmptyString('lastname');
 
-        // $validator
-        // ->notEmptyFile('doctor_photo', 'an image is required')
-        // ->requirePresence('doctor_photo', 'create')
-        // ->add('doctor_photo', [
-        //     'mimeType' => [
-        //         'rule' => [
-        //             'mimeType', [
-        //                 'image/jpeg',
-        //                 'image/png',
-        //                 'image/jpg'
-        //             ],
-        //         ],
-        //         'message' => 'File type must be either .jpg, .jpeg or .png' 
-        //     ],
-        // ]);
-
         $validator
-        ->allowEmptyFile('doctor_photo') // Allow it to be empty (i.e. optional)
+        ->notEmptyFile('doctor_photo', 'an image is required')
+        ->requirePresence('doctor_photo', 'create')
         ->add('doctor_photo', [
             'mimeType' => [
-                'rule' => ['mimeType', ['image/jpeg', 'image/png', 'image/jpg']],
-                'message' => 'File type must be either .jpg, .jpeg or .png',
-                'on' => function ($context) {
-                    $file = $context['data']['doctor_photo'] ?? null;
-                    return $file && $file->getError() === UPLOAD_ERR_OK;
-                }
-            ]
+                'rule' => [
+                    'mimeType', [
+                        'image/jpeg',
+                        'image/png',
+                        'image/jpg'
+                    ],
+                ],
+                'message' => 'File type must be either .jpg, .jpeg or .png' 
+            ],
         ]);
-
 
         $validator
             ->allowEmptyString('OnSchedule', true); 

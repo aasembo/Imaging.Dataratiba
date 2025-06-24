@@ -56,12 +56,12 @@
                                     </div>
                                 </td>
                                 <td>
-                                    <div class="table_Select">
-                                        <?php echo $this->Form->select('fields[' . $doctor->id . '][procedure_name]', $procedures, [
-                                            'label' => false,
-                                            'empty' => 'Select Procedure',
-                                            'value' => $doctor->procedures_id
-                                        ]); ?>
+                                                                      <div class="table_Select">
+                                    <?php echo $this->Form->select('fields[' . $doctor->id . '][procedure_name]', $procedures, [
+                                        'label' => false,
+                                        'empty' => 'Select Procedure',
+                                        'value' => $doctor->procedure_name
+                                    ]); ?>
                                     </div>
                                 </td>
                                 <td><?php echo $doctor->created; ?></td>

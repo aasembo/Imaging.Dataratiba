@@ -22,14 +22,13 @@
             <?php echo $this->Form->control('doctor_photo', [
                 'type' => 'file',
                 'label' => 'Doctor Photo',
-                'class' => 'form-control-file',
-                'required' => true
+                'class' => 'form-control-file'
             ]); ?>
             <?php echo $this->Form->control('name', ['label' => 'Name']); ?>
 
             <!-- Add Procedure Selection Dropdown -->
             <!-- Procedure Association Dropdown -->
-            <?php echo $this->Form->control('procedures_id', [
+            <?php echo $this->Form->control('procedure_id', [
                 'type' => 'select',
                 'options' => $procedures, // Assuming $procedures is a list of procedure IDs and names
                 'empty' => 'Select Procedure (optional)',

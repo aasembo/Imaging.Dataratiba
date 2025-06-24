@@ -18,7 +18,7 @@
             <?php echo $this->Form->control('Office_extension')?>
             <?php echo $this->Form->control('Cell')?>
             <?php echo $this->Form->control('Pager')?>
-            <?php echo $this->Form->control('doctor_photo', array('type' => 'file', 'required'=> false, 'class' => 'form-control-file'))?>
+            <?php echo $this->Form->control('doctor_photo', array('type' => 'file', 'class' => 'form-control-file'))?>
             <?php echo $this->Form->control('name')?>
             <?php echo $this->Form->button('Update', array('class' => 'themebtn'))?>
         <?php echo $this->Form->end();?>

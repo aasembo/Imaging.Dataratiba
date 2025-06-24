@@ -20,7 +20,6 @@ class DoctorsController extends AppController {
         // Process each doctor's data
         foreach ($fields as $id => $options) {
             // Fetch the doctor record
-            //debug($options);
             $doctor = $this->Doctors->get($id);
             
             // Prepare the data to update
@@ -39,11 +38,8 @@ class DoctorsController extends AppController {
                     ->where(['id' => $procedureId])
                     ->first();
 
-                //debug($procedure);
-
                 // If procedure is found, set the procedure_name in updateData
                 if ($procedure) {
-                    $updateData['procedures_id'] = $procedure->id;
                     $updateData['procedure_name'] = $procedure->procedure_name;
                 } else {
                     // Skip updating procedure_name if the procedure ID is invalid
@@ -113,8 +109,6 @@ class DoctorsController extends AppController {
                 }
                 $doctor->admin_id = $this->authUser->id;
                 $save = $this->Doctors->save($doctor);
-                //debug($save);
-                //die();
                 if ($save) {
                     $this->Flash->success(__('Doctor created successfully.'));
                     $redirect = $this->request->getQuery('redirect', [

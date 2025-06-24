@@ -26,12 +26,9 @@ class AnnouncementsController extends AppController {
                 $announcement = $this->Announcements->patchEntity($announcement, $updateData, ['validate' => false]);
                 if (!$announcement->getErrors()) {
                     $this->Announcements->save($announcement);
-                    
                 }
             }
-            $this->Flash->success(__('Announcement updated successfully.'));
         }
-        
 
         $this->paginate = [
             'limit' => 25,
@@ -132,7 +129,7 @@ class AnnouncementsController extends AppController {
 
                 $save = $this->Announcements->save($announcement);
                 if ($save) {
-                    $this->Flash->success(__('Announcement updated successfully.'));
+                    $this->Flash->success(__('Announcement created successfully.'));
                     $redirect = $this->request->getQuery('redirect', [
                         'controller' => 'Announcements',
                         'action' => 'index',
