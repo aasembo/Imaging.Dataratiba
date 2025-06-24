@@ -146,7 +146,8 @@ return [
         'skipLog' => [],
         'log' => true,
         'ignoredDeprecationPaths' => [
-            realpath('vendor/cakephp/cakephp/src/ORM/Table.php')
+            '*cakephp*/src/ORM/Table.php',
+            '*ORM/Table.php',
         ]
     ],
 

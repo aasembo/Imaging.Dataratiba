@@ -53,6 +53,7 @@ use Cake\Mailer\TransportFactory;
 use Cake\Routing\Router;
 use Cake\Utility\Security;
 use App\Error\CustomDeprecationHandler;
+
 CustomDeprecationHandler::register();
 
 /**
