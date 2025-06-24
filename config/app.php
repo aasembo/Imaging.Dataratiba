@@ -179,6 +179,7 @@ return [
 
     'Error' => [
         'errorLevel' => E_ALL & ~E_USER_DEPRECATED,
+        'debug' => false,
         // OR selectively mute deprecations from specific files:
         'ignoredDeprecationPaths' => [
             'vendor/cakephp/cakephp/src/ORM/Table.php',
