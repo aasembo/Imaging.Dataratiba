@@ -11,7 +11,7 @@
                 'error' => '<div class="text-danger">{{content}}</div>'
             )
         ));?>
-        <?php echo $this->Form->control('procedure_name', array('label' => 'Procedure Name'))?>
+        <?php echo $this->Form->control('procedure_name', array('label' => 'Procedure Name','required' => true))?>
         <?php echo $this->Form->button('Update', array('class' => 'themebtn'))?>
         <?php echo $this->Form->end();?>
     </div>
