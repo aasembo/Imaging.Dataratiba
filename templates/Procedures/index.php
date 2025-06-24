@@ -1,4 +1,4 @@
-<div class="management_table">
+<div class="management_table" style="width:50%; margin: 0 auto;">
                <div class="alert_msg">
         <?php echo $this->Flash->render() ?></div>
         <div class="table_heading">
