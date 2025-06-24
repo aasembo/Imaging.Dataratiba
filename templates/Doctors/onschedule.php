@@ -188,12 +188,17 @@
                                         
                                         <div class="doctor-info">
                                             <a href="#">
-                                               <?php if (!empty($OnSchedule->photo)): ?>
+                                               <?php if ($OnSchedule->photo){ ?>
                                                     <?= $this->Html->image(
                                                         $OnSchedule->photo,
                                                         ['width' => '94px', 'class' => "rounded-circle mr-0 img-fluid"]
                                                     ); ?>   
-                                                <?php endif; ?>
+                                                <?php }else{ ?>
+                                                    <?= $this->Html->image(
+                                                        'placeholder.png',
+                                                        ['width' => '94px', 'class' => "rounded-circle mr-0 img-fluid"]
+                                                    ); ?>
+                                                <?php } ?>
                                             </a>
                                             <div class="doctor-det">
                                                 <p class="font-weight-bold mt-2"><?= h($OnSchedule->firstname) ?>
