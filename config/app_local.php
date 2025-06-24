@@ -15,7 +15,7 @@ return [
      * Development Mode:
      * true: Errors and warnings shown.
      */
-    'debug' => filter_var(env('DEBUG', true), FILTER_VALIDATE_BOOLEAN),
+    'debug' => false,
 
     /*
      * Security and encryption configuration
@@ -89,6 +89,17 @@ return [
             'password' => null,
             'client' => null,
             'url' => env('EMAIL_TRANSPORT_DEFAULT_URL', null),
+        ],
+    ],
+
+
+    'Error' => [
+        'errorLevel' => E_ALL & ~E_USER_DEPRECATED,
+        'ignoredDeprecationPaths' => [
+            'vendor/cakephp/cakephp/src/ORM/Table.php',
+            'vendor/cakephp/cakephp/src/Core/functions.php',
+            'vendor/cakephp/cakephp/src/Http/ResponseEmitter.php',
+            'vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php'
         ],
     ],
 ];
