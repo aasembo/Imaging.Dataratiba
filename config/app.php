@@ -16,7 +16,7 @@ return [
      * Development Mode:
      * true: Errors and warnings shown.
      */
-    'debug' => filter_var(env('DEBUG', false), FILTER_VALIDATE_BOOLEAN),
+    'debug' => false,
 
     /*
      * Configure basic information about the application.
@@ -179,12 +179,10 @@ return [
 
     'Error' => [
         'errorLevel' => E_ALL & ~E_USER_DEPRECATED,
-        'debug' => false,
-        // OR selectively mute deprecations from specific files:
         'ignoredDeprecationPaths' => [
             'vendor/cakephp/cakephp/src/ORM/Table.php',
             'vendor/cakephp/cakephp/src/Core/functions.php',
-            'vendor/cakephp/cakephp/src/Http/ResponseEmitter.php'
+            'vendor/cakephp/cakephp/src/Http/ResponseEmitter.php',
         ],
     ],
 
