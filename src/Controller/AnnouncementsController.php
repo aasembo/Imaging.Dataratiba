@@ -64,6 +64,11 @@ class AnnouncementsController extends AppController {
                 if ($photo && $photo->getError() === UPLOAD_ERR_OK) {
                     if (!is_dir(WWW_ROOT . 'img' . DS . 'announcements')) {
                         mkdir(WWW_ROOT . 'img' . DS . 'announcements');
+                       
+                    }
+                    if (is_dir(WWW_ROOT . 'img' . DS . 'announcements')) {
+                        //mkdir(WWW_ROOT . 'img' . DS . 'announcements', 0775, true);
+                        chmod(WWW_ROOT . 'img' . DS . 'announcements', 0775);
                     }
                     $destination = WWW_ROOT . 'img' . DS . 'announcements' . DS . $photo->getClientFilename();
                     $photo->moveTo($destination);
@@ -115,6 +120,10 @@ class AnnouncementsController extends AppController {
                 if ($photo && $photo->getError() === UPLOAD_ERR_OK) {
                     if (!is_dir(WWW_ROOT . 'img' . DS . 'announcements')) {
                         mkdir(WWW_ROOT . 'img' . DS . 'announcements');
+                    }
+                    if (is_dir(WWW_ROOT . 'img' . DS . 'announcements')) {
+                        //mkdir(WWW_ROOT . 'img' . DS . 'announcements', 0775, true);
+                        chmod(WWW_ROOT . 'img' . DS . 'announcements', 0775);
                     }
                     $destination = WWW_ROOT . 'img' . DS . $announcement->Image;
                     if (file_exists($destination)) {
