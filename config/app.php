@@ -145,6 +145,9 @@ return [
         'exceptionRenderer' => 'Cake\Error\ExceptionRenderer',
         'skipLog' => [],
         'log' => true,
+        'ignoredDeprecationPaths' => [
+            'vendor/cakephp/cakephp/src/ORM/Table.php'
+        ]
     ],
 
     /*
