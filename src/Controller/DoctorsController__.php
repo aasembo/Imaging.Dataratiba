@@ -257,13 +257,9 @@ public function onschedule()
 
     // Load Announcements with associated Doctors and Procedures
     $announcementsTable = TableRegistry::getTableLocator()->get('Announcements');
-
     $announcements = $announcementsTable->find()
-        ->leftJoinWith('Doctors')
-    ->leftJoinWith('Procedures')
-    ->contain(['Doctors', 'Procedures'])
-    ->all();
-    // debug($announcements);
+        ->contain(['Doctors', 'Procedures']) // ✅ Proper use of contain
+        ->all();
     $this->set(compact('announcements'));
 }
 

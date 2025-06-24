@@ -11,10 +11,12 @@ class ProceduresTable extends Table {
     public function initialize(array $config): void {
         parent::initialize($config);
 
-        $this->belongsToMany('Doctors', [
-            'joinTable' => 'doctor_procedures',
-            'foreignKey' => 'procedure_id',
-            'targetForeignKey' => 'doctor_id'
-        ]);
+        $this->setTable('procedures'); // ✅ explicitly sets correct table
+
+        // $this->belongsToMany('Doctors', [
+        //     'joinTable' => 'doctor_procedures',
+        //     'foreignKey' => 'procedure_id',
+        //     'targetForeignKey' => 'doctor_id'
+        // ]);
     }
 }

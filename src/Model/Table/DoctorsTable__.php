@@ -12,13 +12,9 @@ class DoctorsTable extends Table {
         parent::initialize($config);
         $this->addBehavior('Timestamp');
 
-        
-        $this->belongsTo('Doctors', [
-            'foreignKey' => 'doctor_id'
-        ]);
-
         $this->belongsTo('Procedures', [
-            'foreignKey' => 'IR_PROCEDURES'
+            'foreignKey' => 'procedures_id',  // Or use the correct foreign key field
+            'joinType' => 'LEFT',  // Allows nulls if the association is optional
         ]);
         
         

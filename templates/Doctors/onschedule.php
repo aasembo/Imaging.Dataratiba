@@ -286,12 +286,12 @@
                             <div class="doctor-det">
                                 <p><strong>Name:</strong><?= h($ul->Holiday_name) ?></p>
                                 <p><strong>Message:</strong> <?= h($ul->Message) ?></p>
-                                <p><strong>IR Procedures:</strong> <?= h( $ul->procedure ? $ul->procedure->procedure_name : "N/A") ?></p>
+                                <p><strong>IR Procedures:</strong> <?= h( $ul->procedure ? $ul->procedure->procedure_name : "Unavailable") ?></p>
                                 <p style="text-transform:"><strong>Doctors:</strong><span><?= $ul->doctor ? $ul->doctor->firstname . ' ' . $ul->doctor->lastname : "N/A"; ?></span></p>
                                 <!-- <p><strong>Current Procedures:</strong> <?//= h($ul->Message) ?></p>
                                 <p><strong>Performing Doctor:</strong> <?//= h($ul->Message) ?></p> -->
                                 <p><strong>Reg Date:</strong> <?= $ul->reg_date ? $ul->reg_date : "N/A"; ?></p>
-                                <p><strong>Procedure:</strong> <?= h($ul->doctor ? $ul->doctor->procedure_name : 'N/A') ?></p>
+                                <p><strong>Procedure:</strong> <?= h($ul->doctor ? $ul->doctor->procedure_name : 'Unavailable') ?></p>
                             </div>
                         </div>
                         <?php endforeach; ?>
