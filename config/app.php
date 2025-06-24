@@ -169,12 +169,20 @@ return [
      *   should be ignored in. Use this to ignore deprecations for plugins or parts of
      *   your application that still emit deprecations.
      */
+    // 'Error' => [
+    //     'errorLevel' => E_ALL,
+    //     'skipLog' => [],
+    //     'log' => true,
+    //     'trace' => true,
+    //     'ignoredDeprecationPaths' => [],
+    // ],
+
     'Error' => [
-        'errorLevel' => E_ALL,
-        'skipLog' => [],
-        'log' => true,
-        'trace' => true,
-        'ignoredDeprecationPaths' => [],
+        'errorLevel' => E_ALL & ~E_USER_DEPRECATED,
+        // OR selectively mute deprecations from specific files:
+        'ignoredDeprecationPaths' => [
+            'vendor/cakephp/cakephp/src/ORM/Table.php',
+        ],
     ],
 
     /*
