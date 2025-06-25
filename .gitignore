@@ -1,4 +1,5 @@
-webroot/img/doctor/*
-webroot/img/*
-/temp/*
-temp/*
+# Ignore everything in webroot/img/
+webroot/img/
+
+# Ignore temp folder at root
+/temp/
