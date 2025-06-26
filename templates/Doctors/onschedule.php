@@ -140,17 +140,6 @@
     padding: 10px;
     margin-bottom: 10px;
 }
-.announcement_btn {
-    background:#0f626a;
-    color:#fff;
-    margin:auto;
-    display:block;
-}
-.announcement_btn:focus{
-   border:none;
-   box-shadow:none;
-   outline:none;
-}
 .card-body{
     max-height: 615px;
     overflow-y: auto;
@@ -220,11 +209,11 @@
                 </div>
             </div>
              <?php foreach ($departments as $key => $ul): ?>
+                <?php //debug($ul); ?>
                 <div class="carousel-item">
                     <div class="card  mx-2">
                         <h4 class=""><?= h($ul->dname) ?></h4>
                         <div class="card-body">
-                            
                             <?php foreach ($ul->doctors as $OnSchedule): ?>
                             <?php if ($OnSchedule->OnSchedule == 1 && $OnSchedule->dept_id == $ul->id): ?>
                             <div class="doctor-info mb-4">
@@ -248,6 +237,7 @@
                                     <p><strong>Cell:</strong> <?= h($OnSchedule->Cell) ?></p>
                                     <p><strong>Pager:</strong> <?= h($OnSchedule->pager) ?></p>
                                     <p><strong>Extension:</strong> <?= h($OnSchedule->Office_extension) ?></p>
+                                    <p><strong>Procedure:</strong> <?= h($OnSchedule->procedure_name) ?></p>
 
                                 </div>
                             </div>
@@ -269,9 +259,6 @@
                 <div class="card  mx-2">
                     <h4 class="">Announcements</h4>
                     <div class="card-body">
-                        <!-- <button class="btn mb-4 announcement_btn">
-                            Today - <?//= date("Y/m/d") ?><br><?//= date("h:i:sa") ?>
-                        </button> -->
                         <!-- Announcements Section gett procedure -->
                         <?php foreach ($announcements as $key => $ul): ?>
                         <?php //debug($ul); ?>
@@ -286,12 +273,18 @@
                             <div class="doctor-det">
                                 <p><strong>Name:</strong><?= h($ul->Holiday_name) ?></p>
                                 <p><strong>Message:</strong> <?= h($ul->Message) ?></p>
-                                <p><strong>IR Procedures:</strong> <?= h( $ul->procedure ? $ul->procedure->procedure_name : "Unavailable") ?></p>
-                                <p style="text-transform:"><strong>Doctors:</strong><span><?= $ul->doctor ? $ul->doctor->firstname . ' ' . $ul->doctor->lastname : "N/A"; ?></span></p>
+                                <?php if($ul->procedure){ ?>
+                                    <p><strong>IR Procedures:</strong> <?= h( $ul->procedure ? $ul->procedure->procedure_name : "Unavailable") ?></p>
+                                <?php } ?>
+                                <?php if($ul->doctor){ ?>
+                                    <p><strong>Doctors:</strong><span><?= $ul->doctor ? $ul->doctor->firstname . ' ' . $ul->doctor->lastname : "N/A"; ?></span></p>
+                                <?php } ?>
                                 <!-- <p><strong>Current Procedures:</strong> <?//= h($ul->Message) ?></p>
                                 <p><strong>Performing Doctor:</strong> <?//= h($ul->Message) ?></p> -->
                                 <p><strong>Reg Date:</strong> <?= $ul->reg_date ? $ul->reg_date : "N/A"; ?></p>
-                                <p><strong>Procedure:</strong> <?= h($ul->doctor ? $ul->doctor->procedure_name : 'Unavailable') ?></p>
+                                <?php if($ul->doctor){ ?>
+                                    <p><strong>Procedure:</strong> <?= h($ul->doctor ? $ul->doctor->procedure_name : 'Unavailable') ?></p>
+                                <?php } ?>
                             </div>
                         </div>
                         <?php endforeach; ?>

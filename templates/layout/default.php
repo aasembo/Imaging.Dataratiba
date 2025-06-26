@@ -17,12 +17,42 @@
     <?php echo $this->fetch('meta') ?>
     <?php echo $this->fetch('css') ?>
 </head>
+<style>
+    .announcement_btn {
+      background:#0f626a;
+      color:#fff;
+      /* margin:auto;
+      display:block; */
+    }
+    .announcement_btn:focus{
+      border:none;
+      box-shadow:none;
+      outline:none;
+      cursor:default
+    }
+    .announcement_btn:hover{
+      color:#fff;
+    }
+    .date_display{
+      display: flex;
+      align-items: flex-end;
+      justify-content: end;
+    }
+    </style>
 <body>
     <?php echo $this->element('header'); ?>
     
     <div class="container">
         <main class="main">
             <div class="">
+              <div class="date_display">
+                <button class="btn mb-3 announcement_btn">
+                  <?php 
+                    $date = new DateTime('now', new DateTimeZone('Etc/GMT+6')); // CST fixed (no DST)
+                    echo "Today - ".$date->format('m/d/Y H:i:s A');
+                  ?>
+                </button>
+              </div>
                 <?php echo $this->fetch('content') ?>
             </div>
         </main>
