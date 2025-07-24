@@ -24,7 +24,10 @@ class UsersController extends AppController {
                     'action' => 'index',
                 ]);
 
-                return $this->redirect($redirect);
+                return $this->redirect([
+                    'controller' => 'Doctors',
+                    'action' => 'index',
+                ]);
             }
             else {
                 $this->Authentication->logout();
@@ -44,7 +47,7 @@ class UsersController extends AppController {
         // regardless of POST or GET, redirect if user is logged in
         if ($result && $result->isValid()) {
             $this->Authentication->logout();
-            return $this->redirect(['controller' => 'Users', 'action' => 'login']);
+            return $this->redirect('/');
         }
     }
 

@@ -9,8 +9,15 @@ class DoctorsController extends AppController {
 
     public function initialize(): void {
 		parent::initialize();
-        
-	}
+        }
+
+        public function beforeFilter(\Cake\Event\EventInterface $event): void
+        {
+            parent::beforeFilter($event);
+
+            $this->Authentication->addUnauthenticatedActions(['onschedule']);
+        }
+
 
     public function clearCache()
     {
