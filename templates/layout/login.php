@@ -15,7 +15,7 @@
     <?php echo $this->fetch('script') ?>
 </head>
 <body>
-    <?php echo $this->element('header');?>
+    <?php //echo $this->element('header');?>
     <main class="main">
         <div class="container">
             <?php echo $this->fetch('content') ?>

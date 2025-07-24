@@ -1,6 +1,7 @@
 <nav class="navbar navbar-expand-lg navbar-dark header_navbar">
     <a class="navbar-brand text-light" href="<?= $this->Url->build('/') ?>">
-        <i class="fas fa-hospital-symbol"></i> Imaging Management
+        <?php echo $this->Html->image('logo-web-new-removebg.png') ?>
+        <!-- <i class="fas fa-hospital-symbol"></i> Imaging Management -->
     </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -21,9 +22,7 @@
                 <li class="nav-item">
                     <?= $this->Html->link('Users', ['controller' => 'Users', 'action' => 'index'], ['class' => 'nav-link text-light', 'escape' => false]) ?>
                 </li>
-                <li class="nav-item">
-                    <?= $this->Html->link('Schedule', ['controller' => 'Doctors', 'action' => 'onschedule'], ['class' => 'nav-link text-light', 'escape' => false]) ?>
-                </li>
+                
                 
                 <li class="nav-item">
                     <?= $this->Html->link('Procedures', ['controller' => 'Procedures', 'action' => 'index'], ['class' => 'nav-link text-light', 'escape' => false]) ?>
