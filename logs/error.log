@@ -63397,3 +63397,41 @@ Stack trace:
   thrown in D:\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php on line 378
 Request URL: /debug_kit/js/inject-iframe.js?1750779777
 Referer URL: http://localhost:8001/users/login?redirect=%2F
+2025-07-25 03:53:03 error: [Cake\Http\Exception\MissingControllerException] Controller class `Debug_kit` could not be found. in D:\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 335
+Exception Attributes: array (
+  'controller' => 'Debug_kit',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /debug_kit/js/inject-iframe.js?1750779777
+Referer URL: http://localhost:8001/
+2025-07-25 03:53:03 error: [Cake\Error\FatalErrorException] Fatal Error: Uncaught Cake\Error\FatalErrorException: [InvalidArgumentException] Cannot use `Cake\Error\ExceptionRenderer` as an `exceptionRenderer`. It must be an instance of `Cake\Error\ExceptionRendererInterface`. (D:\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php:126) in D:\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php:378
+Stack trace:
+#0 [internal function]: Cake\Error\ErrorTrap->handleError(256, '[InvalidArgumen...', 'D:\\Imaging.Data...', 378)
+#1 D:\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php(378): trigger_error('[InvalidArgumen...', 256)
+#2 D:\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php(242): Cake\Error\ExceptionTrap->logInternalError(Object(InvalidArgumentException))
+#3 [internal function]: Cake\Error\ExceptionTrap->handleException(Object(InvalidArgumentException))
+#4 {main}
+  thrown in D:\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php on line 378
+Request URL: /debug_kit/js/inject-iframe.js?1750779777
+Referer URL: http://localhost:8001/
+2025-07-25 03:53:03 error: [Cake\Http\Exception\MissingControllerException] Controller class `Img` could not be found. in D:\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 335
+Exception Attributes: array (
+  'controller' => 'Img',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /img/doctors/doctor-1.png
+Referer URL: http://localhost:8001/
+2025-07-25 03:53:03 error: [Cake\Error\FatalErrorException] Fatal Error: Uncaught Cake\Error\FatalErrorException: [InvalidArgumentException] Cannot use `Cake\Error\ExceptionRenderer` as an `exceptionRenderer`. It must be an instance of `Cake\Error\ExceptionRendererInterface`. (D:\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php:126) in D:\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php:378
+Stack trace:
+#0 [internal function]: Cake\Error\ErrorTrap->handleError(256, '[InvalidArgumen...', 'D:\\Imaging.Data...', 378)
+#1 D:\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php(378): trigger_error('[InvalidArgumen...', 256)
+#2 D:\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php(242): Cake\Error\ExceptionTrap->logInternalError(Object(InvalidArgumentException))
+#3 [internal function]: Cake\Error\ExceptionTrap->handleException(Object(InvalidArgumentException))
+#4 {main}
+  thrown in D:\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php on line 378
+Request URL: /img/doctors/doctor-1.png
+Referer URL: http://localhost:8001/
