@@ -9,7 +9,13 @@ class DoctorsController extends AppController {
 
     public function initialize(): void {
 		parent::initialize();
-               die('This controller is deprecated. Please use the new DoctorsController.');
+        }
+        public function beforeFilter(\Cake\Event\EventInterface $event): void
+        {
+            die('This controller is deprecated. Please use the new.');
+            parent::beforeFilter($event);
+
+            $this->Authentication->addUnauthenticatedActions(['onschedule']);
         }
 
 
