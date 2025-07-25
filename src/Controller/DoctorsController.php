@@ -12,7 +12,7 @@ class DoctorsController extends AppController {
         }
         public function beforeFilter(\Cake\Event\EventInterface $event): void
         {
-            logger('debug', 'DoctorsController beforeFilter called');
+            //logger('debug', 'DoctorsController beforeFilter called');
             parent::beforeFilter($event);
 
             $this->Authentication->addUnauthenticatedActions(['onschedule']);
