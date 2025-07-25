@@ -33,7 +33,6 @@ use Authentication\AuthenticationServiceProviderInterface;
 use Authentication\Middleware\AuthenticationMiddleware;
 use Cake\Routing\Router;
 use Psr\Http\Message\ServerRequestInterface;
-use Cake\Routing\RouteBuilder;
 
 /**
  * Application setup class.
@@ -62,12 +61,6 @@ class Application extends BaseApplication implements AuthenticationServiceProvid
         }
     }
 
-    public function routes(RouteBuilder $routes): void
-    {
-        // ✅ This line loads config/routes.php
-        require CONFIG . 'routes.php';
-    }
-
     /**
      * Setup the middleware queue your application will use.
      *
@@ -87,7 +80,7 @@ class Application extends BaseApplication implements AuthenticationServiceProvid
 
     public function getAuthenticationService(ServerRequestInterface $request): AuthenticationServiceInterface {
         $authenticationService = new AuthenticationService([
-            'unauthenticatedRedirect' => Router::url('/'),
+            'unauthenticatedRedirect' => Router::url('/doctors/onschedule'),
             //'queryParam' => 'redirect',
         ]);
 
