@@ -9,14 +9,7 @@ class DoctorsController extends AppController {
 
     public function initialize(): void {
 		parent::initialize();
-
-            if (method_exists($this, 'Authentication')) {
-                $this->Authentication->addUnauthenticatedActions(['onschedule']);
-            }
-
-            if (property_exists($this, 'Auth')) {
-                $this->Auth->allow(['onschedule']);
-            }
+               die('This controller is deprecated. Please use the new DoctorsController.');
         }
 
 
