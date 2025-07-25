@@ -9,13 +9,14 @@ class DoctorsController extends AppController {
 
     public function initialize(): void {
 		parent::initialize();
-        }
-        public function beforeFilter(\Cake\Event\EventInterface $event): void
-        {
-            //logger('debug', 'DoctorsController beforeFilter called');
-            parent::beforeFilter($event);
 
-            $this->Authentication->addUnauthenticatedActions(['onschedule']);
+            if (method_exists($this, 'Authentication')) {
+                $this->Authentication->addUnauthenticatedActions(['onschedule']);
+            }
+            
+            if (property_exists($this, 'Auth')) {
+                $this->Auth->allow(['onschedule']);
+            }
         }
 
 
