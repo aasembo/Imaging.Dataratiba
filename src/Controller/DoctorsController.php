@@ -13,10 +13,10 @@ class DoctorsController extends AppController {
             if (method_exists($this, 'Authentication')) {
                 $this->Authentication->addUnauthenticatedActions(['onschedule']);
             }
-            
+
             if (property_exists($this, 'Auth')) {
                 $this->Auth->allow(['onschedule']);
-            }
+            }
         }
 
 
