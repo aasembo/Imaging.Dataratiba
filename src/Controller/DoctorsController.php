@@ -2,7 +2,7 @@
 namespace App\Controller;
 use Cake\ORM\TableRegistry;
 use Cake\Cache\Cache;
-
+use Cake\Log\Log;
 
 
 class DoctorsController extends AppController {
@@ -11,6 +11,7 @@ class DoctorsController extends AppController {
 		parent::initialize();
         }
         public function beforeFilter(\Cake\Event\EventInterface $event): void{
+                Log::debug('beforeFilter hit: ' . $this->request->getParam('action'));
                 parent::beforeFilter($event);
 
                 $this->Authentication->addUnauthenticatedActions(['onschedule']);
