@@ -33,6 +33,7 @@ use Authentication\AuthenticationServiceProviderInterface;
 use Authentication\Middleware\AuthenticationMiddleware;
 use Cake\Routing\Router;
 use Psr\Http\Message\ServerRequestInterface;
+use Cake\Routing\RouteBuilder;
 
 /**
  * Application setup class.
@@ -59,6 +60,12 @@ class Application extends BaseApplication implements AuthenticationServiceProvid
                 (new TableLocator())->allowFallbackClass(false)
             );
         }
+    }
+
+    public function routes(RouteBuilder $routes): void
+    {
+        // ✅ This line loads config/routes.php
+        require CONFIG . 'routes.php';
     }
 
     /**
