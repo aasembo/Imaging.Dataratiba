@@ -79,10 +79,10 @@ class Application extends BaseApplication implements AuthenticationServiceProvid
         }
 
     public function getAuthenticationService(ServerRequestInterface $request): AuthenticationServiceInterface {
-        $authenticationService = new AuthenticationService([
-            'unauthenticatedRedirect' => Router::url('/doctors/onschedule'),
-            //'queryParam' => 'redirect',
-        ]);
+        // $authenticationService = new AuthenticationService([
+        //     'unauthenticatedRedirect' => Router::url('/doctors/onschedule'),
+        //     //'queryParam' => 'redirect',
+        // ]);
 
         // Load identifiers, ensure we check username and password fields
         $authenticationService->loadIdentifier('Authentication.Password', [
