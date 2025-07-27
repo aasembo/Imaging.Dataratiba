@@ -2,21 +2,24 @@
 namespace App\Controller;
 use Cake\ORM\TableRegistry;
 use Cake\Cache\Cache;
-
+use Cake\Log\Log;
 
 
 class DoctorsController extends AppController {
 
     public function initialize(): void {
 		parent::initialize();
+        $this->Authentication->addUnauthenticatedActions(['onschedule']);
         }
+        // public function beforeFilter(\Cake\Event\EventInterface $event): void{
+        //         Log::debug('beforeFilter hit: ' . $this->request->getParam('action'));
+        //         parent::beforeFilter($event);
 
-        public function beforeFilter(\Cake\Event\EventInterface $event): void
-        {
-            parent::beforeFilter($event);
+        //         $this->Authentication->addUnauthenticatedActions(['onschedule']);
 
-            $this->Authentication->addUnauthenticatedActions(['onschedule']);
-        }
+                
+        // }
+
 
 
     public function clearCache()

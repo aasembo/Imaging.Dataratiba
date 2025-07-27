@@ -1,0 +1,5 @@
+# Ignore everything in webroot/img/
+webroot/img/
+
+# Ignore temp folder at root
+/temp/

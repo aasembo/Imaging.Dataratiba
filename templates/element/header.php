@@ -23,6 +23,9 @@
                     <?= $this->Html->link('Users', ['controller' => 'Users', 'action' => 'index'], ['class' => 'nav-link text-light', 'escape' => false]) ?>
                 </li>
                 
+                <li class="nav-item">
+                    <?= $this->Html->link('Schedule', ['controller' => 'Doctors', 'action' => 'onschedule'], ['class' => 'nav-link text-light', 'escape' => false]) ?>
+                </li>
                 
                 <li class="nav-item">
                     <?= $this->Html->link('Procedures', ['controller' => 'Procedures', 'action' => 'index'], ['class' => 'nav-link text-light', 'escape' => false]) ?>
