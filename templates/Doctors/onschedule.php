@@ -158,6 +158,26 @@
 .owl-carousel .owl-nav button.owl-next:hover {
   background: #198f94;
 }
+@media screen and (max-width: 576px) {
+    .doctor-info{
+        display: block;
+    }
+    .owl-carousel img{
+        width: auto !important;
+    }
+    .doctor-det{
+        margin-left:0px;
+        flex:none;
+    }
+    .doctor-det p{
+        display: block;
+        text-align: left;
+        align-items: flex-start;
+    }
+    .doctor-det strong{
+        display: block;
+    }
+}
 </style>
 <div class="owl-carousel owl-theme">
     <div class="item">
