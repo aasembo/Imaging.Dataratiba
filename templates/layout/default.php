@@ -83,8 +83,9 @@
                 margin: 0,
                 responsiveClass: true,
                 dots: false,
-                autoplay: false,
-                autoplayTimeout: 5000,
+                autoplay: true,
+                autoplayHoverPause: true,
+                autoplaySpeed: 3000,
                 responsive: {
                   0: {
                     items: 1,
