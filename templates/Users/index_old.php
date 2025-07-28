@@ -14,7 +14,7 @@
                 <th scope="col">#</th>
                 <th scope="col">Username</th>
                 <th scope="col">Status</th>
-                <!-- <th scope="col">Created</th> -->
+                <th scope="col">Created</th>
                 <th scope="col">Action</th>
                 </tr>
             </thead>
@@ -35,10 +35,8 @@
                                     <lable class="badge badge-light">Inactive</label>
                                 <?php endif; ?>
                             </td>
-                            <!-- <td><?php //echo $user->created; ?></td> -->
+                            <td><?php echo $user->created; ?></td>
                             <td class="action">
-                                <?php echo $this->Html->link('', array('action' => 'update-password', $user->id), array('class' => 'bg-primary-light fa fa-key'))?>
-
                                 <?php echo $this->Html->link('', array('action' => 'edit', $user->id), array('class' => 'bg-primary-light fa fa-edit'))?>
                                 <?php echo $this->Html->link('', array('action' => 'delete', $user->id), array('class' => 'bg-danger-light fa fa-trash', 'onClick' => 'return confirm("Are you sure you want to delete this user?")'))?>
                             </td>

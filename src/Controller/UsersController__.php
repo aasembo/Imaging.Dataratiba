@@ -1,9 +1,5 @@
 <?php
 namespace App\Controller;
-// use Cake\Auth\DefaultPasswordHasher;
-use Authentication\PasswordHasher\DefaultPasswordHasher;
-
-
 class UsersController extends AppController {
 
     public function initialize(): void {
@@ -28,7 +24,10 @@ class UsersController extends AppController {
                     'action' => 'index',
                 ]);
 
-                return $this->redirect($redirect);
+                return $this->redirect([
+                    'controller' => 'Doctors',
+                    'action' => 'index',
+                ]);
             }
             else {
                 $this->Authentication->logout();
@@ -48,7 +47,7 @@ class UsersController extends AppController {
         // regardless of POST or GET, redirect if user is logged in
         if ($result && $result->isValid()) {
             $this->Authentication->logout();
-            return $this->redirect(['controller' => 'Users', 'action' => 'login']);
+            return $this->redirect('/');
         }
     }
 
@@ -113,45 +112,6 @@ class UsersController extends AppController {
         }
         $this->set(compact('user'));
     }
-
-    public function updatePassword($id = null)
-    {
-        if (empty($id)) {
-            $this->Flash->error(__('Invalid request.'));
-            return $this->redirect(['controller' => 'Users', 'action' => 'index']);
-        }
-
-        $user = $this->Users->get($id);
-
-        if ($this->request->is(['post', 'put'])) {
-            $data = $this->request->getData();
-
-            // Check if current password is correct
-            $hasher = new DefaultPasswordHasher();
-            if (!$hasher->check($data['current_password'], $user->password)) {
-                $this->Flash->error(__('Current password is incorrect.'));
-            } elseif ($data['new_password'] !== $data['confirm_password']) {
-                $this->Flash->error(__('New password and confirm password do not match.'));
-            } elseif (!preg_match('/^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[\W_]).{8,}$/', $data['new_password'])) {
-                $this->Flash->error(__('Password must be at least 8 characters and include uppercase, lowercase, number, and special character.'));
-            } else {
-                // Update password
-                $user = $this->Users->patchEntity($user, [
-                    'password' => $data['new_password']
-                ]);
-
-                if ($this->Users->save($user)) {
-                    $this->Flash->success(__('Password updated successfully.'));
-                    return $this->redirect(['action' => 'index']);
-                } else {
-                    $this->Flash->error(__('Error updating password.'));
-                }
-            }
-        }
-
-        $this->set(compact('user'));
-    }
-        
 
     public function delete($id = null) {
         if (empty($id)) {

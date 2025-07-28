@@ -23,18 +23,10 @@ class UsersTable extends Table {
 
             ])
             ->notEmptyString('username');
-            
+
         $validator
             ->requirePresence('password', 'create')
-            ->scalar('password')
-            ->minLength('password', 8, 'Password must be at least 8 characters long')
-            ->add('password', 'strongPassword', [
-                'rule' => function ($value, $context) {
-                    return (bool)preg_match('/^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[\W_]).+$/', $value);
-                },
-                'message' => 'Password must include uppercase, lowercase, number, and special character.'
-            ])
-            ->notEmptyString('password', 'Password is required');
+            ->notEmptyString('password');
 
         $validator
             ->requirePresence('status', 'create')

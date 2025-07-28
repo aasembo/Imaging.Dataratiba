@@ -11,8 +11,8 @@
                 'error' => '<div class="text-danger">{{content}}</div>'
             )
         ));?>
-            <?php echo $this->Form->control('username', array('label' => 'Username'))?>
-            <?php echo $this->Form->control('password', array('label' => 'Password', 'value' => ''))?>
+            <?php echo $this->Form->control('username', array('label' => 'Username')) ?>
+            <?php //echo $this->Form->control('password', array('label' => 'Password', 'value' => ''))?>
             <?php echo $this->Form->control('status', array('label' => 'Status', 'empty' => 'Select Status', 'type' => 'select', 'class' => 'form-control', 'options' => array('0' => 'No', '1' => 'Yes'), 'default' => 0))?>
             <?php echo $this->Form->button('Update', array('class' => 'themebtn'))?>
         <?php echo $this->Form->end();?>
