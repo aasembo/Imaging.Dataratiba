@@ -13,6 +13,7 @@
         ));?>
             <?php echo $this->Form->control('username', array('label' => 'Username'))?>
             <?php echo $this->Form->control('password', array('label' => 'Password'))?>
+            <?= $this->Form->control('confirm_password', ['type' => 'password', 'label' => 'Confirm Password']) ?>
             <?php echo $this->Form->control('status', array('label' => 'Status', 'empty' => 'Select Status', 'type' => 'select', 'class' => 'form-control', 'options' => array('0' => 'No', '1' => 'Yes'), 'default' => 0))?>
             <?php echo $this->Form->button('Add', array('class' => 'themebtn'))?>
         <?php echo $this->Form->end();?>

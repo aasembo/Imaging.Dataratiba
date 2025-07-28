@@ -68,18 +68,25 @@ class UsersController extends AppController {
         $this->set('title', 'Add User');
         $user = $this->Users->newEmptyEntity();
         if ($this->request->is(array('put', 'post'))) {
-            $user = $this->Users->patchEntity($user, $this->request->getData());
-            $save = $this->Users->save($user);
-            if ($save) {
-                $this->Flash->success(__('User created successfully.'));
-                $redirect = $this->request->getQuery('redirect', [
-                    'controller' => 'Users',
-                    'action' => 'index',
-                ]);
-                return $this->redirect($redirect);
-            }
-            else {
-                $this->Flash->error(__('Error adding user.'));
+            $data = $this->request->getData();
+            if (!preg_match('/^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[\W_]).{8,}$/', $data['password'])) {
+                $this->Flash->error(__('Password must be at least 8 characters and include uppercase, lowercase, number, and special character.'));
+            }elseif ($data['password'] !== $data['confirm_password']) {
+                $this->Flash->error(__('Password and confirm password do not match.'));
+            }else{
+                $user = $this->Users->patchEntity($user, $this->request->getData());
+                $save = $this->Users->save($user);
+                if ($save) {
+                    $this->Flash->success(__('User created successfully.'));
+                    $redirect = $this->request->getQuery('redirect', [
+                        'controller' => 'Users',
+                        'action' => 'index',
+                    ]);
+                    return $this->redirect($redirect);
+                }
+                else {
+                    $this->Flash->error(__('Error adding user.'));
+                }
             }
         }
         $this->set(compact('user'));
