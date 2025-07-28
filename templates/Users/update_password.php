@@ -1,7 +1,7 @@
 <div class="table_form">
     <div class="mt-5">
     <?php echo $this->Flash->render() ?>
-    <h1 class="">Change Password</h1>
+    <h1 class="">Update Password</h1>
         
         <?= $this->Form->create($user) ?>
 
