@@ -55,7 +55,7 @@ return function (RouteBuilder $routes): void {
          * its action called 'display', and we pass a param to select the view file
          * to use (in this case, templates/Pages/home.php)...
          */
-        die('This is a test');
+        //die('This is a test');
         $builder->connect('/', ['controller' => 'Doctors', 'action' => 'onschedule']);
 
         $builder->connect('/admin/clear-cache', ['controller' => 'Admin', 'action' => 'clearCache']);
