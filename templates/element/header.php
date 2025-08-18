@@ -30,6 +30,9 @@
                 <li class="nav-item">
                     <?= $this->Html->link('Procedures', ['controller' => 'Procedures', 'action' => 'index'], ['class' => 'nav-link text-light', 'escape' => false]) ?>
                 </li>
+                 <li class="nav-item">
+                    <?= $this->Html->link('Search', ['controller' => 'PdfSearch', 'action' => 'index'], ['class' => 'nav-link text-light', 'escape' => false]) ?>
+                </li>
         </ul>
         <a href="" class="nav-item">
                     <?= $this->Html->link(' Logout', ['controller' => 'Users', 'action' => 'logout'], ['class' => ' themebtn fa fa-sign-out', 'escape' => false]) ?>

@@ -63435,3 +63435,1388 @@ Stack trace:
   thrown in D:\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php on line 378
 Request URL: /img/doctors/doctor-1.png
 Referer URL: http://localhost:8001/
+2025-08-18 15:53:47 error: [Cake\Cache\Exception\InvalidArgumentException] The `_cake_model_` cache configuration does not exist. in D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Cache\Cache.php on line 145
+Request URL: /
+2025-08-18 15:53:47 error: [Cake\Error\FatalErrorException] Fatal Error: Uncaught Cake\Error\FatalErrorException: [InvalidArgumentException] Cannot use `Cake\Error\ExceptionRenderer` as an `exceptionRenderer`. It must be an instance of `Cake\Error\ExceptionRendererInterface`. (D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php:126) in D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php:378
+Stack trace:
+#0 [internal function]: Cake\Error\ErrorTrap->handleError(256, '[InvalidArgumen...', 'D:\\Arpit\\test\\I...', 378)
+#1 D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php(378): trigger_error('[InvalidArgumen...', 256)
+#2 D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php(242): Cake\Error\ExceptionTrap->logInternalError(Object(InvalidArgumentException))
+#3 [internal function]: Cake\Error\ExceptionTrap->handleException(Object(InvalidArgumentException))
+#4 {main}
+  thrown in D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php on line 378
+Request URL: /
+2025-08-18 15:54:50 error: [Cake\Cache\Exception\InvalidArgumentException] The `_cake_model_` cache configuration does not exist. in D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Cache\Cache.php on line 145
+Request URL: /
+2025-08-18 15:54:50 error: [Cake\Error\FatalErrorException] Fatal Error: Uncaught Cake\Error\FatalErrorException: [InvalidArgumentException] Cannot use `Cake\Error\ExceptionRenderer` as an `exceptionRenderer`. It must be an instance of `Cake\Error\ExceptionRendererInterface`. (D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php:126) in D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php:378
+Stack trace:
+#0 [internal function]: Cake\Error\ErrorTrap->handleError(256, '[InvalidArgumen...', 'D:\\Arpit\\test\\I...', 378)
+#1 D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php(378): trigger_error('[InvalidArgumen...', 256)
+#2 D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php(242): Cake\Error\ExceptionTrap->logInternalError(Object(InvalidArgumentException))
+#3 [internal function]: Cake\Error\ExceptionTrap->handleException(Object(InvalidArgumentException))
+#4 {main}
+  thrown in D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php on line 378
+Request URL: /
+2025-08-18 15:55:14 error: [Cake\Cache\Exception\InvalidArgumentException] The `_cake_model_` cache configuration does not exist. in D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Cache\Cache.php on line 145
+Request URL: /
+2025-08-18 15:55:14 error: [Cake\Error\FatalErrorException] Fatal Error: Uncaught Cake\Error\FatalErrorException: [InvalidArgumentException] Cannot use `Cake\Error\ExceptionRenderer` as an `exceptionRenderer`. It must be an instance of `Cake\Error\ExceptionRendererInterface`. (D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php:126) in D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php:378
+Stack trace:
+#0 [internal function]: Cake\Error\ErrorTrap->handleError(256, '[InvalidArgumen...', 'D:\\Arpit\\test\\I...', 378)
+#1 D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php(378): trigger_error('[InvalidArgumen...', 256)
+#2 D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php(242): Cake\Error\ExceptionTrap->logInternalError(Object(InvalidArgumentException))
+#3 [internal function]: Cake\Error\ExceptionTrap->handleException(Object(InvalidArgumentException))
+#4 {main}
+  thrown in D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php on line 378
+Request URL: /
+2025-08-18 15:55:24 error: [Cake\Cache\Exception\InvalidArgumentException] The `_cake_model_` cache configuration does not exist. in D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Cache\Cache.php on line 145
+Request URL: /
+2025-08-18 15:55:24 error: [Cake\Error\FatalErrorException] Fatal Error: Uncaught Cake\Error\FatalErrorException: [InvalidArgumentException] Cannot use `Cake\Error\ExceptionRenderer` as an `exceptionRenderer`. It must be an instance of `Cake\Error\ExceptionRendererInterface`. (D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php:126) in D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php:378
+Stack trace:
+#0 [internal function]: Cake\Error\ErrorTrap->handleError(256, '[InvalidArgumen...', 'D:\\Arpit\\test\\I...', 378)
+#1 D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php(378): trigger_error('[InvalidArgumen...', 256)
+#2 D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php(242): Cake\Error\ExceptionTrap->logInternalError(Object(InvalidArgumentException))
+#3 [internal function]: Cake\Error\ExceptionTrap->handleException(Object(InvalidArgumentException))
+#4 {main}
+  thrown in D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php on line 378
+Request URL: /
+2025-08-18 15:56:52 error: [Cake\Cache\Exception\InvalidArgumentException] The `_cake_model_` cache configuration does not exist. in D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Cache\Cache.php on line 145
+Request URL: /
+2025-08-18 15:56:52 error: [Cake\Error\FatalErrorException] Fatal Error: Uncaught Cake\Error\FatalErrorException: [InvalidArgumentException] Cannot use `Cake\Error\ExceptionRenderer` as an `exceptionRenderer`. It must be an instance of `Cake\Error\ExceptionRendererInterface`. (D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php:126) in D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php:378
+Stack trace:
+#0 [internal function]: Cake\Error\ErrorTrap->handleError(256, '[InvalidArgumen...', 'D:\\Arpit\\test\\I...', 378)
+#1 D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php(378): trigger_error('[InvalidArgumen...', 256)
+#2 D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php(242): Cake\Error\ExceptionTrap->logInternalError(Object(InvalidArgumentException))
+#3 [internal function]: Cake\Error\ExceptionTrap->handleException(Object(InvalidArgumentException))
+#4 {main}
+  thrown in D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php on line 378
+Request URL: /
+2025-08-18 15:58:27 error: [Cake\Http\Exception\MissingControllerException] Controller class `Debug_kit` could not be found. in D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 335
+Exception Attributes: array (
+  'controller' => 'Debug_kit',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /debug_kit/js/inject-iframe.js?1755280359
+Referer URL: http://localhost:8765/
+2025-08-18 15:58:27 error: [Cake\Error\FatalErrorException] Fatal Error: Uncaught Cake\Error\FatalErrorException: [InvalidArgumentException] Cannot use `Cake\Error\ExceptionRenderer` as an `exceptionRenderer`. It must be an instance of `Cake\Error\ExceptionRendererInterface`. (D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php:126) in D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php:378
+Stack trace:
+#0 [internal function]: Cake\Error\ErrorTrap->handleError(256, '[InvalidArgumen...', 'D:\\Arpit\\test\\I...', 378)
+#1 D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php(378): trigger_error('[InvalidArgumen...', 256)
+#2 D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php(242): Cake\Error\ExceptionTrap->logInternalError(Object(InvalidArgumentException))
+#3 [internal function]: Cake\Error\ExceptionTrap->handleException(Object(InvalidArgumentException))
+#4 {main}
+  thrown in D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php on line 378
+Request URL: /debug_kit/js/inject-iframe.js?1755280359
+Referer URL: http://localhost:8765/
+2025-08-18 15:58:27 error: [Cake\Http\Exception\MissingControllerException] Controller class `Img` could not be found. in D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 335
+Exception Attributes: array (
+  'controller' => 'Img',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /img/doctors/doctor-1.png
+Referer URL: http://localhost:8765/
+2025-08-18 15:58:27 error: [Cake\Error\FatalErrorException] Fatal Error: Uncaught Cake\Error\FatalErrorException: [InvalidArgumentException] Cannot use `Cake\Error\ExceptionRenderer` as an `exceptionRenderer`. It must be an instance of `Cake\Error\ExceptionRendererInterface`. (D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php:126) in D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php:378
+Stack trace:
+#0 [internal function]: Cake\Error\ErrorTrap->handleError(256, '[InvalidArgumen...', 'D:\\Arpit\\test\\I...', 378)
+#1 D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php(378): trigger_error('[InvalidArgumen...', 256)
+#2 D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php(242): Cake\Error\ExceptionTrap->logInternalError(Object(InvalidArgumentException))
+#3 [internal function]: Cake\Error\ExceptionTrap->handleException(Object(InvalidArgumentException))
+#4 {main}
+  thrown in D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php on line 378
+Request URL: /img/doctors/doctor-1.png
+Referer URL: http://localhost:8765/
+2025-08-18 15:58:35 error: [Cake\Http\Exception\MissingControllerException] Controller class `Debug_kit` could not be found. in D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 335
+Exception Attributes: array (
+  'controller' => 'Debug_kit',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /debug_kit/js/inject-iframe.js?1755280359
+Referer URL: http://localhost:8765/users/login?redirect=%2F
+2025-08-18 15:58:35 error: [Cake\Error\FatalErrorException] Fatal Error: Uncaught Cake\Error\FatalErrorException: [InvalidArgumentException] Cannot use `Cake\Error\ExceptionRenderer` as an `exceptionRenderer`. It must be an instance of `Cake\Error\ExceptionRendererInterface`. (D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php:126) in D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php:378
+Stack trace:
+#0 [internal function]: Cake\Error\ErrorTrap->handleError(256, '[InvalidArgumen...', 'D:\\Arpit\\test\\I...', 378)
+#1 D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php(378): trigger_error('[InvalidArgumen...', 256)
+#2 D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php(242): Cake\Error\ExceptionTrap->logInternalError(Object(InvalidArgumentException))
+#3 [internal function]: Cake\Error\ExceptionTrap->handleException(Object(InvalidArgumentException))
+#4 {main}
+  thrown in D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php on line 378
+Request URL: /debug_kit/js/inject-iframe.js?1755280359
+Referer URL: http://localhost:8765/users/login?redirect=%2F
+2025-08-18 15:58:37 error: [Cake\Http\Exception\MissingControllerException] Controller class `Debug_kit` could not be found. in D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 335
+Exception Attributes: array (
+  'controller' => 'Debug_kit',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /debug_kit/js/inject-iframe.js?1755280359
+Referer URL: http://localhost:8765/users/login?redirect=%2F
+2025-08-18 15:58:37 error: [Cake\Error\FatalErrorException] Fatal Error: Uncaught Cake\Error\FatalErrorException: [InvalidArgumentException] Cannot use `Cake\Error\ExceptionRenderer` as an `exceptionRenderer`. It must be an instance of `Cake\Error\ExceptionRendererInterface`. (D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php:126) in D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php:378
+Stack trace:
+#0 [internal function]: Cake\Error\ErrorTrap->handleError(256, '[InvalidArgumen...', 'D:\\Arpit\\test\\I...', 378)
+#1 D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php(378): trigger_error('[InvalidArgumen...', 256)
+#2 D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php(242): Cake\Error\ExceptionTrap->logInternalError(Object(InvalidArgumentException))
+#3 [internal function]: Cake\Error\ExceptionTrap->handleException(Object(InvalidArgumentException))
+#4 {main}
+  thrown in D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php on line 378
+Request URL: /debug_kit/js/inject-iframe.js?1755280359
+Referer URL: http://localhost:8765/users/login?redirect=%2F
+2025-08-18 15:58:52 error: [Cake\Http\Exception\MissingControllerException] Controller class `Debug_kit` could not be found. in D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 335
+Exception Attributes: array (
+  'controller' => 'Debug_kit',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /debug_kit/js/inject-iframe.js?1755280359
+Referer URL: http://localhost:8765/
+2025-08-18 15:58:52 error: [Cake\Error\FatalErrorException] Fatal Error: Uncaught Cake\Error\FatalErrorException: [InvalidArgumentException] Cannot use `Cake\Error\ExceptionRenderer` as an `exceptionRenderer`. It must be an instance of `Cake\Error\ExceptionRendererInterface`. (D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php:126) in D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php:378
+Stack trace:
+#0 [internal function]: Cake\Error\ErrorTrap->handleError(256, '[InvalidArgumen...', 'D:\\Arpit\\test\\I...', 378)
+#1 D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php(378): trigger_error('[InvalidArgumen...', 256)
+#2 D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php(242): Cake\Error\ExceptionTrap->logInternalError(Object(InvalidArgumentException))
+#3 [internal function]: Cake\Error\ExceptionTrap->handleException(Object(InvalidArgumentException))
+#4 {main}
+  thrown in D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php on line 378
+Request URL: /debug_kit/js/inject-iframe.js?1755280359
+Referer URL: http://localhost:8765/
+2025-08-18 15:58:52 error: [Cake\Http\Exception\MissingControllerException] Controller class `Img` could not be found. in D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 335
+Exception Attributes: array (
+  'controller' => 'Img',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /img/doctors/doctor-1.png
+Referer URL: http://localhost:8765/
+2025-08-18 15:58:52 error: [Cake\Error\FatalErrorException] Fatal Error: Uncaught Cake\Error\FatalErrorException: [InvalidArgumentException] Cannot use `Cake\Error\ExceptionRenderer` as an `exceptionRenderer`. It must be an instance of `Cake\Error\ExceptionRendererInterface`. (D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php:126) in D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php:378
+Stack trace:
+#0 [internal function]: Cake\Error\ErrorTrap->handleError(256, '[InvalidArgumen...', 'D:\\Arpit\\test\\I...', 378)
+#1 D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php(378): trigger_error('[InvalidArgumen...', 256)
+#2 D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php(242): Cake\Error\ExceptionTrap->logInternalError(Object(InvalidArgumentException))
+#3 [internal function]: Cake\Error\ExceptionTrap->handleException(Object(InvalidArgumentException))
+#4 {main}
+  thrown in D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php on line 378
+Request URL: /img/doctors/doctor-1.png
+Referer URL: http://localhost:8765/
+2025-08-18 16:01:39 error: [Cake\Http\Exception\MissingControllerException] Controller class `Debug_kit` could not be found. in D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 335
+Exception Attributes: array (
+  'controller' => 'Debug_kit',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /debug_kit/js/inject-iframe.js?1755280359
+Referer URL: http://localhost:8765/
+2025-08-18 16:01:39 error: [Cake\Error\FatalErrorException] Fatal Error: Uncaught Cake\Error\FatalErrorException: [InvalidArgumentException] Cannot use `Cake\Error\ExceptionRenderer` as an `exceptionRenderer`. It must be an instance of `Cake\Error\ExceptionRendererInterface`. (D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php:126) in D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php:378
+Stack trace:
+#0 [internal function]: Cake\Error\ErrorTrap->handleError(256, '[InvalidArgumen...', 'D:\\Arpit\\test\\I...', 378)
+#1 D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php(378): trigger_error('[InvalidArgumen...', 256)
+#2 D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php(242): Cake\Error\ExceptionTrap->logInternalError(Object(InvalidArgumentException))
+#3 [internal function]: Cake\Error\ExceptionTrap->handleException(Object(InvalidArgumentException))
+#4 {main}
+  thrown in D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php on line 378
+Request URL: /debug_kit/js/inject-iframe.js?1755280359
+Referer URL: http://localhost:8765/
+2025-08-18 16:01:39 error: [Cake\Http\Exception\MissingControllerException] Controller class `Img` could not be found. in D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 335
+Exception Attributes: array (
+  'controller' => 'Img',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /img/doctors/doctor-1.png
+Referer URL: http://localhost:8765/
+2025-08-18 16:01:39 error: [Cake\Error\FatalErrorException] Fatal Error: Uncaught Cake\Error\FatalErrorException: [InvalidArgumentException] Cannot use `Cake\Error\ExceptionRenderer` as an `exceptionRenderer`. It must be an instance of `Cake\Error\ExceptionRendererInterface`. (D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php:126) in D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php:378
+Stack trace:
+#0 [internal function]: Cake\Error\ErrorTrap->handleError(256, '[InvalidArgumen...', 'D:\\Arpit\\test\\I...', 378)
+#1 D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php(378): trigger_error('[InvalidArgumen...', 256)
+#2 D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php(242): Cake\Error\ExceptionTrap->logInternalError(Object(InvalidArgumentException))
+#3 [internal function]: Cake\Error\ExceptionTrap->handleException(Object(InvalidArgumentException))
+#4 {main}
+  thrown in D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php on line 378
+Request URL: /img/doctors/doctor-1.png
+Referer URL: http://localhost:8765/
+2025-08-18 16:01:42 error: [Cake\Http\Exception\MissingControllerException] Controller class `PdfSearch` could not be found. in D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 335
+Exception Attributes: array (
+  'controller' => 'PdfSearch',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /pdf-search/search
+Referer URL: http://localhost:8765/
+2025-08-18 16:01:42 error: [Cake\Error\FatalErrorException] Fatal Error: Uncaught Cake\Error\FatalErrorException: [InvalidArgumentException] Cannot use `Cake\Error\ExceptionRenderer` as an `exceptionRenderer`. It must be an instance of `Cake\Error\ExceptionRendererInterface`. (D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php:126) in D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php:378
+Stack trace:
+#0 [internal function]: Cake\Error\ErrorTrap->handleError(256, '[InvalidArgumen...', 'D:\\Arpit\\test\\I...', 378)
+#1 D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php(378): trigger_error('[InvalidArgumen...', 256)
+#2 D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php(242): Cake\Error\ExceptionTrap->logInternalError(Object(InvalidArgumentException))
+#3 [internal function]: Cake\Error\ExceptionTrap->handleException(Object(InvalidArgumentException))
+#4 {main}
+  thrown in D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php on line 378
+Request URL: /pdf-search/search
+Referer URL: http://localhost:8765/
+2025-08-18 16:01:54 error: [Cake\Http\Exception\MissingControllerException] Controller class `PdfSearch` could not be found. in D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 335
+Exception Attributes: array (
+  'controller' => 'PdfSearch',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /pdf-search/search
+Referer URL: http://localhost:8765/
+2025-08-18 16:01:54 error: [Cake\Error\FatalErrorException] Fatal Error: Uncaught Cake\Error\FatalErrorException: [InvalidArgumentException] Cannot use `Cake\Error\ExceptionRenderer` as an `exceptionRenderer`. It must be an instance of `Cake\Error\ExceptionRendererInterface`. (D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php:126) in D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php:378
+Stack trace:
+#0 [internal function]: Cake\Error\ErrorTrap->handleError(256, '[InvalidArgumen...', 'D:\\Arpit\\test\\I...', 378)
+#1 D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php(378): trigger_error('[InvalidArgumen...', 256)
+#2 D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php(242): Cake\Error\ExceptionTrap->logInternalError(Object(InvalidArgumentException))
+#3 [internal function]: Cake\Error\ExceptionTrap->handleException(Object(InvalidArgumentException))
+#4 {main}
+  thrown in D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php on line 378
+Request URL: /pdf-search/search
+Referer URL: http://localhost:8765/
+2025-08-18 16:01:57 error: [Cake\Http\Exception\MissingControllerException] Controller class `Debug_kit` could not be found. in D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 335
+Exception Attributes: array (
+  'controller' => 'Debug_kit',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /debug_kit/js/inject-iframe.js?1755280359
+Referer URL: http://localhost:8765/procedures
+2025-08-18 16:01:57 error: [Cake\Error\FatalErrorException] Fatal Error: Uncaught Cake\Error\FatalErrorException: [InvalidArgumentException] Cannot use `Cake\Error\ExceptionRenderer` as an `exceptionRenderer`. It must be an instance of `Cake\Error\ExceptionRendererInterface`. (D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php:126) in D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php:378
+Stack trace:
+#0 [internal function]: Cake\Error\ErrorTrap->handleError(256, '[InvalidArgumen...', 'D:\\Arpit\\test\\I...', 378)
+#1 D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php(378): trigger_error('[InvalidArgumen...', 256)
+#2 D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php(242): Cake\Error\ExceptionTrap->logInternalError(Object(InvalidArgumentException))
+#3 [internal function]: Cake\Error\ExceptionTrap->handleException(Object(InvalidArgumentException))
+#4 {main}
+  thrown in D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php on line 378
+Request URL: /debug_kit/js/inject-iframe.js?1755280359
+Referer URL: http://localhost:8765/procedures
+2025-08-18 16:01:59 error: [Cake\Http\Exception\MissingControllerException] Controller class `PdfSearch` could not be found. in D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 335
+Exception Attributes: array (
+  'controller' => 'PdfSearch',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /pdf-search/search
+Referer URL: http://localhost:8765/procedures
+2025-08-18 16:01:59 error: [Cake\Error\FatalErrorException] Fatal Error: Uncaught Cake\Error\FatalErrorException: [InvalidArgumentException] Cannot use `Cake\Error\ExceptionRenderer` as an `exceptionRenderer`. It must be an instance of `Cake\Error\ExceptionRendererInterface`. (D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php:126) in D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php:378
+Stack trace:
+#0 [internal function]: Cake\Error\ErrorTrap->handleError(256, '[InvalidArgumen...', 'D:\\Arpit\\test\\I...', 378)
+#1 D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php(378): trigger_error('[InvalidArgumen...', 256)
+#2 D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php(242): Cake\Error\ExceptionTrap->logInternalError(Object(InvalidArgumentException))
+#3 [internal function]: Cake\Error\ExceptionTrap->handleException(Object(InvalidArgumentException))
+#4 {main}
+  thrown in D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php on line 378
+Request URL: /pdf-search/search
+Referer URL: http://localhost:8765/procedures
+2025-08-18 16:02:55 error: [Cake\Http\Exception\MissingControllerException] Controller class `PdfSearch` could not be found. in D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 335
+Exception Attributes: array (
+  'controller' => 'PdfSearch',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /pdf-search/search
+2025-08-18 16:02:55 error: [Cake\Error\FatalErrorException] Fatal Error: Uncaught Cake\Error\FatalErrorException: [InvalidArgumentException] Cannot use `Cake\Error\ExceptionRenderer` as an `exceptionRenderer`. It must be an instance of `Cake\Error\ExceptionRendererInterface`. (D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php:126) in D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php:378
+Stack trace:
+#0 [internal function]: Cake\Error\ErrorTrap->handleError(256, '[InvalidArgumen...', 'D:\\Arpit\\test\\I...', 378)
+#1 D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php(378): trigger_error('[InvalidArgumen...', 256)
+#2 D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php(242): Cake\Error\ExceptionTrap->logInternalError(Object(InvalidArgumentException))
+#3 [internal function]: Cake\Error\ExceptionTrap->handleException(Object(InvalidArgumentException))
+#4 {main}
+  thrown in D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php on line 378
+Request URL: /pdf-search/search
+2025-08-18 16:02:57 error: [Cake\Http\Exception\MissingControllerException] Controller class `PdfSearch` could not be found. in D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 335
+Exception Attributes: array (
+  'controller' => 'PdfSearch',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /pdf-search/search
+2025-08-18 16:02:57 error: [Cake\Error\FatalErrorException] Fatal Error: Uncaught Cake\Error\FatalErrorException: [InvalidArgumentException] Cannot use `Cake\Error\ExceptionRenderer` as an `exceptionRenderer`. It must be an instance of `Cake\Error\ExceptionRendererInterface`. (D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php:126) in D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php:378
+Stack trace:
+#0 [internal function]: Cake\Error\ErrorTrap->handleError(256, '[InvalidArgumen...', 'D:\\Arpit\\test\\I...', 378)
+#1 D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php(378): trigger_error('[InvalidArgumen...', 256)
+#2 D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php(242): Cake\Error\ExceptionTrap->logInternalError(Object(InvalidArgumentException))
+#3 [internal function]: Cake\Error\ExceptionTrap->handleException(Object(InvalidArgumentException))
+#4 {main}
+  thrown in D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php on line 378
+Request URL: /pdf-search/search
+2025-08-18 16:04:52 warning: Undefined variable $title
+Request URL: /pdf-search/search
+2025-08-18 16:04:52 error: [Cake\Http\Exception\MissingControllerException] Controller class `Debug_kit` could not be found. in D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 335
+Exception Attributes: array (
+  'controller' => 'Debug_kit',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /debug_kit/js/inject-iframe.js?1755280359
+Referer URL: http://localhost:8765/pdf-search/search
+2025-08-18 16:04:52 error: [Cake\Error\FatalErrorException] Fatal Error: Uncaught Cake\Error\FatalErrorException: [InvalidArgumentException] Cannot use `Cake\Error\ExceptionRenderer` as an `exceptionRenderer`. It must be an instance of `Cake\Error\ExceptionRendererInterface`. (D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php:126) in D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php:378
+Stack trace:
+#0 [internal function]: Cake\Error\ErrorTrap->handleError(256, '[InvalidArgumen...', 'D:\\Arpit\\test\\I...', 378)
+#1 D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php(378): trigger_error('[InvalidArgumen...', 256)
+#2 D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php(242): Cake\Error\ExceptionTrap->logInternalError(Object(InvalidArgumentException))
+#3 [internal function]: Cake\Error\ExceptionTrap->handleException(Object(InvalidArgumentException))
+#4 {main}
+  thrown in D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php on line 378
+Request URL: /debug_kit/js/inject-iframe.js?1755280359
+Referer URL: http://localhost:8765/pdf-search/search
+2025-08-18 16:05:03 warning: Undefined variable $title
+Request URL: /pdf-search/search
+2025-08-18 16:05:03 error: [Cake\Http\Exception\MissingControllerException] Controller class `Debug_kit` could not be found. in D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 335
+Exception Attributes: array (
+  'controller' => 'Debug_kit',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /debug_kit/js/inject-iframe.js?1755280359
+Referer URL: http://localhost:8765/pdf-search/search
+2025-08-18 16:05:03 error: [Cake\Error\FatalErrorException] Fatal Error: Uncaught Cake\Error\FatalErrorException: [InvalidArgumentException] Cannot use `Cake\Error\ExceptionRenderer` as an `exceptionRenderer`. It must be an instance of `Cake\Error\ExceptionRendererInterface`. (D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php:126) in D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php:378
+Stack trace:
+#0 [internal function]: Cake\Error\ErrorTrap->handleError(256, '[InvalidArgumen...', 'D:\\Arpit\\test\\I...', 378)
+#1 D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php(378): trigger_error('[InvalidArgumen...', 256)
+#2 D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php(242): Cake\Error\ExceptionTrap->logInternalError(Object(InvalidArgumentException))
+#3 [internal function]: Cake\Error\ExceptionTrap->handleException(Object(InvalidArgumentException))
+#4 {main}
+  thrown in D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php on line 378
+Request URL: /debug_kit/js/inject-iframe.js?1755280359
+Referer URL: http://localhost:8765/pdf-search/search
+2025-08-18 16:13:54 error: [Cake\Http\Exception\MissingControllerException] Controller class `Debug_kit` could not be found. in D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 335
+Exception Attributes: array (
+  'controller' => 'Debug_kit',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /debug_kit/js/inject-iframe.js?1755280359
+Referer URL: http://localhost:8765/announcements
+2025-08-18 16:13:54 error: [Cake\Error\FatalErrorException] Fatal Error: Uncaught Cake\Error\FatalErrorException: [InvalidArgumentException] Cannot use `Cake\Error\ExceptionRenderer` as an `exceptionRenderer`. It must be an instance of `Cake\Error\ExceptionRendererInterface`. (D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php:126) in D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php:378
+Stack trace:
+#0 [internal function]: Cake\Error\ErrorTrap->handleError(256, '[InvalidArgumen...', 'D:\\Arpit\\test\\I...', 378)
+#1 D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php(378): trigger_error('[InvalidArgumen...', 256)
+#2 D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php(242): Cake\Error\ExceptionTrap->logInternalError(Object(InvalidArgumentException))
+#3 [internal function]: Cake\Error\ExceptionTrap->handleException(Object(InvalidArgumentException))
+#4 {main}
+  thrown in D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php on line 378
+Request URL: /debug_kit/js/inject-iframe.js?1755280359
+Referer URL: http://localhost:8765/announcements
+2025-08-18 16:14:18 error: [Cake\Http\Exception\MissingControllerException] Controller class `Debug_kit` could not be found. in D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 335
+Exception Attributes: array (
+  'controller' => 'Debug_kit',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /debug_kit/js/inject-iframe.js?1755280359
+Referer URL: http://localhost:8765/pdf-search/search
+2025-08-18 16:14:18 error: [Cake\Error\FatalErrorException] Fatal Error: Uncaught Cake\Error\FatalErrorException: [InvalidArgumentException] Cannot use `Cake\Error\ExceptionRenderer` as an `exceptionRenderer`. It must be an instance of `Cake\Error\ExceptionRendererInterface`. (D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php:126) in D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php:378
+Stack trace:
+#0 [internal function]: Cake\Error\ErrorTrap->handleError(256, '[InvalidArgumen...', 'D:\\Arpit\\test\\I...', 378)
+#1 D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php(378): trigger_error('[InvalidArgumen...', 256)
+#2 D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php(242): Cake\Error\ExceptionTrap->logInternalError(Object(InvalidArgumentException))
+#3 [internal function]: Cake\Error\ExceptionTrap->handleException(Object(InvalidArgumentException))
+#4 {main}
+  thrown in D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php on line 378
+Request URL: /debug_kit/js/inject-iframe.js?1755280359
+Referer URL: http://localhost:8765/pdf-search/search
+2025-08-18 16:17:10 error: [Cake\Http\Exception\MissingControllerException] Controller class `Debug_kit` could not be found. in D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 335
+Exception Attributes: array (
+  'controller' => 'Debug_kit',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /debug_kit/js/inject-iframe.js?1755280359
+Referer URL: http://localhost:8765/pdf-search/search
+2025-08-18 16:17:10 error: [Cake\Error\FatalErrorException] Fatal Error: Uncaught Cake\Error\FatalErrorException: [InvalidArgumentException] Cannot use `Cake\Error\ExceptionRenderer` as an `exceptionRenderer`. It must be an instance of `Cake\Error\ExceptionRendererInterface`. (D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php:126) in D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php:378
+Stack trace:
+#0 [internal function]: Cake\Error\ErrorTrap->handleError(256, '[InvalidArgumen...', 'D:\\Arpit\\test\\I...', 378)
+#1 D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php(378): trigger_error('[InvalidArgumen...', 256)
+#2 D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php(242): Cake\Error\ExceptionTrap->logInternalError(Object(InvalidArgumentException))
+#3 [internal function]: Cake\Error\ExceptionTrap->handleException(Object(InvalidArgumentException))
+#4 {main}
+  thrown in D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php on line 378
+Request URL: /debug_kit/js/inject-iframe.js?1755280359
+Referer URL: http://localhost:8765/pdf-search/search
+2025-08-18 16:17:55 error: [Cake\Http\Exception\MissingControllerException] Controller class `Debug_kit` could not be found. in D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 335
+Exception Attributes: array (
+  'controller' => 'Debug_kit',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /debug_kit/js/inject-iframe.js?1755280359
+Referer URL: http://localhost:8765/pdf-search/search?keyword=urdu
+2025-08-18 16:17:55 error: [Cake\Error\FatalErrorException] Fatal Error: Uncaught Cake\Error\FatalErrorException: [InvalidArgumentException] Cannot use `Cake\Error\ExceptionRenderer` as an `exceptionRenderer`. It must be an instance of `Cake\Error\ExceptionRendererInterface`. (D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php:126) in D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php:378
+Stack trace:
+#0 [internal function]: Cake\Error\ErrorTrap->handleError(256, '[InvalidArgumen...', 'D:\\Arpit\\test\\I...', 378)
+#1 D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php(378): trigger_error('[InvalidArgumen...', 256)
+#2 D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php(242): Cake\Error\ExceptionTrap->logInternalError(Object(InvalidArgumentException))
+#3 [internal function]: Cake\Error\ExceptionTrap->handleException(Object(InvalidArgumentException))
+#4 {main}
+  thrown in D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php on line 378
+Request URL: /debug_kit/js/inject-iframe.js?1755280359
+Referer URL: http://localhost:8765/pdf-search/search?keyword=urdu
+2025-08-18 16:18:04 error: [Cake\Http\Exception\MissingControllerException] Controller class `.wellKnown` could not be found. in D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 335
+Exception Attributes: array (
+  'controller' => '.wellKnown',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /.well-known/appspecific/com.chrome.devtools.json
+2025-08-18 16:18:04 error: [Cake\Error\FatalErrorException] Fatal Error: Uncaught Cake\Error\FatalErrorException: [InvalidArgumentException] Cannot use `Cake\Error\ExceptionRenderer` as an `exceptionRenderer`. It must be an instance of `Cake\Error\ExceptionRendererInterface`. (D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php:126) in D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php:378
+Stack trace:
+#0 [internal function]: Cake\Error\ErrorTrap->handleError(256, '[InvalidArgumen...', 'D:\\Arpit\\test\\I...', 378)
+#1 D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php(378): trigger_error('[InvalidArgumen...', 256)
+#2 D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php(242): Cake\Error\ExceptionTrap->logInternalError(Object(InvalidArgumentException))
+#3 [internal function]: Cake\Error\ExceptionTrap->handleException(Object(InvalidArgumentException))
+#4 {main}
+  thrown in D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php on line 378
+Request URL: /.well-known/appspecific/com.chrome.devtools.json
+2025-08-18 16:18:54 error: [Cake\Http\Exception\MissingControllerException] Controller class `Debug_kit` could not be found. in D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 335
+Exception Attributes: array (
+  'controller' => 'Debug_kit',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /debug_kit/js/inject-iframe.js?1755280359
+Referer URL: http://localhost:8765/pdf-search/search?keyword=urdu
+2025-08-18 16:18:54 error: [Cake\Error\FatalErrorException] Fatal Error: Uncaught Cake\Error\FatalErrorException: [InvalidArgumentException] Cannot use `Cake\Error\ExceptionRenderer` as an `exceptionRenderer`. It must be an instance of `Cake\Error\ExceptionRendererInterface`. (D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php:126) in D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php:378
+Stack trace:
+#0 [internal function]: Cake\Error\ErrorTrap->handleError(256, '[InvalidArgumen...', 'D:\\Arpit\\test\\I...', 378)
+#1 D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php(378): trigger_error('[InvalidArgumen...', 256)
+#2 D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php(242): Cake\Error\ExceptionTrap->logInternalError(Object(InvalidArgumentException))
+#3 [internal function]: Cake\Error\ExceptionTrap->handleException(Object(InvalidArgumentException))
+#4 {main}
+  thrown in D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php on line 378
+Request URL: /debug_kit/js/inject-iframe.js?1755280359
+Referer URL: http://localhost:8765/pdf-search/search?keyword=urdu
+2025-08-18 16:18:54 error: [Cake\Http\Exception\MissingControllerException] Controller class `.wellKnown` could not be found. in D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 335
+Exception Attributes: array (
+  'controller' => '.wellKnown',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /.well-known/appspecific/com.chrome.devtools.json
+2025-08-18 16:18:54 error: [Cake\Error\FatalErrorException] Fatal Error: Uncaught Cake\Error\FatalErrorException: [InvalidArgumentException] Cannot use `Cake\Error\ExceptionRenderer` as an `exceptionRenderer`. It must be an instance of `Cake\Error\ExceptionRendererInterface`. (D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php:126) in D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php:378
+Stack trace:
+#0 [internal function]: Cake\Error\ErrorTrap->handleError(256, '[InvalidArgumen...', 'D:\\Arpit\\test\\I...', 378)
+#1 D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php(378): trigger_error('[InvalidArgumen...', 256)
+#2 D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php(242): Cake\Error\ExceptionTrap->logInternalError(Object(InvalidArgumentException))
+#3 [internal function]: Cake\Error\ExceptionTrap->handleException(Object(InvalidArgumentException))
+#4 {main}
+  thrown in D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php on line 378
+Request URL: /.well-known/appspecific/com.chrome.devtools.json
+2025-08-18 16:19:04 error: [Cake\Http\Exception\MissingControllerException] Controller class `Debug_kit` could not be found. in D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 335
+Exception Attributes: array (
+  'controller' => 'Debug_kit',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /debug_kit/js/inject-iframe.js?1755280359
+Referer URL: http://localhost:8765/pdf-search/search?keyword=urdu
+2025-08-18 16:19:04 error: [Cake\Error\FatalErrorException] Fatal Error: Uncaught Cake\Error\FatalErrorException: [InvalidArgumentException] Cannot use `Cake\Error\ExceptionRenderer` as an `exceptionRenderer`. It must be an instance of `Cake\Error\ExceptionRendererInterface`. (D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php:126) in D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php:378
+Stack trace:
+#0 [internal function]: Cake\Error\ErrorTrap->handleError(256, '[InvalidArgumen...', 'D:\\Arpit\\test\\I...', 378)
+#1 D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php(378): trigger_error('[InvalidArgumen...', 256)
+#2 D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php(242): Cake\Error\ExceptionTrap->logInternalError(Object(InvalidArgumentException))
+#3 [internal function]: Cake\Error\ExceptionTrap->handleException(Object(InvalidArgumentException))
+#4 {main}
+  thrown in D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php on line 378
+Request URL: /debug_kit/js/inject-iframe.js?1755280359
+Referer URL: http://localhost:8765/pdf-search/search?keyword=urdu
+2025-08-18 16:19:05 error: [Cake\Http\Exception\MissingControllerException] Controller class `.wellKnown` could not be found. in D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 335
+Exception Attributes: array (
+  'controller' => '.wellKnown',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /.well-known/appspecific/com.chrome.devtools.json
+2025-08-18 16:19:05 error: [Cake\Error\FatalErrorException] Fatal Error: Uncaught Cake\Error\FatalErrorException: [InvalidArgumentException] Cannot use `Cake\Error\ExceptionRenderer` as an `exceptionRenderer`. It must be an instance of `Cake\Error\ExceptionRendererInterface`. (D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php:126) in D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php:378
+Stack trace:
+#0 [internal function]: Cake\Error\ErrorTrap->handleError(256, '[InvalidArgumen...', 'D:\\Arpit\\test\\I...', 378)
+#1 D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php(378): trigger_error('[InvalidArgumen...', 256)
+#2 D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php(242): Cake\Error\ExceptionTrap->logInternalError(Object(InvalidArgumentException))
+#3 [internal function]: Cake\Error\ExceptionTrap->handleException(Object(InvalidArgumentException))
+#4 {main}
+  thrown in D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php on line 378
+Request URL: /.well-known/appspecific/com.chrome.devtools.json
+2025-08-18 16:19:31 error: [Cake\Controller\Exception\MissingActionException] Action `PdfSearchController::index()` could not be found, or is not accessible. in D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Controller\Controller.php on line 483
+Exception Attributes: array (
+  'controller' => 'PdfSearchController',
+  'action' => 'index',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Request URL: /pdf-search
+2025-08-18 16:19:31 error: [Cake\Error\FatalErrorException] Fatal Error: Uncaught Cake\Error\FatalErrorException: [InvalidArgumentException] Cannot use `Cake\Error\ExceptionRenderer` as an `exceptionRenderer`. It must be an instance of `Cake\Error\ExceptionRendererInterface`. (D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php:126) in D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php:378
+Stack trace:
+#0 [internal function]: Cake\Error\ErrorTrap->handleError(256, '[InvalidArgumen...', 'D:\\Arpit\\test\\I...', 378)
+#1 D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php(378): trigger_error('[InvalidArgumen...', 256)
+#2 D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php(242): Cake\Error\ExceptionTrap->logInternalError(Object(InvalidArgumentException))
+#3 [internal function]: Cake\Error\ExceptionTrap->handleException(Object(InvalidArgumentException))
+#4 {main}
+  thrown in D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php on line 378
+Request URL: /pdf-search
+2025-08-18 16:19:36 error: [Cake\Http\Exception\MissingControllerException] Controller class `Debug_kit` could not be found. in D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 335
+Exception Attributes: array (
+  'controller' => 'Debug_kit',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /debug_kit/js/inject-iframe.js?1755280359
+Referer URL: http://localhost:8765/pdf-search/search
+2025-08-18 16:19:36 error: [Cake\Error\FatalErrorException] Fatal Error: Uncaught Cake\Error\FatalErrorException: [InvalidArgumentException] Cannot use `Cake\Error\ExceptionRenderer` as an `exceptionRenderer`. It must be an instance of `Cake\Error\ExceptionRendererInterface`. (D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php:126) in D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php:378
+Stack trace:
+#0 [internal function]: Cake\Error\ErrorTrap->handleError(256, '[InvalidArgumen...', 'D:\\Arpit\\test\\I...', 378)
+#1 D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php(378): trigger_error('[InvalidArgumen...', 256)
+#2 D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php(242): Cake\Error\ExceptionTrap->logInternalError(Object(InvalidArgumentException))
+#3 [internal function]: Cake\Error\ExceptionTrap->handleException(Object(InvalidArgumentException))
+#4 {main}
+  thrown in D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php on line 378
+Request URL: /debug_kit/js/inject-iframe.js?1755280359
+Referer URL: http://localhost:8765/pdf-search/search
+2025-08-18 16:20:04 error: [Cake\View\Exception\MissingTemplateException] Template file `PdfSearch\index.php` could not be found.
+
+The following paths were searched:
+
+- `D:\Arpit\test\Imaging.Dataratiba\templates\PdfSearch\index.php`
+- `D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\templates\PdfSearch\index.php`
+ in D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\View\View.php on line 1377
+Exception Attributes: array (
+  'file' => 'PdfSearch\\index.php',
+  'paths' => 
+  array (
+    0 => 'D:\\Arpit\\test\\Imaging.Dataratiba\\templates\\',
+    1 => 'D:\\Arpit\\test\\Imaging.Dataratiba\\vendor\\cakephp\\cakephp\\templates\\',
+  ),
+)
+Request URL: /pdf-search
+2025-08-18 16:20:04 error: [Cake\Error\FatalErrorException] Fatal Error: Uncaught Cake\Error\FatalErrorException: [InvalidArgumentException] Cannot use `Cake\Error\ExceptionRenderer` as an `exceptionRenderer`. It must be an instance of `Cake\Error\ExceptionRendererInterface`. (D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php:126) in D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php:378
+Stack trace:
+#0 [internal function]: Cake\Error\ErrorTrap->handleError(256, '[InvalidArgumen...', 'D:\\Arpit\\test\\I...', 378)
+#1 D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php(378): trigger_error('[InvalidArgumen...', 256)
+#2 D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php(242): Cake\Error\ExceptionTrap->logInternalError(Object(InvalidArgumentException))
+#3 [internal function]: Cake\Error\ExceptionTrap->handleException(Object(InvalidArgumentException))
+#4 {main}
+  thrown in D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php on line 378
+Request URL: /pdf-search
+2025-08-18 16:20:06 error: [Cake\View\Exception\MissingTemplateException] Template file `PdfSearch\index.php` could not be found.
+
+The following paths were searched:
+
+- `D:\Arpit\test\Imaging.Dataratiba\templates\PdfSearch\index.php`
+- `D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\templates\PdfSearch\index.php`
+ in D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\View\View.php on line 1377
+Exception Attributes: array (
+  'file' => 'PdfSearch\\index.php',
+  'paths' => 
+  array (
+    0 => 'D:\\Arpit\\test\\Imaging.Dataratiba\\templates\\',
+    1 => 'D:\\Arpit\\test\\Imaging.Dataratiba\\vendor\\cakephp\\cakephp\\templates\\',
+  ),
+)
+Request URL: /pdf-search
+2025-08-18 16:20:06 error: [Cake\Error\FatalErrorException] Fatal Error: Uncaught Cake\Error\FatalErrorException: [InvalidArgumentException] Cannot use `Cake\Error\ExceptionRenderer` as an `exceptionRenderer`. It must be an instance of `Cake\Error\ExceptionRendererInterface`. (D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php:126) in D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php:378
+Stack trace:
+#0 [internal function]: Cake\Error\ErrorTrap->handleError(256, '[InvalidArgumen...', 'D:\\Arpit\\test\\I...', 378)
+#1 D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php(378): trigger_error('[InvalidArgumen...', 256)
+#2 D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php(242): Cake\Error\ExceptionTrap->logInternalError(Object(InvalidArgumentException))
+#3 [internal function]: Cake\Error\ExceptionTrap->handleException(Object(InvalidArgumentException))
+#4 {main}
+  thrown in D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php on line 378
+Request URL: /pdf-search
+2025-08-18 16:20:23 error: [Cake\Http\Exception\MissingControllerException] Controller class `Debug_kit` could not be found. in D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 335
+Exception Attributes: array (
+  'controller' => 'Debug_kit',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /debug_kit/js/inject-iframe.js?1755280359
+Referer URL: http://localhost:8765/
+2025-08-18 16:20:23 error: [Cake\Error\FatalErrorException] Fatal Error: Uncaught Cake\Error\FatalErrorException: [InvalidArgumentException] Cannot use `Cake\Error\ExceptionRenderer` as an `exceptionRenderer`. It must be an instance of `Cake\Error\ExceptionRendererInterface`. (D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php:126) in D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php:378
+Stack trace:
+#0 [internal function]: Cake\Error\ErrorTrap->handleError(256, '[InvalidArgumen...', 'D:\\Arpit\\test\\I...', 378)
+#1 D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php(378): trigger_error('[InvalidArgumen...', 256)
+#2 D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php(242): Cake\Error\ExceptionTrap->logInternalError(Object(InvalidArgumentException))
+#3 [internal function]: Cake\Error\ExceptionTrap->handleException(Object(InvalidArgumentException))
+#4 {main}
+  thrown in D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php on line 378
+Request URL: /debug_kit/js/inject-iframe.js?1755280359
+Referer URL: http://localhost:8765/
+2025-08-18 16:20:23 error: [Cake\Http\Exception\MissingControllerException] Controller class `Img` could not be found. in D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 335
+Exception Attributes: array (
+  'controller' => 'Img',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /img/doctors/doctor-1.png
+Referer URL: http://localhost:8765/
+2025-08-18 16:20:23 error: [Cake\Error\FatalErrorException] Fatal Error: Uncaught Cake\Error\FatalErrorException: [InvalidArgumentException] Cannot use `Cake\Error\ExceptionRenderer` as an `exceptionRenderer`. It must be an instance of `Cake\Error\ExceptionRendererInterface`. (D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php:126) in D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php:378
+Stack trace:
+#0 [internal function]: Cake\Error\ErrorTrap->handleError(256, '[InvalidArgumen...', 'D:\\Arpit\\test\\I...', 378)
+#1 D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php(378): trigger_error('[InvalidArgumen...', 256)
+#2 D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php(242): Cake\Error\ExceptionTrap->logInternalError(Object(InvalidArgumentException))
+#3 [internal function]: Cake\Error\ExceptionTrap->handleException(Object(InvalidArgumentException))
+#4 {main}
+  thrown in D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php on line 378
+Request URL: /img/doctors/doctor-1.png
+Referer URL: http://localhost:8765/
+2025-08-18 16:20:24 error: [Cake\View\Exception\MissingTemplateException] Template file `PdfSearch\index.php` could not be found.
+
+The following paths were searched:
+
+- `D:\Arpit\test\Imaging.Dataratiba\templates\PdfSearch\index.php`
+- `D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\templates\PdfSearch\index.php`
+ in D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\View\View.php on line 1377
+Exception Attributes: array (
+  'file' => 'PdfSearch\\index.php',
+  'paths' => 
+  array (
+    0 => 'D:\\Arpit\\test\\Imaging.Dataratiba\\templates\\',
+    1 => 'D:\\Arpit\\test\\Imaging.Dataratiba\\vendor\\cakephp\\cakephp\\templates\\',
+  ),
+)
+Request URL: /pdf-search
+Referer URL: http://localhost:8765/
+2025-08-18 16:20:24 error: [Cake\Error\FatalErrorException] Fatal Error: Uncaught Cake\Error\FatalErrorException: [InvalidArgumentException] Cannot use `Cake\Error\ExceptionRenderer` as an `exceptionRenderer`. It must be an instance of `Cake\Error\ExceptionRendererInterface`. (D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php:126) in D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php:378
+Stack trace:
+#0 [internal function]: Cake\Error\ErrorTrap->handleError(256, '[InvalidArgumen...', 'D:\\Arpit\\test\\I...', 378)
+#1 D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php(378): trigger_error('[InvalidArgumen...', 256)
+#2 D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php(242): Cake\Error\ExceptionTrap->logInternalError(Object(InvalidArgumentException))
+#3 [internal function]: Cake\Error\ExceptionTrap->handleException(Object(InvalidArgumentException))
+#4 {main}
+  thrown in D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php on line 378
+Request URL: /pdf-search
+Referer URL: http://localhost:8765/
+2025-08-18 16:20:48 error: [Cake\Http\Exception\MissingControllerException] Controller class `Debug_kit` could not be found. in D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 335
+Exception Attributes: array (
+  'controller' => 'Debug_kit',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /debug_kit/js/inject-iframe.js?1755280359
+Referer URL: http://localhost:8765/pdf-search
+2025-08-18 16:20:48 error: [Cake\Error\FatalErrorException] Fatal Error: Uncaught Cake\Error\FatalErrorException: [InvalidArgumentException] Cannot use `Cake\Error\ExceptionRenderer` as an `exceptionRenderer`. It must be an instance of `Cake\Error\ExceptionRendererInterface`. (D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php:126) in D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php:378
+Stack trace:
+#0 [internal function]: Cake\Error\ErrorTrap->handleError(256, '[InvalidArgumen...', 'D:\\Arpit\\test\\I...', 378)
+#1 D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php(378): trigger_error('[InvalidArgumen...', 256)
+#2 D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php(242): Cake\Error\ExceptionTrap->logInternalError(Object(InvalidArgumentException))
+#3 [internal function]: Cake\Error\ExceptionTrap->handleException(Object(InvalidArgumentException))
+#4 {main}
+  thrown in D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php on line 378
+Request URL: /debug_kit/js/inject-iframe.js?1755280359
+Referer URL: http://localhost:8765/pdf-search
+2025-08-18 16:21:18 error: [Cake\Http\Exception\MissingControllerException] Controller class `Debug_kit` could not be found. in D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 335
+Exception Attributes: array (
+  'controller' => 'Debug_kit',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /debug_kit/js/inject-iframe.js?1755280359
+Referer URL: http://localhost:8765/pdf-search
+2025-08-18 16:21:18 error: [Cake\Error\FatalErrorException] Fatal Error: Uncaught Cake\Error\FatalErrorException: [InvalidArgumentException] Cannot use `Cake\Error\ExceptionRenderer` as an `exceptionRenderer`. It must be an instance of `Cake\Error\ExceptionRendererInterface`. (D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php:126) in D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php:378
+Stack trace:
+#0 [internal function]: Cake\Error\ErrorTrap->handleError(256, '[InvalidArgumen...', 'D:\\Arpit\\test\\I...', 378)
+#1 D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php(378): trigger_error('[InvalidArgumen...', 256)
+#2 D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php(242): Cake\Error\ExceptionTrap->logInternalError(Object(InvalidArgumentException))
+#3 [internal function]: Cake\Error\ExceptionTrap->handleException(Object(InvalidArgumentException))
+#4 {main}
+  thrown in D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php on line 378
+Request URL: /debug_kit/js/inject-iframe.js?1755280359
+Referer URL: http://localhost:8765/pdf-search
+2025-08-18 16:21:39 error: [Cake\Http\Exception\MissingControllerException] Controller class `Debug_kit` could not be found. in D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 335
+Exception Attributes: array (
+  'controller' => 'Debug_kit',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /debug_kit/js/inject-iframe.js?1755280359
+Referer URL: http://localhost:8765/pdf-search
+2025-08-18 16:21:39 error: [Cake\Error\FatalErrorException] Fatal Error: Uncaught Cake\Error\FatalErrorException: [InvalidArgumentException] Cannot use `Cake\Error\ExceptionRenderer` as an `exceptionRenderer`. It must be an instance of `Cake\Error\ExceptionRendererInterface`. (D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php:126) in D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php:378
+Stack trace:
+#0 [internal function]: Cake\Error\ErrorTrap->handleError(256, '[InvalidArgumen...', 'D:\\Arpit\\test\\I...', 378)
+#1 D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php(378): trigger_error('[InvalidArgumen...', 256)
+#2 D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php(242): Cake\Error\ExceptionTrap->logInternalError(Object(InvalidArgumentException))
+#3 [internal function]: Cake\Error\ExceptionTrap->handleException(Object(InvalidArgumentException))
+#4 {main}
+  thrown in D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php on line 378
+Request URL: /debug_kit/js/inject-iframe.js?1755280359
+Referer URL: http://localhost:8765/pdf-search
+2025-08-18 16:22:39 error: [Cake\Http\Exception\MissingControllerException] Controller class `Debug_kit` could not be found. in D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 335
+Exception Attributes: array (
+  'controller' => 'Debug_kit',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /debug_kit/js/inject-iframe.js?1755280359
+Referer URL: http://localhost:8765/pdf-search
+2025-08-18 16:22:39 error: [Cake\Error\FatalErrorException] Fatal Error: Uncaught Cake\Error\FatalErrorException: [InvalidArgumentException] Cannot use `Cake\Error\ExceptionRenderer` as an `exceptionRenderer`. It must be an instance of `Cake\Error\ExceptionRendererInterface`. (D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php:126) in D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php:378
+Stack trace:
+#0 [internal function]: Cake\Error\ErrorTrap->handleError(256, '[InvalidArgumen...', 'D:\\Arpit\\test\\I...', 378)
+#1 D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php(378): trigger_error('[InvalidArgumen...', 256)
+#2 D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php(242): Cake\Error\ExceptionTrap->logInternalError(Object(InvalidArgumentException))
+#3 [internal function]: Cake\Error\ExceptionTrap->handleException(Object(InvalidArgumentException))
+#4 {main}
+  thrown in D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php on line 378
+Request URL: /debug_kit/js/inject-iframe.js?1755280359
+Referer URL: http://localhost:8765/pdf-search
+2025-08-18 16:22:41 error: [Cake\Http\Exception\MissingControllerException] Controller class `Debug_kit` could not be found. in D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 335
+Exception Attributes: array (
+  'controller' => 'Debug_kit',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /debug_kit/js/inject-iframe.js?1755280359
+Referer URL: http://localhost:8765/pdf-search
+2025-08-18 16:22:41 error: [Cake\Error\FatalErrorException] Fatal Error: Uncaught Cake\Error\FatalErrorException: [InvalidArgumentException] Cannot use `Cake\Error\ExceptionRenderer` as an `exceptionRenderer`. It must be an instance of `Cake\Error\ExceptionRendererInterface`. (D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php:126) in D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php:378
+Stack trace:
+#0 [internal function]: Cake\Error\ErrorTrap->handleError(256, '[InvalidArgumen...', 'D:\\Arpit\\test\\I...', 378)
+#1 D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php(378): trigger_error('[InvalidArgumen...', 256)
+#2 D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php(242): Cake\Error\ExceptionTrap->logInternalError(Object(InvalidArgumentException))
+#3 [internal function]: Cake\Error\ExceptionTrap->handleException(Object(InvalidArgumentException))
+#4 {main}
+  thrown in D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php on line 378
+Request URL: /debug_kit/js/inject-iframe.js?1755280359
+Referer URL: http://localhost:8765/pdf-search
+2025-08-18 16:23:20 error: [Cake\Http\Exception\MissingControllerException] Controller class `Debug_kit` could not be found. in D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 335
+Exception Attributes: array (
+  'controller' => 'Debug_kit',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /debug_kit/js/inject-iframe.js?1755280359
+Referer URL: http://localhost:8765/pdf-search
+2025-08-18 16:23:20 error: [Cake\Error\FatalErrorException] Fatal Error: Uncaught Cake\Error\FatalErrorException: [InvalidArgumentException] Cannot use `Cake\Error\ExceptionRenderer` as an `exceptionRenderer`. It must be an instance of `Cake\Error\ExceptionRendererInterface`. (D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php:126) in D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php:378
+Stack trace:
+#0 [internal function]: Cake\Error\ErrorTrap->handleError(256, '[InvalidArgumen...', 'D:\\Arpit\\test\\I...', 378)
+#1 D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php(378): trigger_error('[InvalidArgumen...', 256)
+#2 D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php(242): Cake\Error\ExceptionTrap->logInternalError(Object(InvalidArgumentException))
+#3 [internal function]: Cake\Error\ExceptionTrap->handleException(Object(InvalidArgumentException))
+#4 {main}
+  thrown in D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php on line 378
+Request URL: /debug_kit/js/inject-iframe.js?1755280359
+Referer URL: http://localhost:8765/pdf-search
+2025-08-18 16:23:57 error: [Cake\Http\Exception\MissingControllerException] Controller class `Debug_kit` could not be found. in D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 335
+Exception Attributes: array (
+  'controller' => 'Debug_kit',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /debug_kit/js/inject-iframe.js?1755280359
+Referer URL: http://localhost:8765/pdf-search
+2025-08-18 16:23:57 error: [Cake\Error\FatalErrorException] Fatal Error: Uncaught Cake\Error\FatalErrorException: [InvalidArgumentException] Cannot use `Cake\Error\ExceptionRenderer` as an `exceptionRenderer`. It must be an instance of `Cake\Error\ExceptionRendererInterface`. (D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php:126) in D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php:378
+Stack trace:
+#0 [internal function]: Cake\Error\ErrorTrap->handleError(256, '[InvalidArgumen...', 'D:\\Arpit\\test\\I...', 378)
+#1 D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php(378): trigger_error('[InvalidArgumen...', 256)
+#2 D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php(242): Cake\Error\ExceptionTrap->logInternalError(Object(InvalidArgumentException))
+#3 [internal function]: Cake\Error\ExceptionTrap->handleException(Object(InvalidArgumentException))
+#4 {main}
+  thrown in D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php on line 378
+Request URL: /debug_kit/js/inject-iframe.js?1755280359
+Referer URL: http://localhost:8765/pdf-search
+2025-08-18 16:25:08 error: [Cake\Http\Exception\MissingControllerException] Controller class `Debug_kit` could not be found. in D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 335
+Exception Attributes: array (
+  'controller' => 'Debug_kit',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /debug_kit/js/inject-iframe.js?1755280359
+Referer URL: http://localhost:8765/pdf-search
+2025-08-18 16:25:08 error: [Cake\Error\FatalErrorException] Fatal Error: Uncaught Cake\Error\FatalErrorException: [InvalidArgumentException] Cannot use `Cake\Error\ExceptionRenderer` as an `exceptionRenderer`. It must be an instance of `Cake\Error\ExceptionRendererInterface`. (D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php:126) in D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php:378
+Stack trace:
+#0 [internal function]: Cake\Error\ErrorTrap->handleError(256, '[InvalidArgumen...', 'D:\\Arpit\\test\\I...', 378)
+#1 D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php(378): trigger_error('[InvalidArgumen...', 256)
+#2 D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php(242): Cake\Error\ExceptionTrap->logInternalError(Object(InvalidArgumentException))
+#3 [internal function]: Cake\Error\ExceptionTrap->handleException(Object(InvalidArgumentException))
+#4 {main}
+  thrown in D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php on line 378
+Request URL: /debug_kit/js/inject-iframe.js?1755280359
+Referer URL: http://localhost:8765/pdf-search
+2025-08-18 16:25:32 error: [Cake\Http\Exception\MissingControllerException] Controller class `Debug_kit` could not be found. in D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 335
+Exception Attributes: array (
+  'controller' => 'Debug_kit',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /debug_kit/js/inject-iframe.js?1755280359
+Referer URL: http://localhost:8765/pdf-search
+2025-08-18 16:25:32 error: [Cake\Error\FatalErrorException] Fatal Error: Uncaught Cake\Error\FatalErrorException: [InvalidArgumentException] Cannot use `Cake\Error\ExceptionRenderer` as an `exceptionRenderer`. It must be an instance of `Cake\Error\ExceptionRendererInterface`. (D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php:126) in D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php:378
+Stack trace:
+#0 [internal function]: Cake\Error\ErrorTrap->handleError(256, '[InvalidArgumen...', 'D:\\Arpit\\test\\I...', 378)
+#1 D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php(378): trigger_error('[InvalidArgumen...', 256)
+#2 D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php(242): Cake\Error\ExceptionTrap->logInternalError(Object(InvalidArgumentException))
+#3 [internal function]: Cake\Error\ExceptionTrap->handleException(Object(InvalidArgumentException))
+#4 {main}
+  thrown in D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php on line 378
+Request URL: /debug_kit/js/inject-iframe.js?1755280359
+Referer URL: http://localhost:8765/pdf-search
+2025-08-18 16:25:50 error: [Cake\Http\Exception\MissingControllerException] Controller class `Debug_kit` could not be found. in D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 335
+Exception Attributes: array (
+  'controller' => 'Debug_kit',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /debug_kit/js/inject-iframe.js?1755280359
+Referer URL: http://localhost:8765/pdf-search
+2025-08-18 16:25:50 error: [Cake\Error\FatalErrorException] Fatal Error: Uncaught Cake\Error\FatalErrorException: [InvalidArgumentException] Cannot use `Cake\Error\ExceptionRenderer` as an `exceptionRenderer`. It must be an instance of `Cake\Error\ExceptionRendererInterface`. (D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php:126) in D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php:378
+Stack trace:
+#0 [internal function]: Cake\Error\ErrorTrap->handleError(256, '[InvalidArgumen...', 'D:\\Arpit\\test\\I...', 378)
+#1 D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php(378): trigger_error('[InvalidArgumen...', 256)
+#2 D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php(242): Cake\Error\ExceptionTrap->logInternalError(Object(InvalidArgumentException))
+#3 [internal function]: Cake\Error\ExceptionTrap->handleException(Object(InvalidArgumentException))
+#4 {main}
+  thrown in D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php on line 378
+Request URL: /debug_kit/js/inject-iframe.js?1755280359
+Referer URL: http://localhost:8765/pdf-search
+2025-08-18 16:26:08 error: [Cake\Http\Exception\MissingControllerException] Controller class `Debug_kit` could not be found. in D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 335
+Exception Attributes: array (
+  'controller' => 'Debug_kit',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /debug_kit/js/inject-iframe.js?1755280359
+Referer URL: http://localhost:8765/pdf-search
+2025-08-18 16:26:08 error: [Cake\Error\FatalErrorException] Fatal Error: Uncaught Cake\Error\FatalErrorException: [InvalidArgumentException] Cannot use `Cake\Error\ExceptionRenderer` as an `exceptionRenderer`. It must be an instance of `Cake\Error\ExceptionRendererInterface`. (D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php:126) in D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php:378
+Stack trace:
+#0 [internal function]: Cake\Error\ErrorTrap->handleError(256, '[InvalidArgumen...', 'D:\\Arpit\\test\\I...', 378)
+#1 D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php(378): trigger_error('[InvalidArgumen...', 256)
+#2 D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php(242): Cake\Error\ExceptionTrap->logInternalError(Object(InvalidArgumentException))
+#3 [internal function]: Cake\Error\ExceptionTrap->handleException(Object(InvalidArgumentException))
+#4 {main}
+  thrown in D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php on line 378
+Request URL: /debug_kit/js/inject-iframe.js?1755280359
+Referer URL: http://localhost:8765/pdf-search
+2025-08-18 16:26:18 error: [Cake\Http\Exception\MissingControllerException] Controller class `Debug_kit` could not be found. in D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 335
+Exception Attributes: array (
+  'controller' => 'Debug_kit',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /debug_kit/js/inject-iframe.js?1755280359
+Referer URL: http://localhost:8765/pdf-search
+2025-08-18 16:26:18 error: [Cake\Error\FatalErrorException] Fatal Error: Uncaught Cake\Error\FatalErrorException: [InvalidArgumentException] Cannot use `Cake\Error\ExceptionRenderer` as an `exceptionRenderer`. It must be an instance of `Cake\Error\ExceptionRendererInterface`. (D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php:126) in D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php:378
+Stack trace:
+#0 [internal function]: Cake\Error\ErrorTrap->handleError(256, '[InvalidArgumen...', 'D:\\Arpit\\test\\I...', 378)
+#1 D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php(378): trigger_error('[InvalidArgumen...', 256)
+#2 D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php(242): Cake\Error\ExceptionTrap->logInternalError(Object(InvalidArgumentException))
+#3 [internal function]: Cake\Error\ExceptionTrap->handleException(Object(InvalidArgumentException))
+#4 {main}
+  thrown in D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php on line 378
+Request URL: /debug_kit/js/inject-iframe.js?1755280359
+Referer URL: http://localhost:8765/pdf-search
+2025-08-18 16:27:13 error: [Cake\Http\Exception\MissingControllerException] Controller class `Debug_kit` could not be found. in D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 335
+Exception Attributes: array (
+  'controller' => 'Debug_kit',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /debug_kit/js/inject-iframe.js?1755280359
+Referer URL: http://localhost:8765/pdf-search
+2025-08-18 16:27:13 error: [Cake\Error\FatalErrorException] Fatal Error: Uncaught Cake\Error\FatalErrorException: [InvalidArgumentException] Cannot use `Cake\Error\ExceptionRenderer` as an `exceptionRenderer`. It must be an instance of `Cake\Error\ExceptionRendererInterface`. (D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php:126) in D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php:378
+Stack trace:
+#0 [internal function]: Cake\Error\ErrorTrap->handleError(256, '[InvalidArgumen...', 'D:\\Arpit\\test\\I...', 378)
+#1 D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php(378): trigger_error('[InvalidArgumen...', 256)
+#2 D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php(242): Cake\Error\ExceptionTrap->logInternalError(Object(InvalidArgumentException))
+#3 [internal function]: Cake\Error\ExceptionTrap->handleException(Object(InvalidArgumentException))
+#4 {main}
+  thrown in D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php on line 378
+Request URL: /debug_kit/js/inject-iframe.js?1755280359
+Referer URL: http://localhost:8765/pdf-search
+2025-08-18 16:28:26 error: [Cake\Http\Exception\MissingControllerException] Controller class `Debug_kit` could not be found. in D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 335
+Exception Attributes: array (
+  'controller' => 'Debug_kit',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /debug_kit/js/inject-iframe.js?1755280359
+Referer URL: http://localhost:8765/pdf-search
+2025-08-18 16:28:26 error: [Cake\Error\FatalErrorException] Fatal Error: Uncaught Cake\Error\FatalErrorException: [InvalidArgumentException] Cannot use `Cake\Error\ExceptionRenderer` as an `exceptionRenderer`. It must be an instance of `Cake\Error\ExceptionRendererInterface`. (D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php:126) in D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php:378
+Stack trace:
+#0 [internal function]: Cake\Error\ErrorTrap->handleError(256, '[InvalidArgumen...', 'D:\\Arpit\\test\\I...', 378)
+#1 D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php(378): trigger_error('[InvalidArgumen...', 256)
+#2 D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php(242): Cake\Error\ExceptionTrap->logInternalError(Object(InvalidArgumentException))
+#3 [internal function]: Cake\Error\ExceptionTrap->handleException(Object(InvalidArgumentException))
+#4 {main}
+  thrown in D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php on line 378
+Request URL: /debug_kit/js/inject-iframe.js?1755280359
+Referer URL: http://localhost:8765/pdf-search
+2025-08-18 16:29:13 error: [Cake\Http\Exception\MissingControllerException] Controller class `Debug_kit` could not be found. in D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 335
+Exception Attributes: array (
+  'controller' => 'Debug_kit',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /debug_kit/js/inject-iframe.js?1755280359
+Referer URL: http://localhost:8765/pdf-search
+2025-08-18 16:29:13 error: [Cake\Error\FatalErrorException] Fatal Error: Uncaught Cake\Error\FatalErrorException: [InvalidArgumentException] Cannot use `Cake\Error\ExceptionRenderer` as an `exceptionRenderer`. It must be an instance of `Cake\Error\ExceptionRendererInterface`. (D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php:126) in D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php:378
+Stack trace:
+#0 [internal function]: Cake\Error\ErrorTrap->handleError(256, '[InvalidArgumen...', 'D:\\Arpit\\test\\I...', 378)
+#1 D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php(378): trigger_error('[InvalidArgumen...', 256)
+#2 D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php(242): Cake\Error\ExceptionTrap->logInternalError(Object(InvalidArgumentException))
+#3 [internal function]: Cake\Error\ExceptionTrap->handleException(Object(InvalidArgumentException))
+#4 {main}
+  thrown in D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php on line 378
+Request URL: /debug_kit/js/inject-iframe.js?1755280359
+Referer URL: http://localhost:8765/pdf-search
+2025-08-18 16:29:55 error: [Cake\Http\Exception\MissingControllerException] Controller class `Debug_kit` could not be found. in D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 335
+Exception Attributes: array (
+  'controller' => 'Debug_kit',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /debug_kit/js/inject-iframe.js?1755280359
+Referer URL: http://localhost:8765/pdf-search
+2025-08-18 16:29:55 error: [Cake\Error\FatalErrorException] Fatal Error: Uncaught Cake\Error\FatalErrorException: [InvalidArgumentException] Cannot use `Cake\Error\ExceptionRenderer` as an `exceptionRenderer`. It must be an instance of `Cake\Error\ExceptionRendererInterface`. (D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php:126) in D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php:378
+Stack trace:
+#0 [internal function]: Cake\Error\ErrorTrap->handleError(256, '[InvalidArgumen...', 'D:\\Arpit\\test\\I...', 378)
+#1 D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php(378): trigger_error('[InvalidArgumen...', 256)
+#2 D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php(242): Cake\Error\ExceptionTrap->logInternalError(Object(InvalidArgumentException))
+#3 [internal function]: Cake\Error\ExceptionTrap->handleException(Object(InvalidArgumentException))
+#4 {main}
+  thrown in D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php on line 378
+Request URL: /debug_kit/js/inject-iframe.js?1755280359
+Referer URL: http://localhost:8765/pdf-search
+2025-08-18 16:30:06 error: [Cake\Http\Exception\MissingControllerException] Controller class `Debug_kit` could not be found. in D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 335
+Exception Attributes: array (
+  'controller' => 'Debug_kit',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /debug_kit/js/inject-iframe.js?1755280359
+Referer URL: http://localhost:8765/pdf-search
+2025-08-18 16:30:06 error: [Cake\Error\FatalErrorException] Fatal Error: Uncaught Cake\Error\FatalErrorException: [InvalidArgumentException] Cannot use `Cake\Error\ExceptionRenderer` as an `exceptionRenderer`. It must be an instance of `Cake\Error\ExceptionRendererInterface`. (D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php:126) in D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php:378
+Stack trace:
+#0 [internal function]: Cake\Error\ErrorTrap->handleError(256, '[InvalidArgumen...', 'D:\\Arpit\\test\\I...', 378)
+#1 D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php(378): trigger_error('[InvalidArgumen...', 256)
+#2 D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php(242): Cake\Error\ExceptionTrap->logInternalError(Object(InvalidArgumentException))
+#3 [internal function]: Cake\Error\ExceptionTrap->handleException(Object(InvalidArgumentException))
+#4 {main}
+  thrown in D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php on line 378
+Request URL: /debug_kit/js/inject-iframe.js?1755280359
+Referer URL: http://localhost:8765/pdf-search
+2025-08-18 16:30:15 error: [Cake\Http\Exception\MissingControllerException] Controller class `Debug_kit` could not be found. in D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 335
+Exception Attributes: array (
+  'controller' => 'Debug_kit',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /debug_kit/js/inject-iframe.js?1755280359
+Referer URL: http://localhost:8765/pdf-search
+2025-08-18 16:30:15 error: [Cake\Error\FatalErrorException] Fatal Error: Uncaught Cake\Error\FatalErrorException: [InvalidArgumentException] Cannot use `Cake\Error\ExceptionRenderer` as an `exceptionRenderer`. It must be an instance of `Cake\Error\ExceptionRendererInterface`. (D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php:126) in D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php:378
+Stack trace:
+#0 [internal function]: Cake\Error\ErrorTrap->handleError(256, '[InvalidArgumen...', 'D:\\Arpit\\test\\I...', 378)
+#1 D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php(378): trigger_error('[InvalidArgumen...', 256)
+#2 D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php(242): Cake\Error\ExceptionTrap->logInternalError(Object(InvalidArgumentException))
+#3 [internal function]: Cake\Error\ExceptionTrap->handleException(Object(InvalidArgumentException))
+#4 {main}
+  thrown in D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php on line 378
+Request URL: /debug_kit/js/inject-iframe.js?1755280359
+Referer URL: http://localhost:8765/pdf-search
+2025-08-18 16:30:39 error: [Cake\Http\Exception\MissingControllerException] Controller class `Debug_kit` could not be found. in D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 335
+Exception Attributes: array (
+  'controller' => 'Debug_kit',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /debug_kit/js/inject-iframe.js?1755280359
+Referer URL: http://localhost:8765/pdf-search
+2025-08-18 16:30:39 error: [Cake\Error\FatalErrorException] Fatal Error: Uncaught Cake\Error\FatalErrorException: [InvalidArgumentException] Cannot use `Cake\Error\ExceptionRenderer` as an `exceptionRenderer`. It must be an instance of `Cake\Error\ExceptionRendererInterface`. (D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php:126) in D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php:378
+Stack trace:
+#0 [internal function]: Cake\Error\ErrorTrap->handleError(256, '[InvalidArgumen...', 'D:\\Arpit\\test\\I...', 378)
+#1 D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php(378): trigger_error('[InvalidArgumen...', 256)
+#2 D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php(242): Cake\Error\ExceptionTrap->logInternalError(Object(InvalidArgumentException))
+#3 [internal function]: Cake\Error\ExceptionTrap->handleException(Object(InvalidArgumentException))
+#4 {main}
+  thrown in D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php on line 378
+Request URL: /debug_kit/js/inject-iframe.js?1755280359
+Referer URL: http://localhost:8765/pdf-search
+2025-08-18 16:31:30 error: [Cake\Http\Exception\MissingControllerException] Controller class `Debug_kit` could not be found. in D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 335
+Exception Attributes: array (
+  'controller' => 'Debug_kit',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /debug_kit/js/inject-iframe.js?1755280359
+Referer URL: http://localhost:8765/pdf-search
+2025-08-18 16:31:30 error: [Cake\Error\FatalErrorException] Fatal Error: Uncaught Cake\Error\FatalErrorException: [InvalidArgumentException] Cannot use `Cake\Error\ExceptionRenderer` as an `exceptionRenderer`. It must be an instance of `Cake\Error\ExceptionRendererInterface`. (D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php:126) in D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php:378
+Stack trace:
+#0 [internal function]: Cake\Error\ErrorTrap->handleError(256, '[InvalidArgumen...', 'D:\\Arpit\\test\\I...', 378)
+#1 D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php(378): trigger_error('[InvalidArgumen...', 256)
+#2 D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php(242): Cake\Error\ExceptionTrap->logInternalError(Object(InvalidArgumentException))
+#3 [internal function]: Cake\Error\ExceptionTrap->handleException(Object(InvalidArgumentException))
+#4 {main}
+  thrown in D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php on line 378
+Request URL: /debug_kit/js/inject-iframe.js?1755280359
+Referer URL: http://localhost:8765/pdf-search
+2025-08-18 16:31:59 error: [Cake\Http\Exception\MissingControllerException] Controller class `Debug_kit` could not be found. in D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 335
+Exception Attributes: array (
+  'controller' => 'Debug_kit',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /debug_kit/js/inject-iframe.js?1755280359
+Referer URL: http://localhost:8765/pdf-search
+2025-08-18 16:31:59 error: [Cake\Error\FatalErrorException] Fatal Error: Uncaught Cake\Error\FatalErrorException: [InvalidArgumentException] Cannot use `Cake\Error\ExceptionRenderer` as an `exceptionRenderer`. It must be an instance of `Cake\Error\ExceptionRendererInterface`. (D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php:126) in D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php:378
+Stack trace:
+#0 [internal function]: Cake\Error\ErrorTrap->handleError(256, '[InvalidArgumen...', 'D:\\Arpit\\test\\I...', 378)
+#1 D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php(378): trigger_error('[InvalidArgumen...', 256)
+#2 D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php(242): Cake\Error\ExceptionTrap->logInternalError(Object(InvalidArgumentException))
+#3 [internal function]: Cake\Error\ExceptionTrap->handleException(Object(InvalidArgumentException))
+#4 {main}
+  thrown in D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php on line 378
+Request URL: /debug_kit/js/inject-iframe.js?1755280359
+Referer URL: http://localhost:8765/pdf-search
+2025-08-18 16:33:31 error: [Cake\Http\Exception\MissingControllerException] Controller class `Debug_kit` could not be found. in D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 335
+Exception Attributes: array (
+  'controller' => 'Debug_kit',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /debug_kit/js/inject-iframe.js?1755280359
+Referer URL: http://localhost:8765/pdf-search
+2025-08-18 16:33:31 error: [Cake\Error\FatalErrorException] Fatal Error: Uncaught Cake\Error\FatalErrorException: [InvalidArgumentException] Cannot use `Cake\Error\ExceptionRenderer` as an `exceptionRenderer`. It must be an instance of `Cake\Error\ExceptionRendererInterface`. (D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php:126) in D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php:378
+Stack trace:
+#0 [internal function]: Cake\Error\ErrorTrap->handleError(256, '[InvalidArgumen...', 'D:\\Arpit\\test\\I...', 378)
+#1 D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php(378): trigger_error('[InvalidArgumen...', 256)
+#2 D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php(242): Cake\Error\ExceptionTrap->logInternalError(Object(InvalidArgumentException))
+#3 [internal function]: Cake\Error\ExceptionTrap->handleException(Object(InvalidArgumentException))
+#4 {main}
+  thrown in D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php on line 378
+Request URL: /debug_kit/js/inject-iframe.js?1755280359
+Referer URL: http://localhost:8765/pdf-search
+2025-08-18 16:34:30 error: [Cake\Http\Exception\MissingControllerException] Controller class `Debug_kit` could not be found. in D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 335
+Exception Attributes: array (
+  'controller' => 'Debug_kit',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /debug_kit/js/inject-iframe.js?1755280359
+Referer URL: http://localhost:8765/pdf-search
+2025-08-18 16:34:30 error: [Cake\Error\FatalErrorException] Fatal Error: Uncaught Cake\Error\FatalErrorException: [InvalidArgumentException] Cannot use `Cake\Error\ExceptionRenderer` as an `exceptionRenderer`. It must be an instance of `Cake\Error\ExceptionRendererInterface`. (D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php:126) in D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php:378
+Stack trace:
+#0 [internal function]: Cake\Error\ErrorTrap->handleError(256, '[InvalidArgumen...', 'D:\\Arpit\\test\\I...', 378)
+#1 D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php(378): trigger_error('[InvalidArgumen...', 256)
+#2 D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php(242): Cake\Error\ExceptionTrap->logInternalError(Object(InvalidArgumentException))
+#3 [internal function]: Cake\Error\ExceptionTrap->handleException(Object(InvalidArgumentException))
+#4 {main}
+  thrown in D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php on line 378
+Request URL: /debug_kit/js/inject-iframe.js?1755280359
+Referer URL: http://localhost:8765/pdf-search
+2025-08-18 16:34:34 error: [Cake\Http\Exception\MissingControllerException] Controller class `.wellKnown` could not be found. in D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 335
+Exception Attributes: array (
+  'controller' => '.wellKnown',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /.well-known/appspecific/com.chrome.devtools.json
+2025-08-18 16:34:34 error: [Cake\Error\FatalErrorException] Fatal Error: Uncaught Cake\Error\FatalErrorException: [InvalidArgumentException] Cannot use `Cake\Error\ExceptionRenderer` as an `exceptionRenderer`. It must be an instance of `Cake\Error\ExceptionRendererInterface`. (D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php:126) in D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php:378
+Stack trace:
+#0 [internal function]: Cake\Error\ErrorTrap->handleError(256, '[InvalidArgumen...', 'D:\\Arpit\\test\\I...', 378)
+#1 D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php(378): trigger_error('[InvalidArgumen...', 256)
+#2 D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php(242): Cake\Error\ExceptionTrap->logInternalError(Object(InvalidArgumentException))
+#3 [internal function]: Cake\Error\ExceptionTrap->handleException(Object(InvalidArgumentException))
+#4 {main}
+  thrown in D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php on line 378
+Request URL: /.well-known/appspecific/com.chrome.devtools.json
+2025-08-18 16:36:11 error: [Cake\Http\Exception\MissingControllerException] Controller class `.wellKnown` could not be found. in D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 335
+Exception Attributes: array (
+  'controller' => '.wellKnown',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /.well-known/appspecific/com.chrome.devtools.json
+2025-08-18 16:36:11 error: [Cake\Error\FatalErrorException] Fatal Error: Uncaught Cake\Error\FatalErrorException: [InvalidArgumentException] Cannot use `Cake\Error\ExceptionRenderer` as an `exceptionRenderer`. It must be an instance of `Cake\Error\ExceptionRendererInterface`. (D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php:126) in D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php:378
+Stack trace:
+#0 [internal function]: Cake\Error\ErrorTrap->handleError(256, '[InvalidArgumen...', 'D:\\Arpit\\test\\I...', 378)
+#1 D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php(378): trigger_error('[InvalidArgumen...', 256)
+#2 D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php(242): Cake\Error\ExceptionTrap->logInternalError(Object(InvalidArgumentException))
+#3 [internal function]: Cake\Error\ExceptionTrap->handleException(Object(InvalidArgumentException))
+#4 {main}
+  thrown in D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php on line 378
+Request URL: /.well-known/appspecific/com.chrome.devtools.json
+2025-08-18 16:36:11 error: [Cake\Http\Exception\MissingControllerException] Controller class `Debug_kit` could not be found. in D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 335
+Exception Attributes: array (
+  'controller' => 'Debug_kit',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /debug_kit/js/inject-iframe.js?1755280359
+Referer URL: http://localhost:8765/pdf-search
+2025-08-18 16:36:11 error: [Cake\Error\FatalErrorException] Fatal Error: Uncaught Cake\Error\FatalErrorException: [InvalidArgumentException] Cannot use `Cake\Error\ExceptionRenderer` as an `exceptionRenderer`. It must be an instance of `Cake\Error\ExceptionRendererInterface`. (D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php:126) in D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php:378
+Stack trace:
+#0 [internal function]: Cake\Error\ErrorTrap->handleError(256, '[InvalidArgumen...', 'D:\\Arpit\\test\\I...', 378)
+#1 D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php(378): trigger_error('[InvalidArgumen...', 256)
+#2 D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php(242): Cake\Error\ExceptionTrap->logInternalError(Object(InvalidArgumentException))
+#3 [internal function]: Cake\Error\ExceptionTrap->handleException(Object(InvalidArgumentException))
+#4 {main}
+  thrown in D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php on line 378
+Request URL: /debug_kit/js/inject-iframe.js?1755280359
+Referer URL: http://localhost:8765/pdf-search
+2025-08-18 16:36:17 error: [Cake\Http\Exception\MissingControllerException] Controller class `.wellKnown` could not be found. in D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 335
+Exception Attributes: array (
+  'controller' => '.wellKnown',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /.well-known/appspecific/com.chrome.devtools.json
+2025-08-18 16:36:17 error: [Cake\Error\FatalErrorException] Fatal Error: Uncaught Cake\Error\FatalErrorException: [InvalidArgumentException] Cannot use `Cake\Error\ExceptionRenderer` as an `exceptionRenderer`. It must be an instance of `Cake\Error\ExceptionRendererInterface`. (D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php:126) in D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php:378
+Stack trace:
+#0 [internal function]: Cake\Error\ErrorTrap->handleError(256, '[InvalidArgumen...', 'D:\\Arpit\\test\\I...', 378)
+#1 D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php(378): trigger_error('[InvalidArgumen...', 256)
+#2 D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php(242): Cake\Error\ExceptionTrap->logInternalError(Object(InvalidArgumentException))
+#3 [internal function]: Cake\Error\ExceptionTrap->handleException(Object(InvalidArgumentException))
+#4 {main}
+  thrown in D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php on line 378
+Request URL: /.well-known/appspecific/com.chrome.devtools.json
+2025-08-18 16:36:31 error: [Cake\Http\Exception\MissingControllerException] Controller class `.wellKnown` could not be found. in D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 335
+Exception Attributes: array (
+  'controller' => '.wellKnown',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /.well-known/appspecific/com.chrome.devtools.json
+2025-08-18 16:36:31 error: [Cake\Error\FatalErrorException] Fatal Error: Uncaught Cake\Error\FatalErrorException: [InvalidArgumentException] Cannot use `Cake\Error\ExceptionRenderer` as an `exceptionRenderer`. It must be an instance of `Cake\Error\ExceptionRendererInterface`. (D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php:126) in D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php:378
+Stack trace:
+#0 [internal function]: Cake\Error\ErrorTrap->handleError(256, '[InvalidArgumen...', 'D:\\Arpit\\test\\I...', 378)
+#1 D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php(378): trigger_error('[InvalidArgumen...', 256)
+#2 D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php(242): Cake\Error\ExceptionTrap->logInternalError(Object(InvalidArgumentException))
+#3 [internal function]: Cake\Error\ExceptionTrap->handleException(Object(InvalidArgumentException))
+#4 {main}
+  thrown in D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php on line 378
+Request URL: /.well-known/appspecific/com.chrome.devtools.json
+2025-08-18 16:36:31 error: [Cake\Http\Exception\MissingControllerException] Controller class `Debug_kit` could not be found. in D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 335
+Exception Attributes: array (
+  'controller' => 'Debug_kit',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /debug_kit/js/inject-iframe.js?1755280359
+Referer URL: http://localhost:8765/pdf-search
+2025-08-18 16:36:31 error: [Cake\Error\FatalErrorException] Fatal Error: Uncaught Cake\Error\FatalErrorException: [InvalidArgumentException] Cannot use `Cake\Error\ExceptionRenderer` as an `exceptionRenderer`. It must be an instance of `Cake\Error\ExceptionRendererInterface`. (D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php:126) in D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php:378
+Stack trace:
+#0 [internal function]: Cake\Error\ErrorTrap->handleError(256, '[InvalidArgumen...', 'D:\\Arpit\\test\\I...', 378)
+#1 D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php(378): trigger_error('[InvalidArgumen...', 256)
+#2 D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php(242): Cake\Error\ExceptionTrap->logInternalError(Object(InvalidArgumentException))
+#3 [internal function]: Cake\Error\ExceptionTrap->handleException(Object(InvalidArgumentException))
+#4 {main}
+  thrown in D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php on line 378
+Request URL: /debug_kit/js/inject-iframe.js?1755280359
+Referer URL: http://localhost:8765/pdf-search
+2025-08-18 16:36:42 error: [Cake\Http\Exception\MissingControllerException] Controller class `.wellKnown` could not be found. in D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 335
+Exception Attributes: array (
+  'controller' => '.wellKnown',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /.well-known/appspecific/com.chrome.devtools.json
+2025-08-18 16:36:42 error: [Cake\Error\FatalErrorException] Fatal Error: Uncaught Cake\Error\FatalErrorException: [InvalidArgumentException] Cannot use `Cake\Error\ExceptionRenderer` as an `exceptionRenderer`. It must be an instance of `Cake\Error\ExceptionRendererInterface`. (D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php:126) in D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php:378
+Stack trace:
+#0 [internal function]: Cake\Error\ErrorTrap->handleError(256, '[InvalidArgumen...', 'D:\\Arpit\\test\\I...', 378)
+#1 D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php(378): trigger_error('[InvalidArgumen...', 256)
+#2 D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php(242): Cake\Error\ExceptionTrap->logInternalError(Object(InvalidArgumentException))
+#3 [internal function]: Cake\Error\ExceptionTrap->handleException(Object(InvalidArgumentException))
+#4 {main}
+  thrown in D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php on line 378
+Request URL: /.well-known/appspecific/com.chrome.devtools.json
+2025-08-18 16:36:46 error: [Cake\Http\Exception\MissingControllerException] Controller class `.wellKnown` could not be found. in D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 335
+Exception Attributes: array (
+  'controller' => '.wellKnown',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /.well-known/appspecific/com.chrome.devtools.json
+2025-08-18 16:36:46 error: [Cake\Error\FatalErrorException] Fatal Error: Uncaught Cake\Error\FatalErrorException: [InvalidArgumentException] Cannot use `Cake\Error\ExceptionRenderer` as an `exceptionRenderer`. It must be an instance of `Cake\Error\ExceptionRendererInterface`. (D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php:126) in D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php:378
+Stack trace:
+#0 [internal function]: Cake\Error\ErrorTrap->handleError(256, '[InvalidArgumen...', 'D:\\Arpit\\test\\I...', 378)
+#1 D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php(378): trigger_error('[InvalidArgumen...', 256)
+#2 D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php(242): Cake\Error\ExceptionTrap->logInternalError(Object(InvalidArgumentException))
+#3 [internal function]: Cake\Error\ExceptionTrap->handleException(Object(InvalidArgumentException))
+#4 {main}
+  thrown in D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php on line 378
+Request URL: /.well-known/appspecific/com.chrome.devtools.json
+2025-08-18 16:36:46 error: [Cake\Http\Exception\MissingControllerException] Controller class `Debug_kit` could not be found. in D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 335
+Exception Attributes: array (
+  'controller' => 'Debug_kit',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /debug_kit/js/inject-iframe.js?1755280359
+Referer URL: http://localhost:8765/pdf-search
+2025-08-18 16:36:46 error: [Cake\Error\FatalErrorException] Fatal Error: Uncaught Cake\Error\FatalErrorException: [InvalidArgumentException] Cannot use `Cake\Error\ExceptionRenderer` as an `exceptionRenderer`. It must be an instance of `Cake\Error\ExceptionRendererInterface`. (D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php:126) in D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php:378
+Stack trace:
+#0 [internal function]: Cake\Error\ErrorTrap->handleError(256, '[InvalidArgumen...', 'D:\\Arpit\\test\\I...', 378)
+#1 D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php(378): trigger_error('[InvalidArgumen...', 256)
+#2 D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php(242): Cake\Error\ExceptionTrap->logInternalError(Object(InvalidArgumentException))
+#3 [internal function]: Cake\Error\ExceptionTrap->handleException(Object(InvalidArgumentException))
+#4 {main}
+  thrown in D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php on line 378
+Request URL: /debug_kit/js/inject-iframe.js?1755280359
+Referer URL: http://localhost:8765/pdf-search
+2025-08-18 16:36:58 error: [Cake\Http\Exception\MissingControllerException] Controller class `Debug_kit` could not be found. in D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 335
+Exception Attributes: array (
+  'controller' => 'Debug_kit',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /debug_kit/js/inject-iframe.js?1755280359
+Referer URL: http://localhost:8765/pdf-search
+2025-08-18 16:36:58 error: [Cake\Error\FatalErrorException] Fatal Error: Uncaught Cake\Error\FatalErrorException: [InvalidArgumentException] Cannot use `Cake\Error\ExceptionRenderer` as an `exceptionRenderer`. It must be an instance of `Cake\Error\ExceptionRendererInterface`. (D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php:126) in D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php:378
+Stack trace:
+#0 [internal function]: Cake\Error\ErrorTrap->handleError(256, '[InvalidArgumen...', 'D:\\Arpit\\test\\I...', 378)
+#1 D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php(378): trigger_error('[InvalidArgumen...', 256)
+#2 D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php(242): Cake\Error\ExceptionTrap->logInternalError(Object(InvalidArgumentException))
+#3 [internal function]: Cake\Error\ExceptionTrap->handleException(Object(InvalidArgumentException))
+#4 {main}
+  thrown in D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php on line 378
+Request URL: /debug_kit/js/inject-iframe.js?1755280359
+Referer URL: http://localhost:8765/pdf-search
+2025-08-18 16:37:03 error: [Cake\Http\Exception\MissingControllerException] Controller class `Debug_kit` could not be found. in D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 335
+Exception Attributes: array (
+  'controller' => 'Debug_kit',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /debug_kit/js/inject-iframe.js?1755280359
+Referer URL: http://localhost:8765/pdf-search
+2025-08-18 16:37:03 error: [Cake\Error\FatalErrorException] Fatal Error: Uncaught Cake\Error\FatalErrorException: [InvalidArgumentException] Cannot use `Cake\Error\ExceptionRenderer` as an `exceptionRenderer`. It must be an instance of `Cake\Error\ExceptionRendererInterface`. (D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php:126) in D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php:378
+Stack trace:
+#0 [internal function]: Cake\Error\ErrorTrap->handleError(256, '[InvalidArgumen...', 'D:\\Arpit\\test\\I...', 378)
+#1 D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php(378): trigger_error('[InvalidArgumen...', 256)
+#2 D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php(242): Cake\Error\ExceptionTrap->logInternalError(Object(InvalidArgumentException))
+#3 [internal function]: Cake\Error\ExceptionTrap->handleException(Object(InvalidArgumentException))
+#4 {main}
+  thrown in D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php on line 378
+Request URL: /debug_kit/js/inject-iframe.js?1755280359
+Referer URL: http://localhost:8765/pdf-search
+2025-08-18 16:37:22 error: [Cake\Http\Exception\MissingControllerException] Controller class `Debug_kit` could not be found. in D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 335
+Exception Attributes: array (
+  'controller' => 'Debug_kit',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /debug_kit/js/inject-iframe.js?1755280359
+Referer URL: http://localhost:8765/users/login
+2025-08-18 16:37:22 error: [Cake\Error\FatalErrorException] Fatal Error: Uncaught Cake\Error\FatalErrorException: [InvalidArgumentException] Cannot use `Cake\Error\ExceptionRenderer` as an `exceptionRenderer`. It must be an instance of `Cake\Error\ExceptionRendererInterface`. (D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php:126) in D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php:378
+Stack trace:
+#0 [internal function]: Cake\Error\ErrorTrap->handleError(256, '[InvalidArgumen...', 'D:\\Arpit\\test\\I...', 378)
+#1 D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php(378): trigger_error('[InvalidArgumen...', 256)
+#2 D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php(242): Cake\Error\ExceptionTrap->logInternalError(Object(InvalidArgumentException))
+#3 [internal function]: Cake\Error\ExceptionTrap->handleException(Object(InvalidArgumentException))
+#4 {main}
+  thrown in D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php on line 378
+Request URL: /debug_kit/js/inject-iframe.js?1755280359
+Referer URL: http://localhost:8765/users/login
+2025-08-18 16:37:25 error: [Cake\Http\Exception\MissingControllerException] Controller class `Debug_kit` could not be found. in D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 335
+Exception Attributes: array (
+  'controller' => 'Debug_kit',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /debug_kit/js/inject-iframe.js?1755280359
+Referer URL: http://localhost:8765/users/login
+2025-08-18 16:37:25 error: [Cake\Error\FatalErrorException] Fatal Error: Uncaught Cake\Error\FatalErrorException: [InvalidArgumentException] Cannot use `Cake\Error\ExceptionRenderer` as an `exceptionRenderer`. It must be an instance of `Cake\Error\ExceptionRendererInterface`. (D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php:126) in D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php:378
+Stack trace:
+#0 [internal function]: Cake\Error\ErrorTrap->handleError(256, '[InvalidArgumen...', 'D:\\Arpit\\test\\I...', 378)
+#1 D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php(378): trigger_error('[InvalidArgumen...', 256)
+#2 D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php(242): Cake\Error\ExceptionTrap->logInternalError(Object(InvalidArgumentException))
+#3 [internal function]: Cake\Error\ExceptionTrap->handleException(Object(InvalidArgumentException))
+#4 {main}
+  thrown in D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php on line 378
+Request URL: /debug_kit/js/inject-iframe.js?1755280359
+Referer URL: http://localhost:8765/users/login
+2025-08-18 16:37:38 error: [Cake\Http\Exception\MissingControllerException] Controller class `Debug_kit` could not be found. in D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 335
+Exception Attributes: array (
+  'controller' => 'Debug_kit',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /debug_kit/js/inject-iframe.js?1755280359
+Referer URL: http://localhost:8765/doctors
+2025-08-18 16:37:38 error: [Cake\Error\FatalErrorException] Fatal Error: Uncaught Cake\Error\FatalErrorException: [InvalidArgumentException] Cannot use `Cake\Error\ExceptionRenderer` as an `exceptionRenderer`. It must be an instance of `Cake\Error\ExceptionRendererInterface`. (D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php:126) in D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php:378
+Stack trace:
+#0 [internal function]: Cake\Error\ErrorTrap->handleError(256, '[InvalidArgumen...', 'D:\\Arpit\\test\\I...', 378)
+#1 D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php(378): trigger_error('[InvalidArgumen...', 256)
+#2 D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php(242): Cake\Error\ExceptionTrap->logInternalError(Object(InvalidArgumentException))
+#3 [internal function]: Cake\Error\ExceptionTrap->handleException(Object(InvalidArgumentException))
+#4 {main}
+  thrown in D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php on line 378
+Request URL: /debug_kit/js/inject-iframe.js?1755280359
+Referer URL: http://localhost:8765/doctors
+2025-08-18 16:37:41 error: [Cake\Http\Exception\MissingControllerException] Controller class `Debug_kit` could not be found. in D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 335
+Exception Attributes: array (
+  'controller' => 'Debug_kit',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /debug_kit/js/inject-iframe.js?1755280359
+Referer URL: http://localhost:8765/pdf-search
+2025-08-18 16:37:41 error: [Cake\Error\FatalErrorException] Fatal Error: Uncaught Cake\Error\FatalErrorException: [InvalidArgumentException] Cannot use `Cake\Error\ExceptionRenderer` as an `exceptionRenderer`. It must be an instance of `Cake\Error\ExceptionRendererInterface`. (D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php:126) in D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php:378
+Stack trace:
+#0 [internal function]: Cake\Error\ErrorTrap->handleError(256, '[InvalidArgumen...', 'D:\\Arpit\\test\\I...', 378)
+#1 D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php(378): trigger_error('[InvalidArgumen...', 256)
+#2 D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php(242): Cake\Error\ExceptionTrap->logInternalError(Object(InvalidArgumentException))
+#3 [internal function]: Cake\Error\ExceptionTrap->handleException(Object(InvalidArgumentException))
+#4 {main}
+  thrown in D:\Arpit\test\Imaging.Dataratiba\vendor\cakephp\cakephp\src\Error\ExceptionTrap.php on line 378
+Request URL: /debug_kit/js/inject-iframe.js?1755280359
+Referer URL: http://localhost:8765/pdf-search
