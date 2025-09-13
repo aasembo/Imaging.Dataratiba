@@ -55,11 +55,15 @@ return function (RouteBuilder $routes): void {
          * its action called 'display', and we pass a param to select the view file
          * to use (in this case, templates/Pages/home.php)...
          */
-        die('This is a test');
         $builder->connect('/', ['controller' => 'Doctors', 'action' => 'onschedule']);
 
-        $builder->connect('/admin/clear-cache', ['controller' => 'Admin', 'action' => 'clearCache']);
+        //Okta OIDC auth routes
+        $builder->connect('/auth/login', ['controller' => 'Auth', 'action' => 'login']);
+        $builder->connect('/auth/callback', ['controller' => 'Auth', 'action' => 'callback']);
+        $builder->connect('/logout', ['controller' => 'Auth', 'action' => 'logout']);
+        $builder->connect('/logout/complete', ['controller' => 'Auth', 'action' => 'complete']);
 
+        $builder->connect('/admin/clear-cache', ['controller' => 'Admin', 'action' => 'clearCache']);
 
         /*
          * ...and connect the rest of 'Pages' controller's URLs.

@@ -5,7 +5,6 @@ use Authentication\PasswordHasher\DefaultPasswordHasher;
 
 
 class UsersController extends AppController {
-
     public function initialize(): void {
 		parent::initialize();
         // Configure the login action to not require authentication, preventing
@@ -14,12 +13,16 @@ class UsersController extends AppController {
 	}
     
     public function login() {
+        //Redirect to /auth/login if okta is enabled
+        if ((string)env('AUTH_DRIVER', 'local') === 'okta') {
+            return $this->redirect(['controller' => 'Auth', 'action' => 'login']);
+        }
 
         $this->set('title', 'Login');
         $this->request->allowMethod(['get', 'post']);
         $result = $this->Authentication->getResult();
         // regardless of POST or GET, redirect if user is logged in
-        if ($result && $result->isValid()) {    
+        if ($result && $result->isValid()) {
             $user = $this->Authentication->getIdentity();
             if ($user->status == 1) {
                 // redirect to /doctors after login success
@@ -44,12 +47,16 @@ class UsersController extends AppController {
     }
 
     public function logout() {
+        //Redirect to /auth/logout if okta is enabled
+        if ((string)env('AUTH_DRIVER', 'local') === 'okta') {
+            return $this->redirect(['controller' => 'Auth', 'action' => 'logout']);
+        }
+
         $result = $this->Authentication->getResult();
-        // regardless of POST or GET, redirect if user is logged in
         if ($result && $result->isValid()) {
             $this->Authentication->logout();
-            return $this->redirect(['controller' => 'Users', 'action' => 'login']);
         }
+        return $this->redirect(['controller' => 'Users', 'action' => 'login']);
     }
 
     public function index() {
