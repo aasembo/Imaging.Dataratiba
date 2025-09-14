@@ -10,6 +10,7 @@
         "cakephp/cakephp": "5.1.*",
         "cakephp/migrations": "^4.0.0",
         "cakephp/plugin-installer": "^2.0",
+        "jumbojett/openid-connect-php": "^0.9",
         "mobiledetect/mobiledetectlib": "^4.8.03",
         "setasign/fpdf": "^1.8",
         "smalot/pdfparser": "^2.12"

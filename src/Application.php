@@ -70,6 +70,7 @@ class Application extends BaseApplication implements AuthenticationServiceProvid
         public function middleware(MiddlewareQueue $middlewareQueue): MiddlewareQueue  {
             $middlewareQueue
                 // ... other middleware added before
+                ->add(new AssetMiddleware())
                 ->add(new RoutingMiddleware($this))
                 ->add(new BodyParserMiddleware())
                 // Add the AuthenticationMiddleware. It should be after routing and body parser.
@@ -79,29 +80,37 @@ class Application extends BaseApplication implements AuthenticationServiceProvid
         }
 
     public function getAuthenticationService(ServerRequestInterface $request): AuthenticationServiceInterface {
+        $authDriver = (string)env('AUTH_DRIVER', 'local');
+
+        $unauthRedirect = Router::url($authDriver === 'okta' ? '/auth/login' : '/users/login');
+
         $authenticationService = new AuthenticationService([
-            'unauthenticatedRedirect' => Router::url('/doctors/onschedule'),
-            //'queryParam' => 'redirect',
+            'unauthenticatedRedirect' => $unauthRedirect,
         ]);
 
-        // Load identifiers, ensure we check username and password fields
-        $authenticationService->loadIdentifier('Authentication.Password', [
-            'fields' => [
-                'username' => 'username',
-                'password' => 'password',
-            ],
-        ]);
+        // Identifier for local accounts
+        if ($authDriver === 'local') {
+            $authenticationService->loadIdentifier('Authentication.Password', [
+                'fields' => [
+                    'username' => 'username',
+                    'password' => 'password',
+                ],
+            ]);
+        }
 
         // Load the authenticators, you want session first
         $authenticationService->loadAuthenticator('Authentication.Session');
-        // Configure form data check to pick email and password
-        $authenticationService->loadAuthenticator('Authentication.Form', [
-            'fields' => [
-                'username' => 'username',
-                'password' => 'password',
-            ],
-            'loginUrl' => Router::url('/users/login'),
-        ]);
+
+        // Only enable form authenticator in local mode
+        if ($authDriver === 'local') {
+            $authenticationService->loadAuthenticator('Authentication.Form', [
+                'fields' => [
+                    'username' => 'username',
+                    'password' => 'password',
+                ],
+                'loginUrl' => Router::url('/users/login'),
+            ]);
+        }
 
         return $authenticationService;
     }

@@ -94,13 +94,14 @@ return [
 
 
     'Error' => [
-        'errorLevel' => `E_ALL & ~E_USER_DEPRECATED & ~E_DEPRECATED`,
+        'errorLevel' => E_ALL & ~E_USER_DEPRECATED & ~E_DEPRECATED,
+        'exceptionRenderer' => \Cake\Error\Renderer\WebExceptionRenderer::class,
         'ignoredDeprecationPaths' => [
             'vendor/cakephp/cakephp/src/ORM/Table.php',
             'vendor/cakephp/cakephp/src/Core/functions.php',
             'vendor/cakephp/cakephp/src/Http/ResponseEmitter.php',
             'vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php',
-            realpath('vendor/cakephp/cakephp/src/ORM/Table.php')
+            realpath('vendor/cakephp/cakephp/src/ORM/Table.php'),
         ],
     ],
 ];
