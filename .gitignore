@@ -3,3 +3,13 @@ webroot/img/
 
 # Ignore temp folder at root
 /temp/
+
+# Ignore Composer vendor directory
+/vendor/
+
+# Ignore runtime tmp directory
+/tmp/
+# Ignore logs directory
+/logs/
+\n# Ignore macOS metadata files
+.DS_Store
