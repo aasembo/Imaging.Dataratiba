@@ -110,6 +110,8 @@ if (file_exists(CONFIG . 'app_override.php')) {
     Configure::load('app_override', 'default');
 }
 
+$GLOBALS['APP_GLOBAL_TEST'] = 'bootstrapped';
+
 /*
  * When debug = true the metadata cache should only last
  * for a short time.

@@ -255,6 +255,7 @@
             $envRedirect = (string)env('OKTA_REDIRECT_URI', '');
             $cfgBase = (string)\Cake\Core\Configure::read('App.fullBaseUrl', '');
             $envBase = (string)env('APP_FULL_BASE_URL', '');
+            $globalTest = $GLOBALS['APP_GLOBAL_TEST'] ?? '';
             $mask = function($val) {
                 if ($val === '') return '';
                 $len = strlen($val);
@@ -275,6 +276,7 @@
                 <div><strong>OKTA_REDIRECT_URI (env):</strong> <?= h($envRedirect) ?></div>
                 <div><strong>App.fullBaseUrl (Configure):</strong> <?= h($cfgBase) ?></div>
                 <div><strong>APP_FULL_BASE_URL (env):</strong> <?= h($envBase) ?></div>
+                <div><strong>$GLOBALS['APP_GLOBAL_TEST']:</strong> <?= h($globalTest) ?></div>
             </div>
         <?php endif; ?>
         <div class="center-wrap">
