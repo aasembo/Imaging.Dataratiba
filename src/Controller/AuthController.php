@@ -19,9 +19,9 @@ class AuthController extends AppController {
      */
     public function login() {
         //Execute normal authentication if okta is disabled
-        /*if ((string)env('AUTH_DRIVER', 'local') !== 'okta') {
+        if ((string)env('AUTH_DRIVER', 'local') !== 'okta') {
             return $this->redirect(['controller' => 'Users', 'action' => 'login']);
-        }*/
+        }
 
         $okta = new OktaOidcService();
         if (!$okta->isConfigured()) {
