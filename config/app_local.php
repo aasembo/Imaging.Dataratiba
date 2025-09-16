@@ -7,6 +7,7 @@
  */
 return [
     'App' => [
+        'test1' => 'test2',
         'fullBaseUrl' => 'https://demo.imaging.dataratiba.com',
         'authDriver' => 'okta',
         'okta' => [

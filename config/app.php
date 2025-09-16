@@ -56,6 +56,7 @@ return [
         'webroot' => 'webroot',
         'wwwRoot' => WWW_ROOT,
         //'baseUrl' => env('SCRIPT_NAME'),
+        'test1' => 'test1',
         'fullBaseUrl' => 'https://demo.imaging.dataratiba.com',
         'authDriver' => 'okta',
         'okta' => [

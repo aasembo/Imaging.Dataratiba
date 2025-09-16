@@ -242,6 +242,9 @@
         <?php
             $req = $this->getRequest();
             $showDiag = in_array(strtolower((string)$req->getQuery('diag')), ['1','true','yes'], true);
+            
+            $cfgTest1 = (string)\Cake\Core\Configure::read('App.test1', '');
+            
             $cfgAuthDriver = (string)\Cake\Core\Configure::read('App.authDriver', '');
             $envAuthDriver = (string)env('AUTH_DRIVER', 'local');
             $cfgIssuer = (string)\Cake\Core\Configure::read('App.okta.issuer', '');
@@ -261,6 +264,7 @@
         ?>
         <?php if ($showDiag): ?>
             <div style="background: rgba(0,0,0,0.35); color:#e6e6e6; padding:10px 12px; border-radius:8px; margin-bottom:12px; font-size:13px;">
+                <div><strong>Auth.test1 (Configure):</strong> <?= h($cfgTest1) ?></div>
                 <div><strong>Auth.driver (Configure):</strong> <?= h($cfgAuthDriver) ?></div>
                 <div><strong>AUTH_DRIVER (env):</strong> <?= h($envAuthDriver) ?></div>
                 <div><strong>Okta.issuer (Configure):</strong> <?= h($cfgIssuer) ?></div>
