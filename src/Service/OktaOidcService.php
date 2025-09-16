@@ -17,13 +17,13 @@ class OktaOidcService
     private array $scopes;
 
     public function __construct() {
-        $this->issuer = (string)Configure::read('Okta.issuer', (string)env('OKTA_ISSUER', (string)env('OKTA_DOMAIN', '')));
-        $this->clientId = (string)Configure::read('Okta.clientId', (string)env('OKTA_CLIENT_ID', ''));
-        $secret = Configure::read('Okta.clientSecret', env('OKTA_CLIENT_SECRET'));
+        $this->issuer = (string)Configure::read('App.okta.issuer', (string)Configure::read('Okta.issuer', (string)env('OKTA_ISSUER', (string)env('OKTA_DOMAIN', ''))));
+        $this->clientId = (string)Configure::read('App.okta.clientId', (string)Configure::read('Okta.clientId', (string)env('OKTA_CLIENT_ID', '')));
+        $secret = Configure::read('App.okta.clientSecret', Configure::read('Okta.clientSecret', env('OKTA_CLIENT_SECRET')));
         $this->clientSecret = $secret !== null ? (string)$secret : null;
-        $this->redirectUri = (string)(Configure::read('Okta.redirectUri') ?: env('OKTA_REDIRECT_URI', RouterUrl('/auth/callback')));
-        $this->postLogoutRedirectUri = (string)(Configure::read('Okta.postLogoutRedirectUri') ?: env('OKTA_POST_LOGOUT_REDIRECT_URI', RouterUrl('/logout/complete')));
-        $scopesCfg = Configure::read('Okta.scopes', env('OKTA_SCOPES', 'openid profile email'));
+        $this->redirectUri = (string)(Configure::read('App.okta.redirectUri') ?: Configure::read('Okta.redirectUri') ?: env('OKTA_REDIRECT_URI', RouterUrl('/auth/callback')));
+        $this->postLogoutRedirectUri = (string)(Configure::read('App.okta.postLogoutRedirectUri') ?: Configure::read('Okta.postLogoutRedirectUri') ?: env('OKTA_POST_LOGOUT_REDIRECT_URI', RouterUrl('/logout/complete')));
+        $scopesCfg = Configure::read('App.okta.scopes', Configure::read('Okta.scopes', env('OKTA_SCOPES', 'openid profile email')));
         if (is_array($scopesCfg)) {
             $this->scopes = $scopesCfg;
         } else {
@@ -44,7 +44,7 @@ class OktaOidcService
         $client = new \Jumbojett\OpenIDConnectClient($issuer, $this->clientId, $this->clientSecret ?? '');
         $client->setRedirectURL($this->redirectUri);
 
-        $usePkce = Configure::read('Okta.usePkce', env('OKTA_USE_PKCE', '1'));
+        $usePkce = Configure::read('App.okta.usePkce', Configure::read('Okta.usePkce', env('OKTA_USE_PKCE', '1')));
         if (filter_var($usePkce, FILTER_VALIDATE_BOOLEAN)) {
             $client->setCodeChallengeMethod('S256');
         }

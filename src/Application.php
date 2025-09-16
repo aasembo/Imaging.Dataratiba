@@ -80,7 +80,7 @@ class Application extends BaseApplication implements AuthenticationServiceProvid
         }
 
     public function getAuthenticationService(ServerRequestInterface $request): AuthenticationServiceInterface {
-        $authDriver = (string)\Cake\Core\Configure::read('Auth.driver', (string)env('AUTH_DRIVER', 'local'));
+        $authDriver = (string)\Cake\Core\Configure::read('App.authDriver', (string)env('AUTH_DRIVER', 'local'));
 
         $unauthRedirect = Router::url($authDriver === 'okta' ? '/auth/login' : '/users/login');
 

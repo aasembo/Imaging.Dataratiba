@@ -242,13 +242,13 @@
         <?php
             $req = $this->getRequest();
             $showDiag = in_array(strtolower((string)$req->getQuery('diag')), ['1','true','yes'], true);
-            $cfgAuthDriver = (string)\Cake\Core\Configure::read('Auth.driver', (string)env('AUTH_DRIVER', 'local'));
+            $cfgAuthDriver = (string)\Cake\Core\Configure::read('App.authDriver', (string)\Cake\Core\Configure::read('Auth.driver', (string)env('AUTH_DRIVER', 'local')));
             $envAuthDriver = (string)env('AUTH_DRIVER', 'local');
-            $cfgIssuer = (string)\Cake\Core\Configure::read('Okta.issuer', '');
+            $cfgIssuer = (string)\Cake\Core\Configure::read('App.okta.issuer', (string)\Cake\Core\Configure::read('Okta.issuer', ''));
             $envIssuer = (string)env('OKTA_ISSUER', '');
-            $cfgClientId = (string)\Cake\Core\Configure::read('Okta.clientId', '');
+            $cfgClientId = (string)\Cake\Core\Configure::read('App.okta.clientId', (string)\Cake\Core\Configure::read('Okta.clientId', ''));
             $envClientId = (string)env('OKTA_CLIENT_ID', '');
-            $cfgRedirect = (string)(\Cake\Core\Configure::read('Okta.redirectUri') ?: '');
+            $cfgRedirect = (string)(\Cake\Core\Configure::read('App.okta.redirectUri') ?: \Cake\Core\Configure::read('Okta.redirectUri') ?: '');
             $envRedirect = (string)env('OKTA_REDIRECT_URI', '');
             $cfgBase = (string)\Cake\Core\Configure::read('App.fullBaseUrl', '');
             $envBase = (string)env('APP_FULL_BASE_URL', '');

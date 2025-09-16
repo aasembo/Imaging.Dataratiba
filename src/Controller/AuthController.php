@@ -19,7 +19,7 @@ class AuthController extends AppController {
      */
     public function login() {
         //Execute normal authentication if okta is disabled
-        $driver = (string)\Cake\Core\Configure::read('Auth.driver', (string)env('AUTH_DRIVER', 'local'));
+        $driver = (string)\Cake\Core\Configure::read('App.authDriver', (string)env('AUTH_DRIVER', 'local'));
         if ($driver !== 'okta') {
             return $this->redirect(['controller' => 'Users', 'action' => 'login']);
         }
@@ -39,7 +39,7 @@ class AuthController extends AppController {
      */
     public function callback() {
         //Execute normal authentication if okta is disabled
-        $driver = (string)\Cake\Core\Configure::read('Auth.driver', (string)env('AUTH_DRIVER', 'local'));
+        $driver = (string)\Cake\Core\Configure::read('App.authDriver', (string)env('AUTH_DRIVER', 'local'));
         if ($driver !== 'okta') {
             return $this->redirect(['controller' => 'Users', 'action' => 'login']);
         }

@@ -8,18 +8,17 @@
 return [
     'App' => [
         'fullBaseUrl' => env('APP_FULL_BASE_URL', 'https://demo.imaging.dataratiba.com'),
-    ],
-    'Auth' => [
-        'driver' => env('AUTH_DRIVER', 'okta'),
-    ],
-    'Okta' => [
-        'issuer' => env('OKTA_ISSUER', env('OKTA_DOMAIN', 'https://integrator-1025653.okta.com/oauth2')),
-        'clientId' => env('OKTA_CLIENT_ID', '0oav7djsidSNarREk697'),
-        'clientSecret' => env('OKTA_CLIENT_SECRET', 'PEDe20l1aDPAJgqCcG78SiEHfMxX5GVbJvAUl4F6H2xB71hShw9qj59OEGPT2Qcl'),
-        'redirectUri' => env('OKTA_REDIRECT_URI', 'https://demo.imaging.dataratiba.com/auth/callback/'),
-        'postLogoutRedirectUri' => env('OKTA_POST_LOGOUT_REDIRECT_URI', 'https://demo.imaging.dataratiba.com/logout/complete'),
-        'scopes' => env('OKTA_SCOPES', 'openid profile email'),
-        'usePkce' => env('OKTA_USE_PKCE', '1'),
+        // Consolidated config under App.*
+        'authDriver' => env('AUTH_DRIVER', 'okta'),
+        'okta' => [
+            'issuer' => env('OKTA_ISSUER', env('OKTA_DOMAIN', 'https://integrator-1025653.okta.com/oauth2')),
+            'clientId' => env('OKTA_CLIENT_ID', '0oav7djsidSNarREk697'),
+            'clientSecret' => env('OKTA_CLIENT_SECRET', 'PEDe20l1aDPAJgqCcG78SiEHfMxX5GVbJvAUl4F6H2xB71hShw9qj59OEGPT2Qcl'),
+            'redirectUri' => env('OKTA_REDIRECT_URI', 'https://demo.imaging.dataratiba.com/auth/callback/'),
+            'postLogoutRedirectUri' => env('OKTA_POST_LOGOUT_REDIRECT_URI', 'https://demo.imaging.dataratiba.com/logout/complete'),
+            'scopes' => env('OKTA_SCOPES', 'openid profile email'),
+            'usePkce' => env('OKTA_USE_PKCE', '1'),
+        ],
     ],
     /*
      * Debug Level:
