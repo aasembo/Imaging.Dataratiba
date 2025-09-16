@@ -76,6 +76,8 @@ require CAKE . 'functions.php';
 if (file_exists(CONFIG . '.env') && class_exists('josegonzalez\\Dotenv\\Loader')) {
     $dotenv = new \josegonzalez\Dotenv\Loader([CONFIG . '.env']);
     $dotenv->parse()
+        // Do not overwrite already-set env vars; avoid duplicate-key exceptions
+        ->skipExisting()
         ->putenv()
         ->toEnv()
         ->toServer();
