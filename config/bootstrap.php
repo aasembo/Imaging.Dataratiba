@@ -73,7 +73,7 @@ require CAKE . 'functions.php';
  * for more information for recommended practices.
 */
 // Load .env if present and dotenv is available
-if (file_exists(CONFIG . '.env') && class_exists('josegonzalez\\Dotenv\\Loader')) {
+/*if (file_exists(CONFIG . '.env') && class_exists('josegonzalez\\Dotenv\\Loader')) {
     $dotenv = new \josegonzalez\Dotenv\Loader([CONFIG . '.env']);
     $dotenv->parse()
         // Do not overwrite already-set env vars; avoid duplicate-key exceptions
@@ -81,7 +81,7 @@ if (file_exists(CONFIG . '.env') && class_exists('josegonzalez\\Dotenv\\Loader')
         ->putenv()
         ->toEnv()
         ->toServer();
-}
+}*/
 
 /*
  * Read configuration file and inject configuration into various

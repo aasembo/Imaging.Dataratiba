@@ -17,13 +17,13 @@ class OktaOidcService
     private array $scopes;
 
     public function __construct() {
-        $this->issuer = (string)Configure::read('App.okta.issuer', (string)Configure::read('Okta.issuer', (string)env('OKTA_ISSUER', (string)env('OKTA_DOMAIN', ''))));
-        $this->clientId = (string)Configure::read('App.okta.clientId', (string)Configure::read('Okta.clientId', (string)env('OKTA_CLIENT_ID', '')));
-        $secret = Configure::read('App.okta.clientSecret', Configure::read('Okta.clientSecret', env('OKTA_CLIENT_SECRET')));
+        $this->issuer = (string)Configure::read('App.okta.issuer');
+        $this->clientId = (string)Configure::read('App.okta.clientId');
+        $secret = Configure::read('App.okta.clientSecret');
         $this->clientSecret = $secret !== null ? (string)$secret : null;
-        $this->redirectUri = (string)(Configure::read('App.okta.redirectUri') ?: Configure::read('Okta.redirectUri') ?: env('OKTA_REDIRECT_URI', RouterUrl('/auth/callback')));
-        $this->postLogoutRedirectUri = (string)(Configure::read('App.okta.postLogoutRedirectUri') ?: Configure::read('Okta.postLogoutRedirectUri') ?: env('OKTA_POST_LOGOUT_REDIRECT_URI', RouterUrl('/logout/complete')));
-        $scopesCfg = Configure::read('App.okta.scopes', Configure::read('Okta.scopes', env('OKTA_SCOPES', 'openid profile email')));
+        $this->redirectUri = (string)(Configure::read('App.okta.redirectUri'));
+        $this->postLogoutRedirectUri = (string)(Configure::read('App.okta.postLogoutRedirectUri'));
+        $scopesCfg = Configure::read('App.okta.scopes');
         if (is_array($scopesCfg)) {
             $this->scopes = $scopesCfg;
         } else {
@@ -44,7 +44,7 @@ class OktaOidcService
         $client = new \Jumbojett\OpenIDConnectClient($issuer, $this->clientId, $this->clientSecret ?? '');
         $client->setRedirectURL($this->redirectUri);
 
-        $usePkce = Configure::read('App.okta.usePkce', Configure::read('Okta.usePkce', env('OKTA_USE_PKCE', '1')));
+        $usePkce = Configure::read('App.okta.usePkce', '1');
         if (filter_var($usePkce, FILTER_VALIDATE_BOOLEAN)) {
             $client->setCodeChallengeMethod('S256');
         }
@@ -109,7 +109,7 @@ class OktaOidcService
 if (!function_exists('RouterUrl')) {
     function RouterUrl(string $path): string {
         $path = '/' . ltrim($path, '/');
-        $host = (string)\Cake\Core\Configure::read('App.fullBaseUrl', env('APP_FULL_BASE_URL'))
+        $host = (string)\Cake\Core\Configure::read('App.fullBaseUrl')
             ?: (env('HTTP_HOST') ? ((env('HTTPS') ? 'https://' : 'http://') . env('HTTP_HOST')) : '');
         return $host ? rtrim($host, '/') . $path : $path;
     }
