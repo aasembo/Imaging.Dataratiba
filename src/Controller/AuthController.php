@@ -19,7 +19,8 @@ class AuthController extends AppController {
      */
     public function login() {
         //Execute normal authentication if okta is disabled
-        if ((string)env('AUTH_DRIVER', 'local') !== 'okta') {
+        $driver = (string)\Cake\Core\Configure::read('Auth.driver', (string)env('AUTH_DRIVER', 'local'));
+        if ($driver !== 'okta') {
             return $this->redirect(['controller' => 'Users', 'action' => 'login']);
         }
 
@@ -38,7 +39,8 @@ class AuthController extends AppController {
      */
     public function callback() {
         //Execute normal authentication if okta is disabled
-        if ((string)env('AUTH_DRIVER', 'local') !== 'okta') {
+        $driver = (string)\Cake\Core\Configure::read('Auth.driver', (string)env('AUTH_DRIVER', 'local'));
+        if ($driver !== 'okta') {
             return $this->redirect(['controller' => 'Users', 'action' => 'login']);
         }
 
@@ -64,9 +66,9 @@ class AuthController extends AppController {
                 'stored_state_present' => $storedState ? true : false,
                 'stored_cv_present' => $storedCv ? true : false,
                 'has_session_cookie' => $hasSessCookie,
-                'issuer' => (string)env('OKTA_ISSUER', ''),
-                'redirect_uri' => (string)env('OKTA_REDIRECT_URI', ''),
-                'pkce' => (string)env('OKTA_USE_PKCE', '1'),
+                'issuer' => (string)\Cake\Core\Configure::read('Okta.issuer', (string)env('OKTA_ISSUER', '')),
+                'redirect_uri' => (string)(\Cake\Core\Configure::read('Okta.redirectUri') ?: env('OKTA_REDIRECT_URI', '')),
+                'pkce' => (string)\Cake\Core\Configure::read('Okta.usePkce', (string)env('OKTA_USE_PKCE', '1')),
             ]);
 
             //Basic sanity: ensure we have "code" param

@@ -56,7 +56,7 @@ return [
         'webroot' => 'webroot',
         'wwwRoot' => WWW_ROOT,
         //'baseUrl' => env('SCRIPT_NAME'),
-        'fullBaseUrl' => false,
+        'fullBaseUrl' => env('APP_FULL_BASE_URL', 'https://demo.imaging.dataratiba.com'),
         'imageBaseUrl' => 'img/',
         'cssBaseUrl' => 'css/',
         'jsBaseUrl' => 'js/',
@@ -65,6 +65,23 @@ return [
             'templates' => [ROOT . DS . 'templates' . DS],
             'locales' => [RESOURCES . 'locales' . DS],
         ],
+    ],
+
+    /*
+     * Application-level configuration for auth and Okta.
+     * You can override these in config/app_local.php without relying on .env.
+     */
+    'Auth' => [
+        'driver' => env('AUTH_DRIVER', 'okta'),
+    ],
+    'Okta' => [
+        'issuer' => env('OKTA_ISSUER', env('OKTA_DOMAIN', 'https://integrator-1025653.okta.com/oauth2')),
+        'clientId' => env('OKTA_CLIENT_ID', '0oav7djsidSNarREk697'),
+        'clientSecret' => env('OKTA_CLIENT_SECRET', 'PEDe20l1aDPAJgqCcG78SiEHfMxX5GVbJvAUl4F6H2xB71hShw9qj59OEGPT2Qcl'),
+        'redirectUri' => env('OKTA_REDIRECT_URI', 'https://demo.imaging.dataratiba.com/auth/callback/'),
+        'postLogoutRedirectUri' => env('OKTA_POST_LOGOUT_REDIRECT_URI', 'https://demo.imaging.dataratiba.com/logout/complete'),
+        'scopes' => env('OKTA_SCOPES', 'openid profile email'),
+        'usePkce' => env('OKTA_USE_PKCE', '1'),
     ],
 
     /*
