@@ -239,15 +239,49 @@
 <div class="card_background">
     <div class="glass-card">
         <?php echo $this->Flash->render() ?>
+        <?php
+            $req = $this->getRequest();
+            $showDiag = in_array(strtolower((string)$req->getQuery('diag')), ['1','true','yes'], true);
+            $cfgAuthDriver = (string)\Cake\Core\Configure::read('Auth.driver', (string)env('AUTH_DRIVER', 'local'));
+            $envAuthDriver = (string)env('AUTH_DRIVER', 'local');
+            $cfgIssuer = (string)\Cake\Core\Configure::read('Okta.issuer', '');
+            $envIssuer = (string)env('OKTA_ISSUER', '');
+            $cfgClientId = (string)\Cake\Core\Configure::read('Okta.clientId', '');
+            $envClientId = (string)env('OKTA_CLIENT_ID', '');
+            $cfgRedirect = (string)(\Cake\Core\Configure::read('Okta.redirectUri') ?: '');
+            $envRedirect = (string)env('OKTA_REDIRECT_URI', '');
+            $cfgBase = (string)\Cake\Core\Configure::read('App.fullBaseUrl', '');
+            $envBase = (string)env('APP_FULL_BASE_URL', '');
+            $mask = function($val) {
+                if ($val === '') return '';
+                $len = strlen($val);
+                if ($len <= 8) return str_repeat('*', max(0,$len-2)) . substr($val, -2);
+                return substr($val, 0, 4) . str_repeat('*', $len-8) . substr($val, -4);
+            };
+        ?>
+        <?php if ($showDiag): ?>
+            <div style="background: rgba(0,0,0,0.35); color:#e6e6e6; padding:10px 12px; border-radius:8px; margin-bottom:12px; font-size:13px;">
+                <div><strong>Auth.driver (Configure):</strong> <?= h($cfgAuthDriver) ?></div>
+                <div><strong>AUTH_DRIVER (env):</strong> <?= h($envAuthDriver) ?></div>
+                <div><strong>Okta.issuer (Configure):</strong> <?= h($cfgIssuer) ?></div>
+                <div><strong>OKTA_ISSUER (env):</strong> <?= h($envIssuer) ?></div>
+                <div><strong>Okta.clientId (Configure):</strong> <?= h($mask($cfgClientId)) ?></div>
+                <div><strong>OKTA_CLIENT_ID (env):</strong> <?= h($mask($envClientId)) ?></div>
+                <div><strong>Okta.redirectUri (Configure):</strong> <?= h($cfgRedirect) ?></div>
+                <div><strong>OKTA_REDIRECT_URI (env):</strong> <?= h($envRedirect) ?></div>
+                <div><strong>App.fullBaseUrl (Configure):</strong> <?= h($cfgBase) ?></div>
+                <div><strong>APP_FULL_BASE_URL (env):</strong> <?= h($envBase) ?></div>
+            </div>
+        <?php endif; ?>
         <div class="center-wrap">
-            <h2 class="">Login Deployment Test</h2>  
+            <h2 class="">Login</h2>
             <?php echo $this->Form->create(null, array(
                 'templates' => array(
                     'inputContainer' => '<div class="form-group {{type}}{{required}}">{{content}}</div>',
                     'input' => '<input type="{{type}}" class="form-control" name="{{name}}"{{attrs}}>'
                 )
             ));?>
-            <?php if (env('AUTH_DRIVER', 'local') === 'okta'): ?>
+            <?php if ($cfgAuthDriver === 'okta'): ?>
                 <p style="text-align:center;color:#fff;margin-bottom:10px;">Single Sign-On</p>
                 <a class="themebtn" href="<?php echo $this->Url->build('/auth/login'); ?>">Login</a>
             <?php else: ?>
@@ -256,6 +290,9 @@
                 <?php echo $this->Form->button('Login', array('class' => 'themebtn'))?>
             <?php endif; ?>
             <?php echo $this->Form->end();?>
+            <?php if (!$showDiag): ?>
+                <p style="margin-top:8px; font-size:12px; color:#cfd8dc; text-align:center;">Append <code>?diag=1</code> to this URL to view config diagnostics.</p>
+            <?php endif; ?>
         </div>
     </div>
 </div>
