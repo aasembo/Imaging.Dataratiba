@@ -72,7 +72,8 @@ require CAKE . 'functions.php';
  * security risks. See https://github.com/josegonzalez/php-dotenv#general-security-information
  * for more information for recommended practices.
 */
-if (!env('APP_NAME') && file_exists(CONFIG . '.env')) {
+// Load .env if present and dotenv is available
+if (file_exists(CONFIG . '.env') && class_exists('josegonzalez\\Dotenv\\Loader')) {
     $dotenv = new \josegonzalez\Dotenv\Loader([CONFIG . '.env']);
     $dotenv->parse()
         ->putenv()
