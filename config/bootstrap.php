@@ -106,6 +106,10 @@ if (file_exists(CONFIG . 'app_local.php')) {
     Configure::load('app_local', 'default');
 }
 
+if (file_exists(CONFIG . 'app_override.php')) {
+    Configure::load('app_override', 'default');
+}
+
 /*
  * When debug = true the metadata cache should only last
  * for a short time.
