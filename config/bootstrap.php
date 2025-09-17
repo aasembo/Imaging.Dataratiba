@@ -106,8 +106,8 @@ if (file_exists(CONFIG . 'app_local.php')) {
     Configure::load('app_local', 'default');
 }
 
-if (file_exists(CONFIG . 'app_override.php')) {
-    Configure::load('app_override', 'default');
+if (file_exists(CONFIG . 'app_okta_config.php')) {
+    Configure::load('app_okta_config', 'default');
 }
 
 $GLOBALS['APP_GLOBAL_TEST'] = 'bootstrapped';
