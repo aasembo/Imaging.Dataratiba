@@ -13,3 +13,4 @@ webroot/img/
 /logs/
 \n# Ignore macOS metadata files
 .DS_Store
+src/Model/.DS_Store

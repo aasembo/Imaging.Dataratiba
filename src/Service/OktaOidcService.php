@@ -62,9 +62,10 @@ class OktaOidcService
         $client->setIssuerValidator(function (string $iss) use ($issuer, $domainOnly): bool {
             return $iss === $issuer || $iss === $domainOnly || rtrim($iss, '/') === rtrim($issuer, '/');
         });
-        foreach ($this->scopes as $scope) {
-            $client->addScope($scope);
-        }
+        // foreach ($this->scopes as $scope) {
+        //     $client->addScope($this->scopes);
+        // }
+        $client->addScope($scope);
         return $client;
     }
 
