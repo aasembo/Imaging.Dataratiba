@@ -65,7 +65,7 @@ class OktaOidcService
         // foreach ($this->scopes as $scope) {
         //     $client->addScope($this->scopes);
         // }
-        $client->addScope($scope);
+        $client->addScope($this->scopes);
         return $client;
     }
 
