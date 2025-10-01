@@ -57,7 +57,7 @@ return function (RouteBuilder $routes): void {
          */
         $builder->connect('/', ['controller' => 'Doctors', 'action' => 'onschedule']);
 
-        //Okta OIDC auth routes
+        //Okta OIDC auth routes 
         $builder->connect('/auth/login', ['controller' => 'Auth', 'action' => 'login']);
         $builder->connect('/auth/callback', ['controller' => 'Auth', 'action' => 'callback']);
         $builder->connect('/logout', ['controller' => 'Auth', 'action' => 'logout']);
